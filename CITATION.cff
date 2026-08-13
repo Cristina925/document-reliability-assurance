@@ -13,6 +13,9 @@ title: >-
   DRA (Document Reliability Assurance): A Deterministic, Evidence-Auditable
   Approach to Assessing Claim Support in Machine- and Human-Consumed
   Documents
+authors:
+  - family-names: Rasmussen
+    given-names: Cristina
 abstract: >-
   DRA is a research-stage reference evaluator that assesses documents
   against a defined set of reliability issue classes (evidence absence,
@@ -47,7 +50,14 @@ identifiers:
       Frozen candidate identifier. Canonical aggregate digest:
       77544648dcb37caf96468123de4d19123becceff48f2023f6c885899350b857b
       (see docs/dra/DRA-GC-1-FREEZE-RECEIPT.md for full verification
-      instructions). No DOI has been minted for this release.
+      instructions).
+  - type: doi
+    value: 10.5281/zenodo.21918468
+    description: >-
+      Version-specific archival DOI for the DRA-GC-1 GitHub release,
+      registered via Zenodo under DRA-PUB-010 (see
+      docs/dra/DRA-PUB-010-ARCHIVAL-DEPOSIT.md). Concept DOI (all versions):
+      10.5281/zenodo.21918467.
 references:
   - type: report
     title: DRA-001 — Version 1 Programme Specification
