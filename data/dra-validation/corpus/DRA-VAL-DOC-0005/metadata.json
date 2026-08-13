@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "DRA-VAL-001B-v1",
+  "documentId": "DRA-VAL-DOC-0005",
+  "slot": {
+    "documentId": "DRA-VAL-DOC-0005",
+    "status": "FROZEN",
+    "domain": "BUSINESS_AND_EXECUTIVE_REPORTING",
+    "sourceType": "AI_GENERATED",
+    "difficultyStratum": "MEDIUM",
+    "lengthStratum": "SHORT",
+    "corpusPhase": "PILOT",
+    "syntheticFlag": true,
+    "lastUpdated": "2026-07-27T12:00:00",
+    "contentDescription": "Board Assurance Framework quarterly report for a fictional organisation. Covers principal risks, assurance summary, and board escalations. Synthetic, purpose-generated."
+  },
+  "provenance": {
+    "sourceDescription": "Purpose-generated synthetic board assurance framework report for DRA-VAL-001B pilot corpus. All persons, organisations, and financials are fictitious.",
+    "sourceOwner": "DRA-VAL Programme",
+    "sourceClass": "PURPOSE_GENERATED",
+    "acquisitionDate": "2026-07-27",
+    "sourceVerifiable": true,
+    "acquiredIndependentlyOfEvaluatorOutput": true,
+    "notDerivedFromEngineeringFixtures": true
+  },
+  "permittedUse": {
+    "permittedUseBasis": "PURPOSE_GENERATED_NO_RESTRICTION",
+    "storagePermitted": true,
+    "publicationPermitted": true,
+    "attributionRequired": false
+  },
+  "confidentiality": {
+    "confidentialityLevel": "PUBLIC",
+    "containsPersonalData": false,
+    "accessRestricted": false
+  },
+  "anonymisation": {
+    "anonymisationStatus": "NOT_REQUIRED",
+    "anonymisationVerified": true
+  },
+  "sourceEvidence": {
+    "sourceEvidenceAvailability": "AVAILABLE",
+    "sourceEvidenceEmbedded": true
+  },
+  "duplicateCheck": {
+    "canonicalContentDigest": "a4bad362b0b232cab5665be674ac32613bc198f7d3d540e2c8430ab5ab06b50a",
+    "normalisedTextDigest": "a4bad362b0b232cab5665be674ac32613bc198f7d3d540e2c8430ab5ab06b50a",
+    "exactDuplicateFound": false,
+    "nearDuplicateSimilarityMethod": "MinHash Jaccard similarity on 3-gram tokens with 128 hash functions; threshold 0.80",
+    "nearDuplicateSimilarityScore": 0,
+    "nearDuplicateSimilarityThreshold": 0.8,
+    "flaggedAsNearDuplicate": false,
+    "duplicateDisposition": "DISTINCT",
+    "checkDate": "2026-07-27"
+  },
+  "contaminationCheck": {
+    "matchesEvaluatorFixture": false,
+    "appearedInEvaluatorDevelopment": false,
+    "usedInEngineeringValidation": false,
+    "reviewedWithEvaluatorOutputVisible": false,
+    "selectionBiasEvidencePresent": false,
+    "constructedToTargetEvaluatorRules": false,
+    "generatedUsingEvaluatorFindings": false,
+    "contaminationSignals": [
+      "CLEAR"
+    ],
+    "contaminationResolution": "ADMITTED_NO_SIGNAL",
+    "checkDate": "2026-07-27"
+  },
+  "admissionDecision": {
+    "outcome": "ADMITTED",
+    "decisionTimestamp": "2026-07-27T12:00:00",
+    "reviewedBy": "DRA-VAL-001B Corpus Admission Procedure",
+    "inclusionCriteriaSatisfied": [
+      "IC-1",
+      "IC-2",
+      "IC-3",
+      "IC-4",
+      "IC-5",
+      "IC-6",
+      "IC-7",
+      "IC-8"
+    ],
+    "exclusionCriteriaChecked": [
+      "EC-1",
+      "EC-2",
+      "EC-3",
+      "EC-4",
+      "EC-5",
+      "EC-6",
+      "EC-7",
+      "EC-8"
+    ],
+    "quotaClassificationVerified": true,
+    "admissionNotes": "Domain: BUSINESS_AND_EXECUTIVE_REPORTING. Pilot slot 5 of 7."
+  },
+  "integrityDigest": "2acf359f184738fd9ef2ec2917a1d5e033c7a4a28f98ed79c787feb7e7fce267",
+  "frozenAt": "2026-07-27T12:00:00"
+}

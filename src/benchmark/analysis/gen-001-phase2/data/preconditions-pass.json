@@ -1,0 +1,111 @@
+{
+  "gc1": [
+    {
+      "id": "GC1_CANDIDATE_ID_IS_DRA_GC_1",
+      "passed": true
+    },
+    {
+      "id": "GC1_EVALUATOR_VERSION_IS_0_1_2",
+      "passed": true
+    },
+    {
+      "id": "GC1_PIPELINE_VERSION_IS_1_0",
+      "passed": true
+    },
+    {
+      "id": "GC1_MODEL_VERSION_IS_0_1_0",
+      "passed": true
+    },
+    {
+      "id": "GC1_CORPUS_VERSION_IS_DRA_CORPUS_1_0_0",
+      "passed": true
+    },
+    {
+      "id": "GC1_FROZEN_FILE_COUNT_IS_63",
+      "passed": true,
+      "detail": "actual=63"
+    },
+    {
+      "id": "GC1_LIVE_AGGREGATE_DIGEST_MATCHES_FROZEN",
+      "passed": true,
+      "detail": "live=77544648dcb37caf96468123de4d19123becceff48f2023f6c885899350b857b frozen=77544648dcb37caf96468123de4d19123becceff48f2023f6c885899350b857b"
+    },
+    {
+      "id": "GC1_NO_FROZEN_FILE_BYTE_DRIFT",
+      "passed": true
+    }
+  ],
+  "protocol": [
+    {
+      "id": "PROTOCOL_STATUS_IS_FROZEN",
+      "passed": true
+    },
+    {
+      "id": "PROTOCOL_BOUND_TO_LIVE_GC1_DIGEST",
+      "passed": true
+    },
+    {
+      "id": "PROTOCOL_LIVE_AGGREGATE_DIGEST_MATCHES_FROZEN",
+      "passed": true,
+      "detail": "live=08739050c3c7f7fbb9b08c2afdbbb9a665df69709ae3760a5a8ac9d6f8daea0e frozen=08739050c3c7f7fbb9b08c2afdbbb9a665df69709ae3760a5a8ac9d6f8daea0e"
+    },
+    {
+      "id": "PROTOCOL_NO_FROZEN_FILE_BYTE_DRIFT",
+      "passed": true
+    }
+  ],
+  "sample": [
+    {
+      "id": "SAMPLE_BOUND_TO_LIVE_PROTOCOL_DIGEST",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_LIVE_AGGREGATE_DIGEST_MATCHES_LOCKED",
+      "passed": true,
+      "detail": "live=37a12cb678541949739ecb7dcd3229572fc48edb9d01c091ad25c83fb1e77536 locked=37a12cb678541949739ecb7dcd3229572fc48edb9d01c091ad25c83fb1e77536"
+    },
+    {
+      "id": "SAMPLE_LOCK_VERDICT_IS_LOCKED",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_SIZE_IS_EXACTLY_100",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_25_PER_STRATUM",
+      "passed": true,
+      "detail": "{\"PDF_ENGLISH\":25,\"PDF_NON_ENGLISH\":25,\"HTML_ENGLISH\":25,\"HTML_NON_ENGLISH\":25}"
+    },
+    {
+      "id": "SAMPLE_STRATUM_ALLOCATION_HELPER_AGREES",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_NO_DUPLICATE_FAMILIES",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_ALL_UNITS_MEET_WORD_COUNT_FLOOR",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_ORIGINAL_DRAW_HISTORY_PRESERVED",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_NO_EVALUATOR_OUTPUT_FIELDS_PRESENT",
+      "passed": true
+    },
+    {
+      "id": "CONTAMINATION_EXCLUSION_STILL_HOLDS",
+      "passed": true
+    },
+    {
+      "id": "SAMPLE_NO_MANIFEST_MUTATION_SINCE_LOCK",
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "failedChecks": []
+}

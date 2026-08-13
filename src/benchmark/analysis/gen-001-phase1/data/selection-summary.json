@@ -1,0 +1,34 @@
+{
+  "seedDerivationRule": "DRA-GEN-001:PHASE-1:SAMPLE-SELECTION-SEED:v1",
+  "seed": 1379464488,
+  "frameConstructionDate": "2026-08-12",
+  "rawFrameSize": 1917,
+  "rawFrameDigest": "6ab4f97f4bba552ec9e8dff5dd0a5fee98f05f62fd451a1933859ff970a37b76",
+  "excludedCount": 0,
+  "ineligibleCount": 629,
+  "eligibleFrameSize": 1288,
+  "eligibleFrameDigest": "f36561f03efb4ca52a285bb3987de2ce1aaf03b3ddb3d47073d98b81331f2bff",
+  "stratumReport": {
+    "PDF_ENGLISH": {
+      "eligibleCount": 200,
+      "primaryCount": 25,
+      "reserveCount": 25
+    },
+    "PDF_NON_ENGLISH": {
+      "eligibleCount": 431,
+      "primaryCount": 25,
+      "reserveCount": 25
+    },
+    "HTML_ENGLISH": {
+      "eligibleCount": 200,
+      "primaryCount": 25,
+      "reserveCount": 25
+    },
+    "HTML_NON_ENGLISH": {
+      "eligibleCount": 457,
+      "primaryCount": 25,
+      "reserveCount": 25
+    }
+  },
+  "primarySelectionCount": 100
+}

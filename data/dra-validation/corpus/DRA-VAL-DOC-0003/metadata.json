@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "DRA-VAL-001B-v1",
+  "documentId": "DRA-VAL-DOC-0003",
+  "slot": {
+    "documentId": "DRA-VAL-DOC-0003",
+    "status": "FROZEN",
+    "domain": "FINANCE_AND_ACCOUNTING",
+    "sourceType": "AI_GENERATED",
+    "difficultyStratum": "LOW",
+    "lengthStratum": "SHORT",
+    "corpusPhase": "PILOT",
+    "syntheticFlag": true,
+    "lastUpdated": "2026-07-27T12:00:00",
+    "contentDescription": "Quarterly Financial Controls Review (Internal Audit) for a fictional organisation. Covers accounts payable, treasury management, and expense reimbursement. Synthetic, purpose-generated."
+  },
+  "provenance": {
+    "sourceDescription": "Purpose-generated synthetic financial controls review document created for the DRA Scientific Validation Programme (DRA-VAL-001B) pilot corpus. All figures and entity names are fictitious.",
+    "sourceOwner": "DRA-VAL Programme",
+    "sourceClass": "PURPOSE_GENERATED",
+    "acquisitionDate": "2026-07-27",
+    "sourceVerifiable": true,
+    "acquiredIndependentlyOfEvaluatorOutput": true,
+    "notDerivedFromEngineeringFixtures": true
+  },
+  "permittedUse": {
+    "permittedUseBasis": "PURPOSE_GENERATED_NO_RESTRICTION",
+    "storagePermitted": true,
+    "publicationPermitted": true,
+    "attributionRequired": false
+  },
+  "confidentiality": {
+    "confidentialityLevel": "PUBLIC",
+    "containsPersonalData": false,
+    "accessRestricted": false
+  },
+  "anonymisation": {
+    "anonymisationStatus": "NOT_REQUIRED",
+    "anonymisationVerified": true
+  },
+  "sourceEvidence": {
+    "sourceEvidenceAvailability": "AVAILABLE",
+    "sourceEvidenceEmbedded": true
+  },
+  "duplicateCheck": {
+    "canonicalContentDigest": "7dd26b60f6a36da32901d058bd8af6b1d99cfaedf13d9a5812a9f8a2847cb2fb",
+    "normalisedTextDigest": "7dd26b60f6a36da32901d058bd8af6b1d99cfaedf13d9a5812a9f8a2847cb2fb",
+    "exactDuplicateFound": false,
+    "nearDuplicateSimilarityMethod": "MinHash Jaccard similarity on 3-gram tokens with 128 hash functions; threshold 0.80",
+    "nearDuplicateSimilarityScore": 0,
+    "nearDuplicateSimilarityThreshold": 0.8,
+    "flaggedAsNearDuplicate": false,
+    "duplicateDisposition": "DISTINCT",
+    "checkDate": "2026-07-27"
+  },
+  "contaminationCheck": {
+    "matchesEvaluatorFixture": false,
+    "appearedInEvaluatorDevelopment": false,
+    "usedInEngineeringValidation": false,
+    "reviewedWithEvaluatorOutputVisible": false,
+    "selectionBiasEvidencePresent": false,
+    "constructedToTargetEvaluatorRules": false,
+    "generatedUsingEvaluatorFindings": false,
+    "contaminationSignals": [
+      "CLEAR"
+    ],
+    "contaminationResolution": "ADMITTED_NO_SIGNAL",
+    "checkDate": "2026-07-27"
+  },
+  "admissionDecision": {
+    "outcome": "ADMITTED",
+    "decisionTimestamp": "2026-07-27T12:00:00",
+    "reviewedBy": "DRA-VAL-001B Corpus Admission Procedure",
+    "inclusionCriteriaSatisfied": [
+      "IC-1",
+      "IC-2",
+      "IC-3",
+      "IC-4",
+      "IC-5",
+      "IC-6",
+      "IC-7",
+      "IC-8"
+    ],
+    "exclusionCriteriaChecked": [
+      "EC-1",
+      "EC-2",
+      "EC-3",
+      "EC-4",
+      "EC-5",
+      "EC-6",
+      "EC-7",
+      "EC-8"
+    ],
+    "quotaClassificationVerified": true,
+    "admissionNotes": "Domain: FINANCE_AND_ACCOUNTING. Pilot slot 3 of 7."
+  },
+  "integrityDigest": "c3c91e3ca1a02983b75f0c4b2042d9d5ba19c2974890e6e1e10cb50b1234869b",
+  "frozenAt": "2026-07-27T12:00:00"
+}

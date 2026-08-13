@@ -1,0 +1,334 @@
+[ANALYSIS-ONLY — DRA-ACQ-030 PHASE 2 — NOT A PRODUCTION REPRESENTATION]
+[Reconstructed reading order for FR Doc. 2024-00001 (Federal Register Vol.
+89 No. 4, pp. 824-825) from PDF word/line bounding-box coordinates, grouping
+by column (x-position) then by vertical position within each column, then
+concatenating columns left-to-right and pages in order. Same source text as
+the production pdftotext -layout extraction; only paragraph order differs,
+and only where the DRA-ACQ-030 Phase 1 oracle demonstrates production order
+is wrong. Never wired into any production code path. Everything below the
+delimiter line is the evaluated content (identical to what evaluateDocument
+received when REFERENCE_CORRECTED_ORDER_DIGEST / REFERENCE_RUN_B_DIGEST were
+recorded); this header is stripped by the test before evaluation.]
+=== ANALYSIS-ONLY CONTENT BELOW (header stripped before evaluation) ===
+Federal Register / Vol. 89, No. 4 / Friday, January 5, 2024 / Notices
+under the Small Business Investment
+Company License No. 03/03–0253
+issued to NewSpring Mezzanine Capital
+II, L.P., said license is hereby declared
+null and void.
+Bailey DeVries,
+Associate Administrator, Office of Investment
+and Innovation, United States Small Business
+Administration.
+[FR Doc. 2024–00014 Filed 1–4–24; 8:45 am]
+BILLING CODE P
+SMALL BUSINESS ADMINISTRATION
+[License No. 05/05–0294]
+Invision Capital I, L.P.; Surrender of
+License of Small Business Investment
+Company
+Pursuant to the authority granted to
+the United States Small Business
+Administration under section 309 of the
+Small Business Investment Act of 1958,
+as amended, and 13 CFR 107.1900 of the
+Code of Federal Regulations to function
+as a small business investment company
+under the Small Business Investment
+Company License No. 05/05–0294
+issued to Invision Capital I, L.P., said
+license is hereby declared null and void.
+Bailey G. DeVries,
+Associate Administrator, Office of Investment
+and Innovation, United States Small Business
+Administration.
+[FR Doc. 2024–00048 Filed 1–4–24; 8:45 am]
+BILLING CODE P
+System number and name
+60–0044—National Disability Determination Services File .............................................................
+60–0050—Completed Determination Record—Continuing Disability Determinations ....................
+60–0059—Earnings Recording and Self-Employment Income System ..........................................
+60–0090—Master Beneficiary Record .............................................................................................
+lotter on DSK11XQN23PROD with NOTICES1
+60–0103—Supplemental Security Income Record and Special Veterans Benefits .......................
+VerDate Sep&lt;11&gt;2014
+17:32 Jan 04, 2024
+Jkt 262001
+PO 00000
+
+SOCIAL SECURITY ADMINISTRATION
+[Docket No. SSA–2023–0041]
+Privacy Act of 1974; System of
+Records
+AGENCY : Social Security Administration
+(SSA).
+ACTION : Notice of a modified system of
+records.
+SUMMARY : In accordance with the
+Privacy Act of 1974, we are issuing
+public notice of our intent to modify our
+existing systems of records listed below
+under the System Name and Number
+section. This notice publishes details of
+the modified systems as set forth below
+under the caption, SUPPLEMENTARY
+INFORMATION .
+DATES : The system of records notice
+(SORN) is applicable upon its
+publication in today’s Federal Register,
+with the exception of the new routine
+use, which is effective February 5, 2024.
+We invite public comment on the
+addition of the routine use. In
+accordance with the Privacy Act of
+1974, we are providing the public a 30-
+day period in which to submit
+comments. Therefore, please submit any
+comments by February 5, 2024.
+ADDRESSES : The public, Office of
+Management and Budget (OMB), and
+Congress may comment on this
+publication by writing to the Executive
+Director, Office of Privacy and
+Disclosure, Office of the General
+Counsel, SSA, Room G–401 West High
+Rise, 6401 Security Boulevard,
+Baltimore, Maryland 21235–6401, or
+through the Federal e-Rulemaking Portal
+at https://www.regulations.gov. Please
+reference docket number SSA–2023–
+0041. All comments we receive will be
+Frm 00078
+Fmt 4703
+Sfmt 4703
+E:\FR\FM\05JAN1.SGM
+
+825
+available for public inspection at the
+above address, and we will post them to
+https://www.regulations.gov.
+FOR FURTHER INFORMATION CONTACT :
+Tristin Dorsey, Government Information
+Specialist, Privacy Implementation
+Division, Office of Privacy and
+Disclosure, Office of the General
+Counsel, SSA, Room G–401 West High
+Rise, 6401 Security Boulevard,
+Baltimore, Maryland 21235–6401,
+telephone: (410) 966–5855, email:
+OGC.OPD.SORN@ssa.gov.
+SUPPLEMENTARY INFORMATION : In the
+past, we disclosed information under
+our efficient administration routine use,
+from the systems of records listed
+below, to contractors, cooperative
+agreement awardees, Federal and State
+agencies, and Federal congressional
+support agencies for research and
+statistical activities. To distinguish
+disclosures that SSA makes specifically
+for research purposes, we are adding a
+new routine use in the systems of
+records listed below to reflect the
+following:
+To contractors, cooperative agreement
+awardees, State agencies, Federal
+agencies, and Federal congressional
+support agencies for research and
+statistical activities that are designed to
+increase knowledge about present or
+alternative Social Security programs;
+are of importance to the Social Security
+program or the Social Security
+beneficiaries; or are for an
+epidemiological project that relates to
+the Social Security program or
+beneficiaries. We will disclose
+information under this routine use
+pursuant only to a written agreement
+with us.
+SYSTEM NAME AND NUMBER :
+Federal Register
+Routine uses
+citation No./
+publication date
+No. 13 ...............
+71 FR 1810, 01/11/06.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 12 ...............
+71 FR 1813, 01/11/06.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+84 FR 17907, 04/26/19.
+No. 37 ...............
+71 FR 1819, 01/11/06.
+78 FR 40542, 07/05/13.
+83 FR 54969, 11/01/18.
+No. 43 ...............
+71 FR 1826, 01/11/06.
+72 FR 69723, 12/10/07.
+78 FR 40542, 07/05/13.
+83 FR 31250, 07/03/18.
+83 FR 31251, 07/03/18.
+83 FR 54969, 11/01/18.
+No. 41 ...............
+71 FR 1830, 01/11/06.
+72 FR 69723, 12/10/07.
+83 FR 31250, 07/03/18.
+83 FR 31251, 07/03/18.
+83 FR 54969, 11/01/18.
+05JAN1
+
+=== PAGE 2 ===
+
+826
+Federal Register / Vol. 89, No. 4 / Friday, January 5, 2024 / Notices
+System number and name
+60–0159—Continuous Work History Sample (Statistics) ................................................................
+60–0196—Disability Studies, Surveys, Records, and Extracts (Statistics) .....................................
+60–0199—Extramural Surveys (Statistics) ......................................................................................
+60–0200—Retirement and Survivors Studies, Surveys, Records, and Extracts (Statistics) ..........
+60–0202—Old Age, Survivors, and Disability Beneficiary and Worker Records and Extracts
+(Statistics).
+60–0203—Supplemental Security Income Studies, Surveys, Records, and Extracts (Statistics) ..
+60–0211—Beneficiary, Family, and Household Surveys, Records, and Extracts System (Statis-
+tics).
+60–0221—Vocational Rehabilitation Reimbursement Case Processing System ...........................
+60–0255—Plans for Achieving Self-Support (PASS) Management Information System ...............
+60–0295—Ticket-to-Work and Self-Sufficiency Program Payment Database ................................
+60–0300—Ticket-to-Work Program Manager (PM) Management Information System ..................
+60–0330—eWork .............................................................................................................................
+We are not republishing the system of
+records notices in their entirety. Instead,
+we are republishing only the
+identification number; the system of
+records name; the number of the
+modified routine use; and the issue of
+the Federal Register in which the
+system of records notice was last
+published in full, including the
+subsequent modification to the system
+of records notice’s publication date and
+page number.
+SECURITY CLASSIFICATION :
+Unclassified.
+lotter on DSK11XQN23PROD with NOTICES1
+SYSTEM LOCATION :
+SSA provides the address of the
+component and system manager
+responsible for each system in the
+Federal Register notices listed above.
+VerDate Sep&lt;11&gt;2014
+17:32 Jan 04, 2024
+Jkt 262001
+PO 00000
+
+SYSTEM MANAGER ( S ):
+SSA provides the title, business
+address, and contact information of the
+agency official who is responsible for
+the system in the Federal Register
+notices listed above.
+HISTORY :
+SSA provides the citation to the last
+fully published Federal Register notice,
+as well as last subsequent modification
+notice to the system of records notices
+listed above.
+In accordance with 5 U.S.C. 552a(r),
+we have provided a report to OMB and
+Congress on this modified system of
+records.
+Matthew Ramsey,
+Executive Director, Office of Privacy and
+Disclosure, Office of the General Counsel.
+[FR Doc. 2024–00001 Filed 1–4–24; 8:45 am]
+BILLING CODE 4191–02–P
+Frm 00079
+Fmt 4703
+Sfmt 4703
+E:\FR\FM\05JAN1.SGM
+
+Federal Register
+Routine uses
+citation No./
+publication date
+No. 7 .................
+47 FR 45643, 10/13/82.
+65 FR 46997, 08/01/00.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 6 .................
+57 FR 55265, 11/24/92.
+65 FR 46997, 08/01/00.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 6 .................
+71 FR 1835, 01/11/06.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 5 .................
+47 FR 45649, 10/13/82.
+65 FR 46997, 08/01/00.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 6 .................
+47 FR 45650, 10/13/82.
+65 FR 46997, 08/01/00.
+69 FR 11693, 03/11/04.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 5 .................
+47 FR 45651, 10/13/82.
+65 FR 46997, 08/01/00.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 6 .................
+48 FR 51693, 11/10/83.
+65 FR 46997, 08/01/00.
+69 FR 11693, 03/11/04.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 12 ...............
+71 FR 1840, 01/11/06.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 11 ...............
+71 FR 1867, 01/11/06.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 10 ...............
+66 FR 17985, 04/04/01.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 10 ...............
+66 FR 32656, 06/15/01.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+No. 12 ...............
+68 FR 54037, 09/15/03.
+72 FR 69723, 12/10/07.
+83 FR 54969, 11/01/18.
+DEPARTMENT OF STATE
+[Public Notice: 12299]
+Notice of Determinations; Culturally
+Significant Objects Being Imported for
+Exhibition—Determinations: ‘‘Marilyn
+Stafford: A Life in Photography’’
+Exhibition
+SUMMARY : Notice is hereby given of the
+following determinations: I hereby
+determine that certain objects being
+imported from abroad pursuant to an
+agreement with their foreign or
+custodian for temporary display in the
+exhibition ‘‘Marilyn Stafford: A Life in
+Photography’’ at the Akron Art
+Museum, Akron, Ohio, and at possible
+additional exhibitions or venues yet to
+be determined, are of cultural
+significance, and, further, that their
+temporary exhibition or display within
+the United States as aforementioned is
+05JAN1

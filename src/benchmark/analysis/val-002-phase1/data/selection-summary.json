@@ -1,0 +1,33 @@
+{
+  "seedDerivationRule": "DRA-VAL-002:PHASE-1:SAMPLE-SELECTION-SEED:v1",
+  "seed": 1538082294,
+  "frameConstructionDate": "2026-08-12",
+  "rawFrameSize": 31,
+  "rawFrameDigest": "a17450c33b45d751f4d1a231d436b89348afb3f99c4f19def9de1e9593d2e5d2",
+  "excludedCount": 0,
+  "ineligibleCount": 0,
+  "eligibleFrameSize": 31,
+  "eligibleFrameDigest": "2d367983c0df5780466b62dbdf123e5f12f273306392d59d85a75b1eb2f25d28",
+  "familyReport": {
+    "GOV_UK": {
+      "eligibleCount": 10,
+      "targetCount": 9,
+      "primaryCount": 9,
+      "reserveCount": 1
+    },
+    "ONS_GOV_UK": {
+      "eligibleCount": 9,
+      "targetCount": 8,
+      "primaryCount": 8,
+      "reserveCount": 1
+    },
+    "US_FEDERAL": {
+      "eligibleCount": 12,
+      "targetCount": 8,
+      "primaryCount": 8,
+      "reserveCount": 4
+    }
+  },
+  "primarySelectionCount": 25,
+  "finalFrozenCount": 25
+}

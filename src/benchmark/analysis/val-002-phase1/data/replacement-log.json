@@ -1,0 +1,26 @@
+[
+  {
+    "originalFrameId": "VAL002-ONS-deathsregistrationsummarytables-latest",
+    "familyId": "ONS_GOV_UK",
+    "reason": "ELIGIBILITY_FAILURE_OR_SOURCE_ACQUISITION_FAILURE:HTTP_429",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "VAL002-ONS-deathsregistrationsummarytables-latest",
+    "familyId": "ONS_GOV_UK",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "VAL002-ONS-uklabourmarket-latest"
+  },
+  {
+    "originalFrameId": "VAL002-USFED-epa-summary-epcra",
+    "familyId": "US_FEDERAL",
+    "reason": "ELIGIBILITY_FAILURE_OR_SOURCE_ACQUISITION_FAILURE:V6_WORD_COUNT_493",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "VAL002-USFED-epa-summary-epcra",
+    "familyId": "US_FEDERAL",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "VAL002-USFED-census-acs-about"
+  }
+]

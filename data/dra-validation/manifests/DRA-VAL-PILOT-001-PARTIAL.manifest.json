@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "DRA-VAL-001B-v1",
+  "corpusVersion": "DRA-VAL-PILOT-001-PARTIAL",
+  "protocolPackageDigest": "100c2daa4447db45061132a2f17c3993acbbc472c6ffd13368d9f201201831bd",
+  "orderedDocumentIds": [
+    "DRA-VAL-DOC-0001",
+    "DRA-VAL-DOC-0002",
+    "DRA-VAL-DOC-0003",
+    "DRA-VAL-DOC-0004",
+    "DRA-VAL-DOC-0005",
+    "DRA-VAL-DOC-0006",
+    "DRA-VAL-DOC-0007"
+  ],
+  "documentEntries": {
+    "DRA-VAL-DOC-0001": {
+      "documentId": "DRA-VAL-DOC-0001",
+      "domain": "LEGAL_AND_REGULATORY",
+      "sourceType": "AI_GENERATED",
+      "difficultyStratum": "LOW",
+      "lengthStratum": "SHORT",
+      "syntheticFlag": true,
+      "integrityDigest": "e6ebdf328f8d3d2760f6fbbd072521d92b180e234eec17e56744cd17ea055739",
+      "provenanceDigest": "664ee1598c05e9540129e786e23a8eddb4c972a10c01d724dfd009a79d9c5c1d",
+      "permittedUseDigest": "f4a1278c217c3ec08f81a07cf2bee2cb6bc5ed17dc80d368ace7f5488e684e00",
+      "frozenAt": "2026-07-27T12:00:00"
+    },
+    "DRA-VAL-DOC-0002": {
+      "documentId": "DRA-VAL-DOC-0002",
+      "domain": "HEALTHCARE_AND_LIFE_SCIENCES",
+      "sourceType": "AI_GENERATED",
+      "difficultyStratum": "MEDIUM",
+      "lengthStratum": "MEDIUM",
+      "syntheticFlag": true,
+      "integrityDigest": "2341c05d104aae0edda5ee5404cd67247581c361c8dfa88a1dd68b347e02615b",
+      "provenanceDigest": "664ee1598c05e9540129e786e23a8eddb4c972a10c01d724dfd009a79d9c5c1d",
+      "permittedUseDigest": "f4a1278c217c3ec08f81a07cf2bee2cb6bc5ed17dc80d368ace7f5488e684e00",
+      "frozenAt": "2026-07-27T12:00:00"
+    },
+    "DRA-VAL-DOC-0003": {
+      "documentId": "DRA-VAL-DOC-0003",
+      "domain": "FINANCE_AND_ACCOUNTING",
+      "sourceType": "AI_GENERATED",
+      "difficultyStratum": "LOW",
+      "lengthStratum": "SHORT",
+      "syntheticFlag": true,
+      "integrityDigest": "c3c91e3ca1a02983b75f0c4b2042d9d5ba19c2974890e6e1e10cb50b1234869b",
+      "provenanceDigest": "664ee1598c05e9540129e786e23a8eddb4c972a10c01d724dfd009a79d9c5c1d",
+      "permittedUseDigest": "f4a1278c217c3ec08f81a07cf2bee2cb6bc5ed17dc80d368ace7f5488e684e00",
+      "frozenAt": "2026-07-27T12:00:00"
+    },
+    "DRA-VAL-DOC-0004": {
+      "documentId": "DRA-VAL-DOC-0004",
+      "domain": "CYBERSECURITY_AND_TECHNICAL_ASSURANCE",
+      "sourceType": "AI_GENERATED",
+      "difficultyStratum": "HIGH",
+      "lengthStratum": "MEDIUM",
+      "syntheticFlag": true,
+      "integrityDigest": "44ebf6433907882a52d9ef0ea894980156bfa3ce4da629dc2f878af9f1f33fcf",
+      "provenanceDigest": "664ee1598c05e9540129e786e23a8eddb4c972a10c01d724dfd009a79d9c5c1d",
+      "permittedUseDigest": "f4a1278c217c3ec08f81a07cf2bee2cb6bc5ed17dc80d368ace7f5488e684e00",
+      "frozenAt": "2026-07-27T12:00:00"
+    },
+    "DRA-VAL-DOC-0005": {
+      "documentId": "DRA-VAL-DOC-0005",
+      "domain": "BUSINESS_AND_EXECUTIVE_REPORTING",
+      "sourceType": "AI_GENERATED",
+      "difficultyStratum": "MEDIUM",
+      "lengthStratum": "SHORT",
+      "syntheticFlag": true,
+      "integrityDigest": "2acf359f184738fd9ef2ec2917a1d5e033c7a4a28f98ed79c787feb7e7fce267",
+      "provenanceDigest": "664ee1598c05e9540129e786e23a8eddb4c972a10c01d724dfd009a79d9c5c1d",
+      "permittedUseDigest": "f4a1278c217c3ec08f81a07cf2bee2cb6bc5ed17dc80d368ace7f5488e684e00",
+      "frozenAt": "2026-07-27T12:00:00"
+    },
+    "DRA-VAL-DOC-0006": {
+      "documentId": "DRA-VAL-DOC-0006",
+      "domain": "PROCUREMENT_AND_THIRD_PARTY_RISK",
+      "sourceType": "AI_GENERATED",
+      "difficultyStratum": "LOW",
+      "lengthStratum": "MEDIUM",
+      "syntheticFlag": true,
+      "integrityDigest": "70395b593cbb98b6e9ed36dda4dc79b3fe3449ca25224f7314a78e1b72fcf7db",
+      "provenanceDigest": "664ee1598c05e9540129e786e23a8eddb4c972a10c01d724dfd009a79d9c5c1d",
+      "permittedUseDigest": "f4a1278c217c3ec08f81a07cf2bee2cb6bc5ed17dc80d368ace7f5488e684e00",
+      "frozenAt": "2026-07-27T12:00:00"
+    },
+    "DRA-VAL-DOC-0007": {
+      "documentId": "DRA-VAL-DOC-0007",
+      "domain": "HR_AND_WORKPLACE_POLICY",
+      "sourceType": "AI_GENERATED",
+      "difficultyStratum": "MEDIUM",
+      "lengthStratum": "SHORT",
+      "syntheticFlag": true,
+      "integrityDigest": "3a176cfe661d8cdc10785617f3f3030c6c35bcf5eba056a2a8c1fc64518bd740",
+      "provenanceDigest": "664ee1598c05e9540129e786e23a8eddb4c972a10c01d724dfd009a79d9c5c1d",
+      "permittedUseDigest": "f4a1278c217c3ec08f81a07cf2bee2cb6bc5ed17dc80d368ace7f5488e684e00",
+      "frozenAt": "2026-07-27T12:00:00"
+    }
+  },
+  "aggregateCorpusDigest": "137c7c698dcdd2e02a94e173cbc12ae2ec76a14eb591feb7b6323e487125c43f"
+}

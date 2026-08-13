@@ -1,0 +1,22 @@
+# compiled output
+dist
+*.tsbuildinfo
+
+# dependencies
+node_modules
+
+# IDEs and editors
+.vscode/*
+!.vscode/settings.json
+.idea
+
+# System files
+.DS_Store
+Thumbs.db
+
+# local logs
+*.log
+
+# test-run scratch/disk-cache artifacts (regenerated on demand, not source)
+.cache/
+src/benchmark/execution/__tests__/.bmk-023-scratch/

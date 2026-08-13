@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Labour market overview, UK - Office for National Statistics</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1.0,user-scalable=1" name="viewport">
+        <meta name="theme-color" content="#58595B">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#58595B">
+
+        <meta name="description" content="Estimates of employment, unemployment, economic inactivity, and other employment-related statistics for the UK. ">
+
+        
+            <link rel="canonical" href="/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026" />
+        
+        <link rel="stylesheet" type="text/css" href="//cdn.ons.gov.uk/sixteens/418c927/css/main.css">
+		
+
+        <script>
+    // extractValue extracts the value from an undecodeable json cookie string
+    function extractValue(key, extractionString) {
+        const extractionRegex = new RegExp(`'${key}':(.*?)[,}]`)
+        const match = extractionString.match(extractionRegex)
+        if (match) {
+            return match[1]
+        }
+        
+        return null
+    }
+
+    // getUsageCookieValue reads the ons_cookie_policy to determine the user's usage preference. 
+    // When no policy is found, the user is opted out by default.
+    function getUsageCookieValue() {
+        // ons_cookie_policy handler
+        var policyCookie = document.cookie.match('(?:^|; )ons_cookie_policy=({.*?})');
+        if (policyCookie) {
+            console.debug('ons_cookie_policy found');
+
+            var usageValue = extractValue("usage", policyCookie[1]);
+            console.debug('usage is', usageValue);
+
+            // this needs to be the inverse - if usage is true the returned value is false and vice versa
+            // user is stating whether they are opting out of usage cookie
+            return (usageValue == "true") ? false : true
+        }
+        console.debug('no cookie found - opting out');
+        return true
+    }
+
+    // unescape html entities
+    function htmlUnescape(str){
+        return str
+                .replace(/&#x3D;/g, "=");
+    }
+
+    
+    var dataLayer = [{
+        contentTitle: htmlUnescape("Labour market overview, UK: July 2026"),
+        analyticsOptOut: getUsageCookieValue(),
+        "gtm.whitelist": ["google","hjtc","lcl"],
+        "gtm.blacklist": ["customScripts","sp","adm","awct","k","d","j"]
+    }];
+
+    
+    dataLayer[0]["releaseDate"] = "2026/07/21";
+    
+
+    
+
+    
+    
+
+
+    
+    
+        
+            
+                dataLayer[0]["latestRelease"] = "yes";
+                dataLayer[0]["url"] = "/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026";
+            
+        
+    
+
+    
+    
+        
+            dataLayer[0]["wordCount"] = 3318
+        
+    
+
+    
+    
+
+    
+
+</script>
+
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MBCBVQS');</script>
+        <!-- End Google Tag Manager -->
+
+        
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            
+            "description": "Estimates of employment, unemployment, economic inactivity, and other employment-related statistics for the UK. ",
+            
+             "@type": "Article",
+"headLine": "Labour market overview, UK",
+"datePublished": "2026-07-20T23:00:00.000Z",
+"dateModified": "2026-07-20T23:00:00.000Z",
+"author": {
+    "@type": "Person",
+    "name": "Labour Market team"
+},
+
+"image": "https://www.ons.gov.uk/chartimage?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/fe061483",
+
+"mainEntityOfPage": "/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026",
+"publisher": {
+    "@type": "GovernmentOrganization",
+    "name": "Office for National Statistics",  
+    "logo": "https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.png"
+}, 
+            
+            "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+    </script>
+
+
+		
+		
+
+	</head>
+	<body class="bulletin">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js' : 'js');</script>
+    <form action="/cookies/accept-all" method="GET" id="global-cookie-message"
+      class="cookies-banner cookies-banner--hidden js-cookies-banner-form clearfix"
+      aria-label="cookie banner">
+    <div class="cookies-banner__wrapper wrapper js-cookies-banner-inform">
+        <div>
+            <div class="cookies-banner__message adjust-font-size--18">
+                <h3 class="cookies-banner__heading">Cookies on ons.gov.uk</h3>
+                <p class="cookies-banner__body">Cookies are small files stored on your device when you visit a website. We use some essential cookies to make this website work.</p>
+                <p class="cookies-banner__body">We would like to set <a href="/cookies">additional cookies</a> to remember your settings and understand how you use the site. This helps us to improve our services.</p>
+            </div>
+            <div class="cookies-banner__buttons">
+                <div class="nojs--hide cookies-banner__button cookies-banner__button--accept">
+                    <button class="btn btn--full-width btn--primary btn--focus margin-right--2 font-weight-700 font-size--17 text-wrap js-accept-cookies" data-gtm-accept-cookies="true" type="submit" data-action="accept" tabindex="0">
+                        Accept additional cookies
+                    </button>
+                </div>
+                <div class="nojs--hide cookies-banner__button cookies-banner__button--reject">
+                    <button class="btn btn--full-width btn--primary btn--focus margin-right--2 font-weight-700 font-size--17 text-wrap js-reject-cookies" data-gtm-accept-cookies="false" type="submit" data-action="reject" tabindex="0">
+                        Reject additional cookies
+                    </button>
+                </div>
+                <div class="cookies-banner__button">
+                    <a href="/cookies">Manage settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden js-cookies-banner-confirmation" tabindex="-1">
+        <div class="cookies-banner__wrapper wrapper">
+            <div class="col">
+                <div class="cookies-banner__message adjust-font-size--18">
+                    <p class="cookies-banner__confirmation-message">
+                        <span class="hidden ons-js-accepted-text">You have accepted all additional cookies.</span>
+                        <span class="hidden ons-js-rejected-text">You have rejected all additional cookies.</span>
+                        <span>You can <a href="/cookies">change your cookie preferences</a> at any time.</span>
+                        <button type="button" class="cookies-banner__button--hide js-hide-cookies-banner">Hide</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBCBVQS"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        
+        
+		
+
+		
+
+		
+		 						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<header >
+	
+    <a class="skiplink" href="#main" tabindex="0">
+        Skip to main content
+    </a>
+	
+  
+  
+
+	
+	
+	<div id="pagePath" class="hide">/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026</div>
+	
+		<div class="wrapper">
+			<div class="header col-wrap">
+				<div class="col col--lg-one-third col--md-one-third">
+					<a href="/">
+						<!--[if lte IE 8]>
+							<img class="logo" src="https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.png" alt="Office for National Statistics logo - Homepage">
+						<![endif]-->
+						<img class="logo" src="https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.svg" alt="Office for National Statistics logo - Homepage">
+					</a>
+				</div>
+				
+                <div class="col col--lg-two-thirds col--md-two-thirds hide--sm print--hide language--js__container">
+                    
+                    <div class="language">
+                        
+                            <span>English (EN) | </span>
+                            <a href="
+
+
+
+    //cy.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026
+" class="language__link" lang="cy">Cymraeg (CY)</a>
+                        
+                    </div>
+                </div>
+				<div class="secondary-nav col col--lg-two-thirds col--md-two-thirds print--hide">
+					<ul class="secondary-nav__list js-nav-clone__list">
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/releasecalendar">Release calendar</a>
+                        </li>
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/methodology">Methodology</a>
+                        </li>
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/news">Media</a>
+                        </li>
+						<li class="secondary-nav__item">
+							<a class="secondary-nav__link  js-nav-clone__link" href="/aboutus">About</a>
+						</li>
+						<li class="secondary-nav__item">
+							<a class="secondary-nav__link js-nav-clone__link" rel="noopener noreferrer" href="https://blog.ons.gov.uk/">Blog</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	
+
+	
+	
+	<div class="primary-nav print--hide">
+		<nav aria-label="Header links">
+			
+			<ul class="nav--controls">
+				<li class="nav--controls__item">
+					<a href="#nav-primary" id="menu-toggle" aria-controls="nav-primary" aria-expanded="false" class="nav--controls__menu">
+						<span class="nav--controls__text">Menu</span>
+					</a>
+				</li>
+				<li class="nav--controls__item ">
+					<a href="#nav-search" id="search-toggle" aria-controls="nav-search" aria-expanded="false" class="nav--controls__search" aria-label="Search">
+						<span class="nav--controls__text">Search</span>
+					</a>
+				</li>
+			</ul>
+			
+			<ul class="wrapper nav-main--hidden primary-nav__list" id="nav-primary" aria-expanded="false">
+				<li class="primary-nav__item  js-nav hide--sm old-ie--display-block"><a class="primary-nav__link col col--md-7 col--lg-9" href="/">Home</a></li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/businessindustryandtrade" aria-expanded="false" aria-label="Business, industry and trade sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Business, industry and trade
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/business" >Business</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/changestobusiness" >Changes to business</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/constructionindustry" >Construction industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/itandinternetindustry" >Digital Economy</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/internationaltrade" >International trade</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/manufacturingandproductionindustry" >Manufacturing and production industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/retailindustry" >Retail industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/tourismindustry" >Tourism industry</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/economy" aria-expanded="false" aria-label="Economy sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Economy
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/economicoutputandproductivity" >Economic output and productivity</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/environmentalaccounts" >Environmental accounts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/governmentpublicsectorandtaxes" >Government, public sector and taxes</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/grossdomesticproductgdp" >Gross Domestic Product (GDP)</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/grossvalueaddedgva" >Gross Value Added (GVA)</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/inflationandpriceindices" >Inflation and price indices</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/investmentspensionsandtrusts" >Investments, pensions and trusts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/nationalaccounts" >National accounts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/regionalaccounts" >Regional accounts</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable primary-nav__item--active">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/employmentandlabourmarket" aria-expanded="false" aria-label="Employment and labour market sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Employment and labour market
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item primary-nav__child-item--active js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/employmentandlabourmarket/peopleinwork" >People in work</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/employmentandlabourmarket/peoplenotinwork" >People not in work</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/peoplepopulationandcommunity" aria-expanded="false" aria-label="People, population and community sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							People, population and community
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/armedforcescommunity" >Armed forces community</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/birthsdeathsandmarriages" >Births, deaths and marriages</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/crimeandjustice" >Crime and justice</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/culturalidentity" >Cultural identity</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/educationandchildcare" >Education and childcare</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/elections" >Elections</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/healthandsocialcare" >Health and social care</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/householdcharacteristics" >Household characteristics</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/housing" >Housing</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/leisureandtourism" >Leisure and tourism</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/wellbeing" >Measuring progress, well-being and beyond GDP</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/personalandhouseholdfinances" >Personal and household finances</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/populationandmigration" >Population and migration</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				<li class="primary-nav__item  js-nav">
+					<a class="primary-nav__link  col col--md-8 col--lg-10" href="/surveys">
+						Taking part in a survey?
+					</a>
+				</li>
+				<li class="hide--md primary-nav__language">
+					
+						<span>English (EN) | </span>
+						<a href="
+
+
+
+    //cy.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026
+" class="language__link">Cymraeg (CY)</a>
+					
+				</li>
+			</ul>
+		</nav>
+	</div>
+	
+	
+		<div class="search nav-search--hidden print--hide" id="searchBar" role="search">
+			<div class="wrapper">
+				<form class="col-wrap search__form" action="/search">
+					<label class="search__label col col--md-23 col--lg-24" for="nav-search">Search for a keyword(s) or time series ID</label>
+					<input type="search" autocomplete="off" class="search__input col col--md-21 col--lg-32" id="nav-search" name="q" value="">
+					<button type="submit" class="search__button col--md-3 col--lg-3" id="nav-search-submit" aria-label="Search">
+						<span class="visuallyhidden">Search</span>
+						<span class="icon icon-search--light"></span>
+					</button>
+				</form>
+			</div>
+		</div>
+	
+	<div class="promo__background--plum-gradient">
+    <div class="wrapper">
+        <div class="banner--half-padding">
+            <p class="margin-top--0 margin-bottom--0 padding-bottom--0 padding-top--0 flex flex-wrap-wrap banner--vertical-center">
+                <a class="flex" href="/census"><img src="https://cdn.ons.gov.uk/assets/images/census-logo/logo-census-2021-white-landscape.svg" title="Census 2021" alt="" class="header__svg-logo margin-right--1" xmlns="http://www.w3.org/2000/svg" focusable="false" width="167" height="32" viewBox="0 0 242 44" aria-labelledby="census-logo-banner" />
+                <a class="margin-top--0 text--white font-size--18 underline-link" href="/census">Data and analysis from Census 2021</a>
+            </p>
+        </div>
+    </div>
+</div>
+	
+</header>
+
+
+
+
+	
+    <div class="page-bulletins background--astral text--white">
+  <div class="wrapper">
+    <div class="col-wrap">
+      <div class="col">
+        <nav aria-label="Bulletin breadcrumbs">
+          <div class="breadcrumb-bulletins print--hide">
+            <ol class="breadcrumb-bulletins__list">
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/"
+                  >Home</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/employmentandlabourmarket"
+                  >Employment and labour market</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/employmentandlabourmarket/peopleinwork"
+                  >People in work</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/employmentandlabourmarket/peopleinwork/employmentandemployeetypes"
+                  >Employment and employee types</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+              <li class="breadcrumb-bulletins__item">
+                Labour market overview, UK
+              </li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+		
+<main id="main" role="main" tabindex="-1">
+
+	
+	
+		<div class="page-bulletins background--astral text--white">
+    <div class="wrapper">
+        <div class="col-wrap">
+            <div class="col">
+                <div class="col margin-left--0">
+                    <h1 class="padding-bottom--0 padding-top--0 margin-top--2 font-weight-700 margin-bottom--2 ">Labour market overview, UK: July 2026</h1>
+                    <p class="page-bulletins--Summary margin-right-md--2 margin-bottom--3 padding-bottom--0 padding-top--0">
+                    
+                        
+                            Estimates of employment, unemployment, economic inactivity, and other employment-related statistics for the UK. 
+                        
+                    </p>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+    <div class="wrapper">
+        <div class="col-wrap">
+            
+
+    
+    
+        <div class="col alert-release-banner alert-release-banner__latest">
+            <p class="alert-release-banner__title">This is the latest release.
+                <a href="/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/previousreleases">View previous releases</a>
+            </p>
+        </div>
+    
+
+
+            
+            
+            
+        </div>
+    </div>
+    <div class="wrapper">
+        
+        <div class="col-wrap margin-top--3 margin-left--0">
+            
+            <div class="col col--md-4 col--lg-5">
+                <a href="https://uksa.statisticsauthority.gov.uk/about-the-authority/uk-statistical-system/types-of-official-statistics/">
+    
+        <img
+            class="meta__image meta__image--logo"
+            src="https://cdn.ons.gov.uk/assets/images/ons-logo/kitemark/v2/uksa-kitemark-en.svg" 
+            alt="These are accredited official statistics. Click for information about types of official statistics."
+            height="58"
+            width="58"
+        />
+    
+</a>
+
+            </div>
+            
+            <p class="col  col--md-12 col--lg-15 margin-bottom-sm--1 margin-bottom-md--3 margin-top-sm--1 padding-bottom--0 padding-top--0">
+                <span class="font-weight-700">Contact: </span><br/><a href="mailto:labour.market@ons.gov.uk " class="text--white"><span class="visuallyhidden">Email </span>Labour Market team</a>
+            </p>
+
+            <p class="col  col--md-one-third col--lg-one-third margin-bottom-sm--1 margin-bottom-md--3 margin-top--0 padding-bottom--0 padding-top--0">
+                <span class="font-weight-700">Release date: </span><br/>21 July 2026<br/>
+                
+            </p>
+
+            <p class="col  col--md-one-third col--lg-one-third margin-bottom-sm--3 margin-bottom-md--3 margin-top--0 padding-bottom--0 padding-top--0">
+                <span class="font-weight-700">Next release: </span><br/>18 August 2026
+            </p>
+        </div>
+    </div>
+</div>
+
+	
+
+<div class="page-content">
+	
+    <div class="wrapper">
+        
+        <div class="col-wrap border-bottom--iron-md">
+            
+            <div class="col col--md-31 col--lg-41 margin-left-md--1">
+	<div class="table-of-contents print--avoid-break">
+		<h2 class="table-of-contents__title">Table of contents</h2>
+		<ol id="toc" class="table-of-contents__list">
+			
+			<li class="table-of-contents__item">
+				<a href="#other-pages-in-this-release" class="js-scroll">Other pages in this release</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#main-points" class="js-scroll">Main points</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#trends-and-considerations-around-comparisons" class="js-scroll">Trends and considerations around comparisons</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#latest-indicators-at-a-glance" class="js-scroll">Latest indicators at a glance</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#data-on-labour-market" class="js-scroll">Data on labour market</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#glossary" class="js-scroll">Glossary</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#data-sources-and-quality" class="js-scroll">Data sources and quality</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#related-links" class="js-scroll">Related links</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#cite-this-statistical-bulletin" class="js-scroll">Cite this statistical bulletin</a>
+			</li>
+			
+			
+			
+		</ol>
+	</div>
+</div>
+            
+            
+            	
+
+<div class="col col--md-15 col--lg-16 margin-bottom-sm--2 margin-top-md--7 margin-bottom-md--2 margin-left-lg--2 padding-bottom-sm--2 padding-left-sm--1 padding-bottom-md--1 border-top--iron-sm border-right--iron-sm border-bottom--iron-sm border-left--iron-sm border-top--iron-md border-right--iron-md border-bottom--iron-md border-left--iron-md js-print-pdf print--hide">
+    <p class="text-right--md padding-top-md--0 padding-bottom-md--0 height--5 margin-bottom-md--0 print--hide nojs--hide js--show">
+        <a href="" class="link-complex nojs--hide js--show js-print-page">
+            Print this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+        </a>
+        <span class="icon icon-print--dark"></span>
+    </p>
+    <p class="text-right--md padding-top-md--0 padding-bottom-md--0 height--5 margin-top-md--1 print--hide">
+        <a href="/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/pdf" class="link-complex js-pdf-dl-link" aria-label="Download Labour market overview, UK as PDF">
+            Download as PDF
+        </a>
+        <span class="icon icon-download--dark"></span>
+    </p>
+</div>
+            
+        </div>
+
+		
+		<div class="hide--md margin-top-sm--1">
+
+
+
+	<div class=" margin-bottom-sm--2 margin-bottom-md--2 print--hide">
+		<a class="btn btn--primary btn--full-width" href="/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/relateddata" data-gtm-title="" data-gtm-type="related-data">
+			
+			
+
+			
+			
+				View all data used in this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+			
+
+			
+			
+		</a>
+	</div>
+</div>
+
+        
+        <article class="col col--md-36 col--lg-39 page-content__main-content padding-bottom">
+            
+                <div id="other-pages-in-this-release" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">1.</span> Other pages in this release</h2>
+                        </header>
+                        <ul>
+  <li><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/averageweeklyearningsingreatbritain/july2026">Average weekly earnings in Great Britain</a></p></li>
+  <li><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/earningsandemploymentfrompayasyouearnrealtimeinformationuk/july2026">Earnings and employment from Pay As You Earn Real Time Information, UK</a></p></li>
+  <li><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/july2026">Employment in the UK</a></p></li>
+  <li><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/regionallabourmarket/july2026">Labour market in the regions of the UK</a></p></li>
+  <li><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/jobsandvacanciesintheuk/july2026">Vacancies and jobs in the UK</a></p></li>
+</ul>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="main-points" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">2.</span> Main points</h2>
+                        </header>
+                        <p>Estimates for payrolled employees in the UK fell by 85,000 (0.3%) between May 2025 and May 2026. However, it was largely unchanged on the month, increasing by 3,000 (0.0%) between April and May 2026. This is based on administrative data from HM Revenue and Customs (HMRC).</p><p>When looking at March to May 2026, the period comparable with our Labour Force Survey (LFS) estimates, the number of payrolled employees fell by 90,000 (0.3%) over the year and by 30,000 (0.1%) over the quarter.</p><p>The early estimate of payrolled employees for June 2026 decreased by 71,000 (0.2%) on the year, but was largely unchanged on the month, decreasing by just 4,000 (0.0%) to 30.3 million. Figures for June should be treated as provisional estimates and are likely to be revised when more data are received next month. We publish information on <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/earningsandemploymentfrompayasyouearnrealtimeinformationrevisiontriangle">revisions to payrolled employees</a> monthly. We have also published analysis of recent revisions in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/january2026">LFS quality update: January 2026 </a><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/january2026">article</a>.</p><p>Estimates from January to March 2025 include the full effect of the improvements in Labour Force Survey (LFS) data collection and sampling methods introduced from January 2024 onwards. However, some volatility remains, particularly for estimates for mid-2023 and throughout 2024, and for granular breakdowns, where sample sizes are smaller. Caution should be taken when drawing conclusions from short-term changes, and we advise users to focus on long term movements in the data.</p><p>We recommend using as part of our suite of labour market indicators, alongside workforce jobs, Claimant Count and Pay As You Earn (PAYE) Real Time Information (RTI) estimates.</p><p>The UK employment rate (based on the LFS) for people aged 16 to 64 years was estimated at 75.1% in March to May 2026. This is down 0.1 percentages point on the year but up 0.1 percentage points on the latest quarter.</p><p>The UK unemployment rate for people aged 16 years and over was estimated at 4.9% in March to May 2026. This is up 0.2 percentage points on the year but down 0.1 percentage points on the latest quarter.</p><p>The UK economic inactivity rate for people aged 16 to 64 years was estimated at 20.9% in March to May 2026. This is down 0.1 percentage points on the year and down 0.1 percentage points on the latest quarter.</p><p>The UK Claimant Count for June 2026 increased on the month but decreased on the year to an estimated 1.689 million. The Claimant Count figure for the latest month is provisional and is subject to revisions after first publication. This is the result of later amendments to records in the administrative systems, for example, as work capability assessments conclude and more information is available about benefit claimants' ability to work.</p><p>Revisions in recent months have tended to be made downwards, as shown in our LFS quality update: January 2026 article. We publish information on <a href="https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/outofworkbenefits/datasets/claimantcountrevisionstrianglecla02">Claimant Count revisions</a> each month. Our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/april2026">LFS quality </a><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/april2026">update: April 2026 article</a> includes information on definitional differences with LFS unemployment.</p><p>The estimated number of vacancies in the UK decreased in the latest quarter. Early estimates for April to June 2026 suggest a decrease of 7,000 (0.9%) to 712,000, compared with January to March 2026.</p><p>Annual growth in employees' average earnings in Great Britain was 3.4% for regular earnings (excluding bonuses) and 4.3% for total earnings (including bonuses) in March to May 2026. Annual average regular earnings growth was 5.5% for the public sector and 2.9% for the private sector. Public sector annual pay growth continues to be affected by variations in the timing of pay awards this year.</p><p>We also publish RTI pay data, which provide a provisional, timelier estimate of median pay. The two data sources generally trend well for mean total pay.</p><p>Annual growth in real terms, adjusted for inflation using the Consumer Prices Index including owner occupiers' housing costs (CPIH), was 0.3% for regular pay and 1.1% for total pay in March to May 2026.</p><p>Annual growth in real terms, adjusted for inflation using the Consumer Prices Index excluding owner occupiers' housing costs (CPI), was 0.4% for regular pay and 1.3% for total pay in March to May 2026.</p><p>There were an estimated 26,000 working days lost because of labour disputes across the UK in May 2026.</p><p><div class="markdown-warning-box--container margin-bottom-sm--3 margin-bottom-md--4">
+    <span aria-label="Warning text" class="markdown-warning-box--icon">!</span>
+    <div class="markdown-warning-box--text padding-left--4">
+        <p>This bulletin includes data from business and social surveys, as well as data from administrative sources. It includes a combination of accredited official statistics and official statistics in development, so we advise taking this into consideration when using. Read more in <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026#data-sources-and-quality">Section 7: Data sources and quality</a>. </p>
+    </div>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="trends-and-considerations-around-comparisons" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">3.</span> Trends and considerations around comparisons</h2>
+                        </header>
+                        <p>This section provides additional commentary to help users assess differences between the employment-related data sources we publish.</p><p>The Labour Force Survey (LFS) is our survey of households and remains the lead measure for data on labour market participation. Workforce jobs (WFJ) primarily uses business surveys to measure employee jobs with the LFS covering self-employment jobs. HM Revenue and Customs Pay As You Earn (PAYE) Real Time Information (RTI) data come from administrative tax records and cover only payrolled employees.</p><p>Because these sources are collected and processed differently, differences in levels are expected (for example, jobs compared with people, or varying reference periods). Divergence across indicators for more than one period is not unusual. Our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/comparisonoflabourmarketdatasources">Comparison of labour market data sources methodology</a> compares data sources and discusses some of the main differences.</p><p>Despite the coherence challenges, the LFS remains the sole source for unemployment, economic inactivity and self-employment data, offering detailed breakdowns unavailable elsewhere.</p><h3>Latest employee data</h3><p>Enhancements to the LFS, introduced since January 2024, mean that movements in the LFS over the past year reflect both underlying developments in the economy and improved survey quality (including obtaining more responses from employed people). As a result, levels have moved closer to RTI, but measures of change may be less aligned with RTI because they capture both real labour market shifts and changes arising from the survey improvements.</p><p>We have published the latest estimate of WFJ in our June 2026 labour market publication. In the latest periods, the employee component of WFJ has shown two quarterly increases. WFJ can sometimes lag behind other indicators, as seen at the start of the coronavirus (COVID-19) pandemic; it is often brought more in-line following our annual benchmarking exercise, which has revised the series down in recent years.</p><p>We have undertaken analysis on our headline workforce jobs series as part of our quality assurance and following the publication of our recent article <a href="https://www.ons.gov.uk/economy/grossdomesticproductgdp/methodologies/howtheonsassessesstatisticaloutputsforresidualseasonality#how-we-detect-and-monitor-residual-seasonality">How the ONS assesses statistical outputs for residual </a><a href="https://www.ons.gov.uk/economy/grossdomesticproductgdp/methodologies/howtheonsassessesstatisticaloutputsforresidualseasonality#how-we-detect-and-monitor-residual-seasonality">seasonality</a> on gross domestic product (GDP). Our analysis showed mixed and emerging evidence of evolving seasonal patterns in both our headline employee jobs and self-employment jobs, although stronger in the latter. This needs further investigation at a more disaggregated level. We are therefore bringing forward our annual seasonal adjustment review of workforce jobs data. We will provide an update in September 2026, alongside the next release of workforce jobs data. Until then, caution should be taken when looking at short-term changes in these series.</p><p>Figure 1 shows the three employee indicators over a longer time series. RTI and the employee component of WFJ generally follow similar trends, but have diverged in some periods, including the most recent periods.</p><p>Over the last year, LFS employee-level estimates have aligned more closely with RTI, helped by recent operational improvements to the LFS. As movements in the LFS over the past year reflect both underlying developments in the economy and improved survey quality, we continue to advise caution when comparing current LFS results with earlier periods. An LFS operational error occurred in May 2026 which led to temporary under-resourcing in LFS telephone collection operations. Our analysis to date indicates that the error had a minimal impact on the headline estimates, although, it does suggest there is a small but noticeable impact on the estimates of average hours and so the total actual hours worked. Further information is available in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/july2026">Labour Force Survey quality update: July 2026</a> article.</p><p>Unlike recent months, the latest quarter (March to May 2026) shows a divergence between the LFS and RTI estimates of employees. The LFS showed an increase of 115,000 employees aged 16 years and over, while comparable RTI data showed a decrease of 30,000 employees. This pattern is seen in both seasonally adjusted and non-seasonally adjusted data, suggesting it is unlikely to be the result of different treatment of seasonality. However, the LFS movement is within the sampling variability of the survey, while RTI estimates are subject to revision, particularly at the start of the financial year. Given this, we will assess whether this divergence is sustained once more data become available next month.</p><p>Our view remains that RTI currently provides the most reliable measure of employees. The number of payrolled employees continued to fall in the three months to May 2026. The latest flash estimate is largely unchanged on the month, with a small decrease of 4,000, though this is subject to revision when more data are received next month.</p><p>
+
+
+  
+
+    <div class="markdown-chart-container panel--bottom-mar print--avoid-break">
+
+      <h3 class="flush--third--vertical font-size--18 padding-top--0 margin-bottom--1">Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall</h3>
+        
+            <h4 class="flush--third--bottom font-size--16 padding-top--0 margin-top--0">Comparison of employee estimates over time, UK, July to September 2014 to March to May 2026 </h4>
+        
+
+      <div class="scrollable-container">
+        <div id="chart-fe061483" data-filename="fe061483" data-uri="/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/fe061483" class="markdown-chart">
+            <!--[if gt IE 8]><!--><noscript><!--[endif]-->
+            <img src="/chartimage?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/fe061483&width=&hideSource=true" alt="" />
+            <!--[if gt IE 8]><!--></noscript><!--[endif]-->
+        </div>
+      </div>
+  
+  
+
+
+
+
+
+
+  <h4 class="flush--third--bottom font-size--h6 clear-left">Source: Labour Force Survey (LFS) and workforce jobs (WFJ) from the Office for National Statistics, and Pay As You Earn Real Time Information (PAYE RTI) from HM Revenue and Customs (HMRC)  </h4>
+      <div id="notes-fe061483" class="notes-holder-js">
+  
+      <h5 class="flush--third--bottom js-notes-title font-size--16 padding-top--0">Notes:</h5>
+      <ol>
+  <li>Three-month averages of RTI payrolled employees have been used here for comparability.   </li>
+  <li>Workforce jobs are published for the months of March, June, September and December. For presentational purposes, they have been plotted against the middle month of the time period shown. For example, March is plotted against February to April.</li>
+</ol>
+  
+      </div>
+  
+    <h4 class="print--hide padding-top--0 margin-top--0 font-size--h6 clear-left"><span role="text">Download this chart <span class="visuallyhidden">Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall</span></span></h4>
+
+    <a class="btn btn--primary print--hide js-chart-image-src" data-filename="fe061483" href="/chartimage?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/fe061483" download="Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall" data-gtm-title="Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall" data-gtm-type="download-chart-image"  aria-label="Download Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall as an image">Image</a>
+      
+    <a class="btn btn--primary print--hide" title="Download as csv"
+    href="/generator?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/fe061483&format=csv" 
+    data-gtm-title="Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall" 
+    data-gtm-type="download-chart-csv"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="csv"
+    aria-label="Download Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall as csv"
+>
+    .csv
+</a>
+    <a class="btn btn--primary print--hide" title="Download as xls"
+    href="/generator?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/fe061483&format=xls" 
+    data-gtm-title="Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall" 
+    data-gtm-type="download-chart-xls"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="xls"
+    aria-label="Download Figure 1: Employee measures shows a broadly coherent picture over the last year, suggesting a relatively steady labour market overall as xls"
+>
+    .xls
+</a>
+
+</div>
+</p><h3>Further information</h3><p>To deepen our understanding of possible bias in our surveys, we have launched a new project to link LFS and Transformed Labour Force Survey (TLFS) data with HM Revenue and Customs's PAYE data at the record level. Updates on progress will be provided in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourmarkettransformationupdateonprogressandplans/previousreleases">Labour market transformation articles</a>.</p><p>Alongside this labour market release in July, we have published our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/july2026">Labour Force Survey quality update: July 2026</a> <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/april2026">article</a>. This article provides information about current response rates, trends and known biases in LFS data, and provides users with information to better understand the current quality of the data. It also includes an impact assessment of the recent LFS operational issue on headline estimates and RTI estimates relative to the population, which have been published for the first time.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="latest-indicators-at-a-glance" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">4.</span> Latest indicators at a glance</h2>
+                        </header>
+                        <p><div class="js--show">
+
+    <div class="pym-interactive pym-interactive--full-width margin-left--0" id="cac-4341-8ff7-deea20ece90a" data-url="/visualisations/dvc3594/dashwrapper/index.html" data-title="Figure 1"></div>
+
+    <details class="details">
+        <summary class="details__summary" role="button" aria-label="Figure 1 embed code">Embed code</summary>
+        <div class="details__body">
+            <label class="embed-code__label" for="embed-cac-4341-8ff7-deea20ece90a">Embed this interactive</label>
+            <input class="embed-code__code width-md--31"
+        value='<iframe width="100%" src="https://www.ons.gov.uk/visualisations/dvc3594/dashwrapper/index.html"></iframe>'
+                   id="embed-cac-4341-8ff7-deea20ece90a"
+                   name="embed-cac-4341-8ff7-deea20ece90a"
+                   readonly
+            />
+            <span class="embed-code__success-container">
+                <button id="" data-id="cac-4341-8ff7-deea20ece90a" type="button" class="btn btn--primary embed-code__button js-embed-code-copy">Copy</button>
+                <span role="status"></span>
+            </span>
+        </div>
+    </details>
+
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="data-on-labour-market" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">5.</span> Data on labour market</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/summaryoflabourmarketstatistics">Summary of labour market statistics</a><br> Dataset A01 | Released 21 July 2026<br> Labour market statistics summary data table, including earnings, employment, unemployment, redundancies and vacancies, Great Britain and UK, published monthly.</p><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/realtimeinformationstatisticsreferencetableseasonallyadjusted">Earnings and employment from Pay As You Earn Real Time Information, seasonally adjusted</a><br> Dataset | Released 21 July 2026<br> Earnings and employment statistics from Pay As You Earn (PAYE) Real Time Information (RTI), UK, NUTS 1, 2 and 3 areas and local authorities, monthly, seasonally adjusted.</p><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/aguidetolabourmarketdata">A guide to labour market data</a><br> Methodology | Last revised 12 August 2025<br> Summary of labour market datasets, providing estimates of employment, unemployment, average weekly earnings, and the number of vacancies. Tables are listed alphabetically and by topic. </p>
+</div>
+</p><p>View all related data on our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/relateddata">related data page</a>.</p><p>Alternatively, <a href="https://www.nomisweb.co.uk/">Nomis</a> provides free access to the most detailed and up-to-date UK labour market statistics.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="glossary" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">6.</span> Glossary</h2>
+                        </header>
+                        <h3>Average weekly earnings</h3><p>Average weekly earnings (AWE) are calculated using information based on the Monthly Wages and Salaries Survey (MWSS). AWE measures money paid by employers to employees in Great Britain before tax and other deductions from pay. The estimates are not just a measure of pay rises, because they also reflect, for example, changes in the overall structure of the workforce. More high-paid jobs in the economy would have an upward effect on the earnings growth rate.</p><h3>Economic inactivity</h3><p>People not in the labour force who are not in employment but do not meet the internationally accepted definition of unemployment. This is because they have not been seeking work within the last four weeks or they are unable to start work in the next two weeks. The economic inactivity rate is the proportion of people aged between 16 and 64 years who are not in the labour force. The Labour Force Survey (LFS) estimates are <a href="https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/">official statistics in development</a>.</p><h3>Employment</h3><p>Employment measures the number of people in paid work or who had a job that they were temporarily away from (for example, because they were on holiday or off sick). This differs from the number of jobs because some people have more than one job. The employment rate is the proportion of people aged between 16 and 64 years who are in employment. The LFS estimates are <a href="https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/">official statistics in development</a>.</p><h3>Unemployment</h3><p>Unemployment measures people without a job who have been actively seeking work within the last four weeks and are available to start work within the next two weeks. The unemployment rate is not the proportion of the total population who are unemployed. It is the proportion of the economically active population (people in work and those seeking and available to work) who are unemployed. The LFS estimates are <a href="https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/">official statistics in development</a>.</p><h3>Claimant Count</h3><p>The Claimant Count is an official statistic in development that measures the number of people who are receiving a benefit principally for the reason of being unemployed. Currently, the Claimant Count consists of those receiving Jobseeker's Allowance, and Universal Credit claimants in the "searching for work" conditionality group.</p><h3>Vacancies</h3><p>Vacancies are defined as positions for which employers are actively seeking recruits from outside their business or organisation. The estimates are based on the Vacancy Survey. This is a survey of businesses designed to provide estimates of the stock of vacancies across the economy, excluding agriculture, forestry and fishing (a small sector for which the collection of estimates would not be practical).</p><h3>Pay As You Earn Real Time Information</h3><p>These data come from HM Revenue and Customs's (HMRC's) Pay As You Earn (PAYE) Real Time Information (RTI) system. They cover the whole population, rather than a sample of people or companies, and they will allow for more detailed estimates of the population.</p><p>In July 2025, the Office for Statistics Regulation (OSR) published a <a href="https://osr.statisticsauthority.gov.uk/correspondence/ed-humpherson-to-grant-fitzner-and-jane-whittaker-earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-confirmation-of-accredited-official-statistics-status/">letter confirming the accreditation of HMRC </a><a href="https://osr.statisticsauthority.gov.uk/correspondence/ed-humpherson-to-grant-fitzner-and-jane-whittaker-earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-confirmation-of-accredited-official-statistics-status/">and the Office for National Statistics (ONS) on earnings and employment from PAYE RTI</a>.</p><p>A more detailed glossary is available in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/aguidetolabourmarketstatistics">Guide to labour market statistics methodology</a>.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="data-sources-and-quality" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">7.</span> Data sources and quality</h2>
+                        </header>
+                        <p>The estimates presented in this bulletin contain uncertainty. For more information, see our <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/uncertaintyandhowwemeasureit">Uncertainty and how </a><a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/uncertaintyandhowwemeasureit">we measure it for our surveys methodology</a>.</p><p>Information on revisions is available in our <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/revisions/revisionspoliciesforlabourmarketstatistics">Labour market statistics revisions policy</a>.</p><p>Further information is available in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/aguidetolabourmarketstatistics">Guide to labour market statistics methodology</a>.</p><h3>Accredited official statistics</h3><p>On 7 June 2024, the Office for Statistics Regulation (OSR) introduced the new accredited official statistics badge, to denote official statistics that have been independently reviewed by the OSR. Accredited official statistics comply with the standards of trustworthiness, quality and value in the <a href="https://code.statisticsauthority.gov.uk/">Code of Practice for Statistics</a>.</p><p>This UK labour market bulletin includes a combination of <a href="https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/accredited-official-statistics-policy/">accredited official statistics</a> and <a href="https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/">official statistics in </a><a href="https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/">development</a> (until September 2023, these were called "experimental statistics"). Read more about the change in our <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/guidetoofficialstatisticsindevelopment">Guide to official statistics in development</a>.</p><p>The following labour market outputs are accredited official statistics:</p>
+<ul>
+  <li><p>Earnings and employment from Pay As You Earn (PAYE) Real Time Information (RTI) (accredited by the OSR in July 2025)</p></li>
+  <li><p>Vacancy statistics (reviewed by the OSR in April 2022)</p></li>
+  <li><p>Workforce jobs (WFJ) (reviewed by the OSR in April 2022)</p></li>
+  <li><p>Average weekly earnings (AWE) (reviewed by OSR in December 2014)</p></li>
+</ul><p>The following labour market outputs are official statistics in development:</p>
+<ul>
+  <li><p>Labour Force Survey (LFS) estimates from the Office for National Statistics (ONS)</p></li>
+  <li><p>Claimant Count</p></li>
+</ul><h3>Labour Force Survey</h3><p>We have been facing the challenge of falling response rates for household surveys, as have other comparable countries. This issue became more acute in the LFS data collected for August 2023. The LFS estimates due to be published in October 2023 were suspended because of quality concerns. We developed a comprehensive plan to address these concerns and reintroduce the LFS, as described in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyplannedimprovementsanditsreintroduction">Labour Force Survey: planned </a><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyplannedimprovementsanditsreintroduction">improvements and its reintroduction methodology</a>. We reinstated reweighted LFS estimates into our monthly publication from February 2024, as described in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/impactofreweightingonlabourforcesurveykeyindicators/2024">Impact of reweighting on LFS key indicators: 2024 article</a>. In December 2024, we carried out a <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/impactofreweightingonlabourforcesurveykeyindicators/december2024">further LFS reweighting exercise, based on 2022 mid-year estimates</a>.</p><p>Estimates from January to March 2025 include the full effect of the improvements in LFS data collection and sampling methods introduced from January 2024 onwards. Some volatility remains, particularly for estimates for mid-2023 and throughout 2024, and for granular breakdowns, where sample sizes are smaller. Caution should be taken when drawing conclusions from short-term changes, and we advise users to focus on long-term movements in the data.</p><p>We recommend using LFS estimates as part of our suite of labour market indicators, alongside workforce jobs, Claimant Count, and PAYE RTI estimates.</p><p>More information on LFS quality can be found in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/july2026">LFS quality update: July 2026 article</a>.</p><p>As part of work to address quality concerns with the LFS, response levels and rates have shown clear improvement, with responses now close to their pre-coronavirus (COVID-19) pandemic level. The achieved sample, including imputed cases (the dataset size), has increased from 77,927 individuals in October to December 2025 to 80,078 individuals in January to March 2026, as shown in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyperformanceandqualitymonitoringreportjanuarytomarch2026">LFS performance and quality </a><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyperformanceandqualitymonitoringreportjanuarytomarch2026">monitoring report: January to March 2026</a>.</p><h3>Labour market transformation</h3><p>We have provided an update on the transformation of labour market statistics in our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourmarkettransformationupdateonprogressandplans/april2026">Labour market transformation </a><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourmarkettransformationupdateonprogressandplans/april2026">update on progress and plans: April 2026 article</a>.</p><p>We welcome your feedback on this latest update and our plans. Please email us at <a href="mailto:labour.market.transformation@ons.gov.uk">labour.market.transformation@ons.gov.uk</a> to tell us what you think.</p><h3>Coronavirus</h3><p>For more information on how labour market data sources were affected by the coronavirus pandemic, see our <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/coronavirusandtheeffectsonuklabourmarketstatistics/2020-05-06">Coronavirus and the effects on UK labour market statistics article</a>.</p><h3>Revisions</h3><p>In the July 2026 edition of this bulletin, LFS data have been revised back to January to March 2020 because of a seasonal adjustment review.</p><p>We are also currently reviewing the seasonal adjustment parameters, as part of the average weekly earnings annual review. The review may lead to revisions to the entire historical average weekly earnings time series and will be implemented in our August 2026 publication.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="related-links" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">8.</span> Related links</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p><a href="https://www.ons.gov.uk/aboutus/ourstrategyandplans/onsimprovementplans/onssurveyimprovementandenhancement/onssurveysandeconomicstatisticsimprovementplanquarterlyprogressupdatejuly2026">ONS surveys and economic statistics improvement plan, quarterly progress update: July 2026</a><br> Article | Released 15 July 2026<br> Progress across the ONS against our recovery plans for improving our economic statistics and surveys, between April and June 2026.</p><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourmarkettransformationupdateonprogressandplans/april2026">Labour market transformation - update on progress and plans: April 2026</a><br> Article | Released 15 April 2026<br> Labour market transformation overview, building on previous engagement on the Transformed Labour Force Survey.</p><p><a href="https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/latest">Economic activity and social change in the UK, real-time indicators: 18 June 2026</a><br> Bulletin | Released 18 June 2026<br> Data on the UK economy and society. These faster indicators are created using rapid response surveys, novel data sources, and innovative methods. These are official statistics in development.</p><p><a href="https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/latest">Business insights and impact on the UK economy: 2 July 2026</a><br> Bulletin | Released 2 July 2026<br> The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.</p><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyperformanceandqualitymonitoringreportjanuarytomarch2026">Labour Force Survey performance and quality monitoring report: January to March 2026</a><br> Methodology | Released 19 May 2026<br> Response rates, sample size and quality assessment of our quarterly Labour Force Survey.</p><p><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/july2026">Labour Force Survey quality update: July 2026</a><br> Article | Released 21 July 2026<br> Assessment of Labour Force Survey data quality, including the impact of recent changes on the statistics, response levels and rates, and respondent characteristics. </p>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="cite-this-statistical-bulletin" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">9.</span> Cite this statistical bulletin</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p>Office for National Statistics (ONS), released 21 July 2026, ONS website, statistical bulletin, <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026">Labour market overview, UK: July 2026</a> </p>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+            <!-- Accordion -->
+            
+             <!-- Margin at bottom of article if no Accordion present -->
+                <div class="margin-bottom--4">
+                </div>
+            
+        </article>
+        
+        <div class="col col--md-11 col--lg-20 margin-top-md--3">
+            
+    
+    
+
+
+
+	<div class=" margin-bottom-sm--2 margin-bottom-md--2 print--hide">
+		<a class="btn btn--primary btn--full-width" href="/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/july2026/relateddata" data-gtm-title="" data-gtm-type="related-data">
+			
+			
+
+			
+			
+				View all data used in this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+			
+
+			
+			
+		</a>
+	</div>
+
+    
+    
+
+
+<div class="tiles__item tiles__item--nav-type flush-col">
+	<h3 class="tiles__title-h3 tiles__title-h3--nav">
+		Contact details for this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+	</h3>
+	<div class="tiles__content--nav">
+		<address>
+			Labour Market team<br/>
+			<a href="mailto:labour.market@ons.gov.uk ">labour.market@ons.gov.uk </a><br/>
+			Telephone: +44 1633 455400
+		</address>
+	</div>
+</div>
+    
+    
+
+    
+    
+    
+    
+
+        </div>
+    </div> 
+
+</div>
+
+</main>
+
+
+	<footer class="print--hide">
+	<h2 class="visuallyhidden">Footer links</h2>
+	<div class="footer">
+		<div class="wrapper">
+			<nav aria-label="Footer links">
+                <div class="footer-nav col-wrap">
+                    
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">Help</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/help/accessibility">Accessibility</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/cookies">Cookies</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/help/privacynotice">Privacy</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/help/termsandconditions">Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">About ONS</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/whatwedo">What we do</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://careers.ons.gov.uk">Careers</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/contactus">Contact us</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/news">News</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/transparencyandgovernance/freedomofinformationfoi">Freedom of Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">Connect with us</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="https://twitter.com/ONS" target="_blank">X</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.instagram.com/officefornationalstatistics" target="_blank">Instagram</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.facebook.com/ONS" target="_blank">Facebook</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.linkedin.com/company/office-for-national-statistics" target="_blank">LinkedIn</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://consultations.ons.gov.uk/" target="_blank">Consultations</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.statsusernetwork.ons.gov.uk/" target="_blank">Discussion forums</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://public.govdelivery.com/accounts/UKONS/subscribers/new" target="_blank">Email alerts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+			</nav>
+		</div>
+		<div class="wrapper">
+			<div class="footer-license">
+				<img class="footer-license__img" alt="OGL" width="60" src="https://cdn.ons.gov.uk/assets/images/logo-ogl-footer.svg">
+				<p class="footer-license__text margin-left-sm--0">
+					All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="//cdn.ons.gov.uk/sixteens/418c927/js/main.js"></script>
+        <script src="/js/app.js"></script>
+
+        
+        
+            <script src="/js/third-party/highcharts-annotations-5.0.7.js"></script>
+            <script src="/js/third-party/highcharts-broken-axis-5.0.7.js"></script>
+            <script src="/js/third-party/highcharts-heatmap-5.0.7.js"></script>
+            <script src="/js/third-party/highcharts-exporting-5.0.7.js"></script>
+        
+
+	<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a29e9a79cb7786de',t:'MTc4NjUyODUxNg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,312 @@
+[
+  {
+    "frameId": "VAL002-GOVUK-employment-tribunal-and-employment-appeal-tribunal-statistics-gb",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/government/statistics/employment-tribunal-and-employment-appeal-tribunal-statistics-gb",
+    "title": "Employment Tribunal and Employment Appeal Tribunal Statistics, GB",
+    "publisher": "Ministry of Justice",
+    "publicationDate": "2025-09-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-government-revenues-from-uk-oil-and-gas-production--2",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/government/statistics/government-revenues-from-uk-oil-and-gas-production--2",
+    "title": "Government revenues from UK oil and gas production",
+    "publisher": "HM Revenue & Customs",
+    "publicationDate": "2025-06-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-chickenpox-as-a-notifiable-disease-information-for-health-professionals",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/guidance/chickenpox-as-a-notifiable-disease-information-for-health-professionals",
+    "title": "Chickenpox as a notifiable disease: information for health professionals",
+    "publisher": "UK Health Security Agency",
+    "publicationDate": "2024-11-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-view-apha-surveillance-reports-publications-and-data",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/guidance/view-apha-surveillance-reports-publications-and-data",
+    "title": "View APHA surveillance reports, publications and data",
+    "publisher": "Animal and Plant Health Agency",
+    "publicationDate": "2024-03-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-hepatitis-b-antenatal-screening-and-newborn-immunisation-programme-best-practice-guidance",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/government/publications/hepatitis-b-antenatal-screening-and-newborn-immunisation-programme-best-practice-guidance",
+    "title": "Hepatitis B antenatal screening and newborn immunisation programme: best practice guidance",
+    "publisher": "UK Health Security Agency",
+    "publicationDate": "2023-05-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-seeking-consent-for-immunisations-in-schools",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/guidance/seeking-consent-for-immunisations-in-schools",
+    "title": "Seeking consent for immunisations in schools",
+    "publisher": "UK Health Security Agency",
+    "publicationDate": "2023-09-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-send-code-of-practice-0-to-25",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/government/publications/send-code-of-practice-0-to-25",
+    "title": "Special educational needs and disability code of practice: 0 to 25 years",
+    "publisher": "Department for Education",
+    "publicationDate": "2015-01-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-send-guide-for-parents-and-carers",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/government/publications/send-guide-for-parents-and-carers",
+    "title": "SEND guide for parents and carers",
+    "publisher": "Department for Education",
+    "publicationDate": "2014-08-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-oil-and-gas-production-statistics-2015-and-201516",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/government/statistics/oil-and-gas-production-statistics-2015-and-201516",
+    "title": "Oil and gas production statistics: 2015/16",
+    "publisher": "Oil and Gas Authority",
+    "publicationDate": "2016-06-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-GOVUK-apprenticeship-and-levy-statistics-february-2019",
+    "familyId": "GOV_UK",
+    "sourceUrl": "https://www.gov.uk/government/statistics/apprenticeship-and-levy-statistics-february-2019",
+    "title": "Apprenticeship and levy statistics: February 2019",
+    "publisher": "Department for Education",
+    "publicationDate": "2019-02-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-uklabourmarket-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest",
+    "title": "UK labour market",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-07-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-consumerpriceinflation-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/latest",
+    "title": "Consumer price inflation, UK",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-07-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-annualmidyearpopulationestimates-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/latest",
+    "title": "Population estimates for the UK",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-06-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-quarterlynationalaccounts-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/latest",
+    "title": "Quarterly national accounts, UK",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-06-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-deathsregistrationsummarytables-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/deathsregistrationsummarytables/latest",
+    "title": "Deaths registration summary tables, England and Wales",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-05-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-publicsectorfinances-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/latest",
+    "title": "Public sector finances, UK",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-07-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-longterminternationalmigrationprovisional-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/latest",
+    "title": "Long-term international migration, provisional",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-05-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-balanceofpayments-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/latest",
+    "title": "UK balance of payments, the Pink Book",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-06-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-ONS-retailsales-latest",
+    "familyId": "ONS_GOV_UK",
+    "sourceUrl": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest",
+    "title": "Retail sales, Great Britain",
+    "publisher": "Office for National Statistics",
+    "publicationDate": "2026-07-01",
+    "language": "en",
+    "licenceBasis": "Open Government Licence v3.0"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-clean-air-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-clean-air-act",
+    "title": "Summary of the Clean Air Act",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-clean-water-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-clean-water-act",
+    "title": "Summary of the Clean Water Act",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-resource-conservation-and-recovery-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-resource-conservation-and-recovery-act",
+    "title": "Summary of the Resource Conservation and Recovery Act",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-toxic-substances-control-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-toxic-substances-control-act",
+    "title": "Summary of the Toxic Substances Control Act",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-national-environmental-policy-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-national-environmental-policy-act",
+    "title": "Summary of the National Environmental Policy Act",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-safe-drinking-water-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-safe-drinking-water-act",
+    "title": "Summary of the Safe Drinking Water Act",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-cercla",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-comprehensive-environmental-response-compensation-and-liability-act",
+    "title": "Summary of the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA)",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-epa-summary-epcra",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.epa.gov/laws-regulations/summary-emergency-planning-community-right-know-act",
+    "title": "Summary of the Emergency Planning and Community Right-to-Know Act (EPCRA)",
+    "publisher": "U.S. Environmental Protection Agency",
+    "publicationDate": "2022-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-ftc-fair-credit-reporting-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act",
+    "title": "Fair Credit Reporting Act",
+    "publisher": "U.S. Federal Trade Commission",
+    "publicationDate": "2021-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-ftc-fair-debt-collection-practices-act",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.ftc.gov/legal-library/browse/statutes/fair-debt-collection-practices-act",
+    "title": "Fair Debt Collection Practices Act",
+    "publisher": "U.S. Federal Trade Commission",
+    "publicationDate": "2021-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-census-acs-about",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.census.gov/programs-surveys/acs/about.html",
+    "title": "About the American Community Survey",
+    "publisher": "U.S. Census Bureau",
+    "publicationDate": "2023-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  },
+  {
+    "frameId": "VAL002-USFED-census-population-about",
+    "familyId": "US_FEDERAL",
+    "sourceUrl": "https://www.census.gov/topics/population/about.html",
+    "title": "About the Population Topic",
+    "publisher": "U.S. Census Bureau",
+    "publicationDate": "2023-01-01",
+    "language": "en",
+    "licenceBasis": "US federal government work — public domain (17 U.S.C. § 105)"
+  }
+]

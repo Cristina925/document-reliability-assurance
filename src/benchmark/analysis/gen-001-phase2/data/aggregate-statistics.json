@@ -1,0 +1,173 @@
+{
+  "lockedSampleSize": 100,
+  "attempted": 100,
+  "primaryEndpoints": {
+    "ACQUISITION_SUCCESS_RATE": {
+      "endpointId": "ACQUISITION_SUCCESS_RATE",
+      "numerator": 75,
+      "denominator": 100,
+      "pointEstimate": 0.75,
+      "wilson": {
+        "x": 75,
+        "n": 100,
+        "pointEstimate": 0.75,
+        "lowerBound": 0.656955364519384,
+        "upperBound": 0.8245478863771232,
+        "method": "WILSON_SCORE_95PCT"
+      },
+      "ruleOfThreeUpperBoundIfZero": null
+    },
+    "PIPELINE_COMPLETION_RATE": {
+      "endpointId": "PIPELINE_COMPLETION_RATE",
+      "numerator": 75,
+      "denominator": 75,
+      "pointEstimate": 1,
+      "wilson": {
+        "x": 75,
+        "n": 75,
+        "pointEstimate": 1,
+        "lowerBound": 0.9512761575171942,
+        "upperBound": 1,
+        "method": "WILSON_SCORE_95PCT"
+      },
+      "ruleOfThreeUpperBoundIfZero": null
+    },
+    "PROOF_INTEGRITY_RATE": {
+      "endpointId": "PROOF_INTEGRITY_RATE",
+      "numerator": 75,
+      "denominator": 75,
+      "pointEstimate": 1,
+      "wilson": {
+        "x": 75,
+        "n": 75,
+        "pointEstimate": 1,
+        "lowerBound": 0.9512761575171942,
+        "upperBound": 1,
+        "method": "WILSON_SCORE_95PCT"
+      },
+      "ruleOfThreeUpperBoundIfZero": null
+    },
+    "MATERIAL_FAILURE_RATE": {
+      "endpointId": "MATERIAL_FAILURE_RATE",
+      "numerator": 0,
+      "denominator": 100,
+      "pointEstimate": 0,
+      "wilson": {
+        "x": 0,
+        "n": 100,
+        "pointEstimate": 0,
+        "lowerBound": 3.469446951953614e-18,
+        "upperBound": 0.03699349820698568,
+        "method": "WILSON_SCORE_95PCT"
+      },
+      "ruleOfThreeUpperBoundIfZero": 0.03
+    }
+  },
+  "secondaryEndpoints": {
+    "REPRESENTATION_SUCCESS_RATE": {
+      "demonstratedRepresentationFailures": 0,
+      "evaluatedDenominator": 75,
+      "note": "Descriptive only: no demonstrated REPRESENTATION_FAILURE observed. The protocol's own oracle strategy (ORACLE_STRATEGY.requiresIndependentReference) calls for spot-checking against publisher-provided structured content, which was NOT performed within Phase 2's scope (measurement, not investigation) — reported as a limitation, not a confirmed 0% rate."
+    },
+    "DECISION_DISTRIBUTION": {
+      "HOLD": 10,
+      "SUPPORTED": 64,
+      "REVIEW": 1
+    },
+    "ISSUE_CLASS_DISTRIBUTION": {
+      "EVIDENCE_ABSENT": 22,
+      "EVIDENCE_INADEQUATE": 16,
+      "CLAIM_INCONSISTENCY": 1
+    },
+    "DETERMINISM_REPEATABILITY_RATE": {
+      "endpointId": "DETERMINISM_REPEATABILITY_RATE",
+      "numerator": 75,
+      "denominator": 75,
+      "pointEstimate": 1,
+      "wilson": {
+        "x": 75,
+        "n": 75,
+        "pointEstimate": 1,
+        "lowerBound": 0.9512761575171942,
+        "upperBound": 1,
+        "method": "WILSON_SCORE_95PCT"
+      },
+      "ruleOfThreeUpperBoundIfZero": null
+    },
+    "KNOWN_LIMITATION_ENCOUNTER_RATE": {
+      "numerator": 0,
+      "denominator": 100,
+      "note": "0/100 units were classified KNOWN_LIMITATION_ENCOUNTERED in this pass. Per the task's instruction to require actual evidence of manifestation rather than assuming by language, no unit's outcome was traced to a specific CARRIED_FORWARD_LIMITATION (D1-D6) during this blind measurement pass — see the report's stratum-level exploratory finding for a population-level pattern that may motivate (but does not itself constitute) such a determination."
+    }
+  },
+  "exploratory": {
+    "STRATUM_LEVEL_BREAKDOWNS": {
+      "PDF_ENGLISH": {
+        "sampleSize": 25,
+        "taxonomyCounts": {
+          "SUCCESSFUL_EVALUATION": 25
+        },
+        "evaluatedCount": 25,
+        "decisions": {
+          "HOLD": 10,
+          "SUPPORTED": 14,
+          "REVIEW": 1
+        },
+        "issueTotal": 39,
+        "issueClasses": {
+          "EVIDENCE_ABSENT": 22,
+          "EVIDENCE_INADEQUATE": 16,
+          "CLAIM_INCONSISTENCY": 1
+        },
+        "zeroIssueDocs": 14
+      },
+      "PDF_NON_ENGLISH": {
+        "sampleSize": 25,
+        "taxonomyCounts": {
+          "SUCCESSFUL_EVALUATION": 25
+        },
+        "evaluatedCount": 25,
+        "decisions": {
+          "SUPPORTED": 25
+        },
+        "issueTotal": 0,
+        "issueClasses": {},
+        "zeroIssueDocs": 25
+      },
+      "HTML_ENGLISH": {
+        "sampleSize": 25,
+        "taxonomyCounts": {
+          "EXTERNAL_ACQUISITION_FAILURE": 25
+        },
+        "evaluatedCount": 0,
+        "decisions": {},
+        "issueTotal": 0,
+        "issueClasses": {},
+        "zeroIssueDocs": 0
+      },
+      "HTML_NON_ENGLISH": {
+        "sampleSize": 25,
+        "taxonomyCounts": {
+          "SUCCESSFUL_EVALUATION": 25
+        },
+        "evaluatedCount": 25,
+        "decisions": {
+          "SUPPORTED": 25
+        },
+        "issueTotal": 0,
+        "issueClasses": {},
+        "zeroIssueDocs": 25
+      }
+    },
+    "NON_ENGLISH_ZERO_ISSUE_PATTERN": {
+      "description": "Hypothesis-generating only (per protocol, not confirmatory). All 50 evaluated non-English-stratum units (PDF_NON_ENGLISH: 25/25, HTML_NON_ENGLISH: 25/25) received decision=SUPPORTED with 0 issues each. The evaluated PDF_ENGLISH stratum (25/25 evaluated; HTML_ENGLISH stratum is entirely EXTERNAL_ACQUISITION_FAILURE and contributes no evaluated units) shows 11/25 non-SUPPORTED (10 HOLD, 1 REVIEW) and 39 total issues across 11 documents. This pattern is directionally consistent with the previously-documented CARRIED_FORWARD_LIMITATIONS entry for non-English Stage 5 materiality under-detection (D3), but Phase 2 explicitly defers root-cause investigation and does not treat stratum composition (different underlying documents, not parallel translations) as proof of a per-unit KNOWN_LIMITATION_ENCOUNTERED classification. Flagged as a candidate for a future targeted investigation, not acted on here."
+    },
+    "PUBLISHER_OR_FORMAT_CORRELATES_OF_FAILURE": {
+      "description": "The sole systemic failure category observed (EXTERNAL_ACQUISITION_FAILURE, 25 units) correlates perfectly with a single publisher/stratum: all 25 GOV.UK (HTML_ENGLISH) units. No PDF or BOE.es (Spanish) source exhibited this failure. This suggests the drift is specific to gov.uk's content-serving behaviour (a per-request or per-day varying byte sequence of the same rendered length as the Phase 1 lock, confirmed by direct comparison — see report) rather than a general HTML-normalisation or non-English handling issue."
+    }
+  },
+  "taxonomyCounts": {
+    "SUCCESSFUL_EVALUATION": 75,
+    "EXTERNAL_ACQUISITION_FAILURE": 25
+  }
+}

@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Balance of payments, UK - Office for National Statistics</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1.0,user-scalable=1" name="viewport">
+        <meta name="theme-color" content="#58595B">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#58595B">
+
+        <meta name="description" content="A measure of cross-border transactions between the UK and rest of the world. Includes trade, income, capital transfers, and foreign assets and liabilities. ">
+
+        
+            <link rel="canonical" href="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026" />
+        
+        <link rel="stylesheet" type="text/css" href="//cdn.ons.gov.uk/sixteens/418c927/css/main.css">
+		
+
+        <script>
+    // extractValue extracts the value from an undecodeable json cookie string
+    function extractValue(key, extractionString) {
+        const extractionRegex = new RegExp(`'${key}':(.*?)[,}]`)
+        const match = extractionString.match(extractionRegex)
+        if (match) {
+            return match[1]
+        }
+        
+        return null
+    }
+
+    // getUsageCookieValue reads the ons_cookie_policy to determine the user's usage preference. 
+    // When no policy is found, the user is opted out by default.
+    function getUsageCookieValue() {
+        // ons_cookie_policy handler
+        var policyCookie = document.cookie.match('(?:^|; )ons_cookie_policy=({.*?})');
+        if (policyCookie) {
+            console.debug('ons_cookie_policy found');
+
+            var usageValue = extractValue("usage", policyCookie[1]);
+            console.debug('usage is', usageValue);
+
+            // this needs to be the inverse - if usage is true the returned value is false and vice versa
+            // user is stating whether they are opting out of usage cookie
+            return (usageValue == "true") ? false : true
+        }
+        console.debug('no cookie found - opting out');
+        return true
+    }
+
+    // unescape html entities
+    function htmlUnescape(str){
+        return str
+                .replace(/&#x3D;/g, "=");
+    }
+
+    
+    var dataLayer = [{
+        contentTitle: htmlUnescape("Balance of payments, UK: January to March 2026"),
+        analyticsOptOut: getUsageCookieValue(),
+        "gtm.whitelist": ["google","hjtc","lcl"],
+        "gtm.blacklist": ["customScripts","sp","adm","awct","k","d","j"]
+    }];
+
+    
+    dataLayer[0]["releaseDate"] = "2026/06/30";
+    
+
+    
+
+    
+    
+
+
+    
+    
+        
+            
+                dataLayer[0]["latestRelease"] = "yes";
+                dataLayer[0]["url"] = "/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026";
+            
+        
+    
+
+    
+    
+        
+            dataLayer[0]["wordCount"] = 3474
+        
+    
+
+    
+    
+        
+            
+
+            
+                
+            
+        
+
+        
+            
+                dataLayer[0]["corrections"] = "no";
+            
+            
+                dataLayer[0]["notices"] = "yes";
+            
+        
+
+    
+
+    
+
+</script>
+
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MBCBVQS');</script>
+        <!-- End Google Tag Manager -->
+
+        
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            
+            "description": "A measure of cross-border transactions between the UK and rest of the world. Includes trade, income, capital transfers, and foreign assets and liabilities. ",
+            
+             "@type": "Article",
+"headLine": "Balance of payments, UK",
+"datePublished": "2026-06-29T23:00:00.000Z",
+"dateModified": "2026-06-29T23:00:00.000Z",
+"author": {
+    "@type": "Person",
+    "name": "UK Balance of Payments team"
+},
+
+"image": "https://www.ons.gov.uk/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/e987b044",
+
+"mainEntityOfPage": "/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026",
+"publisher": {
+    "@type": "GovernmentOrganization",
+    "name": "Office for National Statistics",  
+    "logo": "https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.png"
+}, 
+            
+            "url": "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+    </script>
+
+
+		
+		
+
+	</head>
+	<body class="bulletin">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js' : 'js');</script>
+    <form action="/cookies/accept-all" method="GET" id="global-cookie-message"
+      class="cookies-banner cookies-banner--hidden js-cookies-banner-form clearfix"
+      aria-label="cookie banner">
+    <div class="cookies-banner__wrapper wrapper js-cookies-banner-inform">
+        <div>
+            <div class="cookies-banner__message adjust-font-size--18">
+                <h3 class="cookies-banner__heading">Cookies on ons.gov.uk</h3>
+                <p class="cookies-banner__body">Cookies are small files stored on your device when you visit a website. We use some essential cookies to make this website work.</p>
+                <p class="cookies-banner__body">We would like to set <a href="/cookies">additional cookies</a> to remember your settings and understand how you use the site. This helps us to improve our services.</p>
+            </div>
+            <div class="cookies-banner__buttons">
+                <div class="nojs--hide cookies-banner__button cookies-banner__button--accept">
+                    <button class="btn btn--full-width btn--primary btn--focus margin-right--2 font-weight-700 font-size--17 text-wrap js-accept-cookies" data-gtm-accept-cookies="true" type="submit" data-action="accept" tabindex="0">
+                        Accept additional cookies
+                    </button>
+                </div>
+                <div class="nojs--hide cookies-banner__button cookies-banner__button--reject">
+                    <button class="btn btn--full-width btn--primary btn--focus margin-right--2 font-weight-700 font-size--17 text-wrap js-reject-cookies" data-gtm-accept-cookies="false" type="submit" data-action="reject" tabindex="0">
+                        Reject additional cookies
+                    </button>
+                </div>
+                <div class="cookies-banner__button">
+                    <a href="/cookies">Manage settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden js-cookies-banner-confirmation" tabindex="-1">
+        <div class="cookies-banner__wrapper wrapper">
+            <div class="col">
+                <div class="cookies-banner__message adjust-font-size--18">
+                    <p class="cookies-banner__confirmation-message">
+                        <span class="hidden ons-js-accepted-text">You have accepted all additional cookies.</span>
+                        <span class="hidden ons-js-rejected-text">You have rejected all additional cookies.</span>
+                        <span>You can <a href="/cookies">change your cookie preferences</a> at any time.</span>
+                        <button type="button" class="cookies-banner__button--hide js-hide-cookies-banner">Hide</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBCBVQS"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        
+        
+		
+
+		
+
+		
+		 						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<header >
+	
+    <a class="skiplink" href="#main" tabindex="0">
+        Skip to main content
+    </a>
+	
+  
+  
+
+	
+	
+	<div id="pagePath" class="hide">/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026</div>
+	
+		<div class="wrapper">
+			<div class="header col-wrap">
+				<div class="col col--lg-one-third col--md-one-third">
+					<a href="/">
+						<!--[if lte IE 8]>
+							<img class="logo" src="https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.png" alt="Office for National Statistics logo - Homepage">
+						<![endif]-->
+						<img class="logo" src="https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.svg" alt="Office for National Statistics logo - Homepage">
+					</a>
+				</div>
+				
+                <div class="col col--lg-two-thirds col--md-two-thirds hide--sm print--hide language--js__container">
+                    
+                    <div class="language">
+                        
+                            <span>English (EN) | </span>
+                            <a href="
+
+
+
+    //cy.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026
+" class="language__link" lang="cy">Cymraeg (CY)</a>
+                        
+                    </div>
+                </div>
+				<div class="secondary-nav col col--lg-two-thirds col--md-two-thirds print--hide">
+					<ul class="secondary-nav__list js-nav-clone__list">
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/releasecalendar">Release calendar</a>
+                        </li>
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/methodology">Methodology</a>
+                        </li>
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/news">Media</a>
+                        </li>
+						<li class="secondary-nav__item">
+							<a class="secondary-nav__link  js-nav-clone__link" href="/aboutus">About</a>
+						</li>
+						<li class="secondary-nav__item">
+							<a class="secondary-nav__link js-nav-clone__link" rel="noopener noreferrer" href="https://blog.ons.gov.uk/">Blog</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	
+
+	
+	
+	<div class="primary-nav print--hide">
+		<nav aria-label="Header links">
+			
+			<ul class="nav--controls">
+				<li class="nav--controls__item">
+					<a href="#nav-primary" id="menu-toggle" aria-controls="nav-primary" aria-expanded="false" class="nav--controls__menu">
+						<span class="nav--controls__text">Menu</span>
+					</a>
+				</li>
+				<li class="nav--controls__item ">
+					<a href="#nav-search" id="search-toggle" aria-controls="nav-search" aria-expanded="false" class="nav--controls__search" aria-label="Search">
+						<span class="nav--controls__text">Search</span>
+					</a>
+				</li>
+			</ul>
+			
+			<ul class="wrapper nav-main--hidden primary-nav__list" id="nav-primary" aria-expanded="false">
+				<li class="primary-nav__item  js-nav hide--sm old-ie--display-block"><a class="primary-nav__link col col--md-7 col--lg-9" href="/">Home</a></li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/businessindustryandtrade" aria-expanded="false" aria-label="Business, industry and trade sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Business, industry and trade
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/business" >Business</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/changestobusiness" >Changes to business</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/constructionindustry" >Construction industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/itandinternetindustry" >Digital Economy</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/internationaltrade" >International trade</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/manufacturingandproductionindustry" >Manufacturing and production industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/retailindustry" >Retail industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/tourismindustry" >Tourism industry</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable primary-nav__item--active">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/economy" aria-expanded="false" aria-label="Economy sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Economy
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/economicoutputandproductivity" >Economic output and productivity</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/environmentalaccounts" >Environmental accounts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/governmentpublicsectorandtaxes" >Government, public sector and taxes</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/grossdomesticproductgdp" >Gross Domestic Product (GDP)</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/grossvalueaddedgva" >Gross Value Added (GVA)</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/inflationandpriceindices" >Inflation and price indices</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/investmentspensionsandtrusts" >Investments, pensions and trusts</a>
+						</li>
+						
+						<li class="primary-nav__child-item primary-nav__child-item--active js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/nationalaccounts" >National accounts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/regionalaccounts" >Regional accounts</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/employmentandlabourmarket" aria-expanded="false" aria-label="Employment and labour market sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Employment and labour market
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/employmentandlabourmarket/peopleinwork" >People in work</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/employmentandlabourmarket/peoplenotinwork" >People not in work</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/peoplepopulationandcommunity" aria-expanded="false" aria-label="People, population and community sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							People, population and community
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/armedforcescommunity" >Armed forces community</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/birthsdeathsandmarriages" >Births, deaths and marriages</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/crimeandjustice" >Crime and justice</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/culturalidentity" >Cultural identity</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/educationandchildcare" >Education and childcare</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/elections" >Elections</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/healthandsocialcare" >Health and social care</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/householdcharacteristics" >Household characteristics</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/housing" >Housing</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/leisureandtourism" >Leisure and tourism</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/wellbeing" >Measuring progress, well-being and beyond GDP</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/personalandhouseholdfinances" >Personal and household finances</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/populationandmigration" >Population and migration</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				<li class="primary-nav__item  js-nav">
+					<a class="primary-nav__link  col col--md-8 col--lg-10" href="/surveys">
+						Taking part in a survey?
+					</a>
+				</li>
+				<li class="hide--md primary-nav__language">
+					
+						<span>English (EN) | </span>
+						<a href="
+
+
+
+    //cy.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026
+" class="language__link">Cymraeg (CY)</a>
+					
+				</li>
+			</ul>
+		</nav>
+	</div>
+	
+	
+		<div class="search nav-search--hidden print--hide" id="searchBar" role="search">
+			<div class="wrapper">
+				<form class="col-wrap search__form" action="/search">
+					<label class="search__label col col--md-23 col--lg-24" for="nav-search">Search for a keyword(s) or time series ID</label>
+					<input type="search" autocomplete="off" class="search__input col col--md-21 col--lg-32" id="nav-search" name="q" value="">
+					<button type="submit" class="search__button col--md-3 col--lg-3" id="nav-search-submit" aria-label="Search">
+						<span class="visuallyhidden">Search</span>
+						<span class="icon icon-search--light"></span>
+					</button>
+				</form>
+			</div>
+		</div>
+	
+	<div class="promo__background--plum-gradient">
+    <div class="wrapper">
+        <div class="banner--half-padding">
+            <p class="margin-top--0 margin-bottom--0 padding-bottom--0 padding-top--0 flex flex-wrap-wrap banner--vertical-center">
+                <a class="flex" href="/census"><img src="https://cdn.ons.gov.uk/assets/images/census-logo/logo-census-2021-white-landscape.svg" title="Census 2021" alt="" class="header__svg-logo margin-right--1" xmlns="http://www.w3.org/2000/svg" focusable="false" width="167" height="32" viewBox="0 0 242 44" aria-labelledby="census-logo-banner" />
+                <a class="margin-top--0 text--white font-size--18 underline-link" href="/census">Data and analysis from Census 2021</a>
+            </p>
+        </div>
+    </div>
+</div>
+	
+</header>
+
+
+
+
+	
+    <div class="page-bulletins background--astral text--white">
+  <div class="wrapper">
+    <div class="col-wrap">
+      <div class="col">
+        <nav aria-label="Bulletin breadcrumbs">
+          <div class="breadcrumb-bulletins print--hide">
+            <ol class="breadcrumb-bulletins__list">
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/"
+                  >Home</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/economy"
+                  >Economy</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/economy/nationalaccounts"
+                  >National accounts</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+                <li class="breadcrumb-bulletins__item">
+                  <span
+                    class="icon icon-arrow-back--light-small hide--md"
+                  ></span>
+                  <a
+                    class="breadcrumb-bulletins__link"
+                    href="/economy/nationalaccounts/balanceofpayments"
+                  >Balance of payments</a>
+                  <span
+                    class="icon icon-arrow-forward--light-small hide--sm"
+                  ></span>
+                </li>
+              
+              <li class="breadcrumb-bulletins__item">
+                Balance of payments, UK
+              </li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+		
+<main id="main" role="main" tabindex="-1">
+
+	
+	
+		<div class="page-bulletins background--astral text--white">
+    <div class="wrapper">
+        <div class="col-wrap">
+            <div class="col">
+                <div class="col margin-left--0">
+                    <h1 class="padding-bottom--0 padding-top--0 margin-top--2 font-weight-700 margin-bottom--2 ">Balance of payments, UK: January to March 2026</h1>
+                    <p class="page-bulletins--Summary margin-right-md--2 margin-bottom--3 padding-bottom--0 padding-top--0">
+                    
+                        
+                            A measure of cross-border transactions between the UK and rest of the world. Includes trade, income, capital transfers, and foreign assets and liabilities. 
+                        
+                    </p>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+    <div class="wrapper">
+        <div class="col-wrap">
+            
+
+    
+    
+        <div class="col alert-release-banner alert-release-banner__latest">
+            <p class="alert-release-banner__title">This is the latest release.
+                <a href="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/previousreleases">View previous releases</a>
+            </p>
+        </div>
+    
+
+
+            
+            
+            
+                <div class="col show-hide show-hide--dark margin-top--4 js-show-hide">
+                    <div class="alert-bulletins--border">
+                        <div class="js-show-hide__title">
+                            <button class="js-show-hide__button margin-top--2 alert-bulletins--expand-arrow" type="button" aria-expanded="false" aria-controls="collapsible-0">
+                                <span class="icon icon-info icon-info--info-box alert-bulletins--info-box"></span>
+
+                                <h2 class="show-hide__title alert-bulletins--warning__title">
+                                    
+                                    
+                                        
+                                            Notice
+                                        
+                                    
+                                </h2>
+                            </button>
+                        </div>
+
+                        <div class="js-show-hide__content ">
+                            
+                            
+                                
+                                
+
+                                    
+                                    <div class="show-hide__content alert-bulletins--warning__content section__content--markdown">
+                                        <section>
+                                            
+                                            
+                                                <p class="alert-bulletins__date">3 July 2026</p>
+                                                <p>Because more time was required, Table C: “Transactions with the European Union (EU) and with non-EU countries” did not include estimates for Quarter 1 (Jan to Mar) 2024 onwards when published on 30 June 2026. This has now been rectified and the tables and data are now available. We apologise for the delay.</p>
+                                            
+                                        </section>
+                                    </div>
+                                
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+            
+        </div>
+    </div>
+    <div class="wrapper">
+        
+        <div class="col-wrap margin-top--3 margin-left--0">
+            
+            <div class="col col--md-4 col--lg-5">
+                <a href="https://uksa.statisticsauthority.gov.uk/about-the-authority/uk-statistical-system/types-of-official-statistics/">
+    
+        <img
+            class="meta__image meta__image--logo"
+            src="https://cdn.ons.gov.uk/assets/images/ons-logo/kitemark/v2/uksa-kitemark-en.svg" 
+            alt="These are accredited official statistics. Click for information about types of official statistics."
+            height="58"
+            width="58"
+        />
+    
+</a>
+
+            </div>
+            
+            <p class="col  col--md-12 col--lg-15 margin-bottom-sm--1 margin-bottom-md--3 margin-top-sm--1 padding-bottom--0 padding-top--0">
+                <span class="font-weight-700">Contact: </span><br/><a href="mailto:bop@ons.gov.uk" class="text--white"><span class="visuallyhidden">Email </span>UK Balance of Payments team</a>
+            </p>
+
+            <p class="col  col--md-one-third col--lg-one-third margin-bottom-sm--1 margin-bottom-md--3 margin-top--0 padding-bottom--0 padding-top--0">
+                <span class="font-weight-700">Release date: </span><br/>30 June 2026<br/>
+                
+            </p>
+
+            <p class="col  col--md-one-third col--lg-one-third margin-bottom-sm--3 margin-bottom-md--3 margin-top--0 padding-bottom--0 padding-top--0">
+                <span class="font-weight-700">Next release: </span><br/>30 September 2026
+            </p>
+        </div>
+    </div>
+</div>
+
+	
+
+<div class="page-content">
+	
+    <div class="wrapper">
+        
+        <div class="col-wrap border-bottom--iron-md">
+            
+            <div class="col col--md-31 col--lg-41 margin-left-md--1">
+	<div class="table-of-contents print--avoid-break">
+		<h2 class="table-of-contents__title">Table of contents</h2>
+		<ol id="toc" class="table-of-contents__list">
+			
+			<li class="table-of-contents__item">
+				<a href="#main-points" class="js-scroll">Main points</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#current-account" class="js-scroll">Current account</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#financial-account" class="js-scroll">Financial account</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#international-investment-position" class="js-scroll">International investment position</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#revisions-to-the-current-account" class="js-scroll">Revisions to the current account</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#data-on-balance-of-payments" class="js-scroll">Data on balance of payments</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#glossary" class="js-scroll">Glossary</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#data-sources-and-quality" class="js-scroll">Data sources and quality</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#related-links" class="js-scroll">Related links</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#cite-this-statistical-bulletin" class="js-scroll">Cite this statistical bulletin</a>
+			</li>
+			
+			
+			
+		</ol>
+	</div>
+</div>
+            
+            
+            	
+
+<div class="col col--md-15 col--lg-16 margin-bottom-sm--2 margin-top-md--7 margin-bottom-md--2 margin-left-lg--2 padding-bottom-sm--2 padding-left-sm--1 padding-bottom-md--1 border-top--iron-sm border-right--iron-sm border-bottom--iron-sm border-left--iron-sm border-top--iron-md border-right--iron-md border-bottom--iron-md border-left--iron-md js-print-pdf print--hide">
+    <p class="text-right--md padding-top-md--0 padding-bottom-md--0 height--5 margin-bottom-md--0 print--hide nojs--hide js--show">
+        <a href="" class="link-complex nojs--hide js--show js-print-page">
+            Print this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+        </a>
+        <span class="icon icon-print--dark"></span>
+    </p>
+    <p class="text-right--md padding-top-md--0 padding-bottom-md--0 height--5 margin-top-md--1 print--hide">
+        <a href="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/pdf" class="link-complex js-pdf-dl-link" aria-label="Download Balance of payments, UK as PDF">
+            Download as PDF
+        </a>
+        <span class="icon icon-download--dark"></span>
+    </p>
+</div>
+            
+        </div>
+
+		
+		<div class="hide--md margin-top-sm--1">
+
+
+
+	<div class=" margin-bottom-sm--2 margin-bottom-md--2 print--hide">
+		<a class="btn btn--primary btn--full-width" href="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/relateddata" data-gtm-title="" data-gtm-type="related-data">
+			
+			
+
+			
+			
+				View all data used in this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+			
+
+			
+			
+		</a>
+	</div>
+</div>
+
+        
+        <article class="col col--md-36 col--lg-39 page-content__main-content padding-bottom">
+            
+                <div id="main-points" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">1.</span> Main points</h2>
+                        </header>
+                        <ul>
+  <li>The underlying UK current account deficit, excluding precious metals, narrowed to £15.1 billion, or 1.9% of gross domestic product (GDP) in Quarter 1 (Jan to Mar) 2026; this is a change of £3.2 billion compared with the deficit of £18.2 billion in the previous quarter.</li>
+  <li>The UK current account deficit, including trade in precious metals, narrowed by £5.0 billion to £22.1 billion, or 2.8% of GDP, in Quarter 1 2026.</li>
+  <li>The total trade deficit, excluding precious metals, widened to £7.7 billion, or 1.0% of GDP, in Quarter 1 2026, compared with £2.5 billion in the previous quarter; the goods deficit widened to £59.5 billion, and the services surplus narrowed to £51.8 billion.</li>
+  <li>The primary income account deficit narrowed to £3.9 billion, or 0.5% of GDP, in Quarter 1 2026, as credits increased and debits decreased.</li>
+  <li>There was a net financial inflow of £7.2 billion in Quarter 1 2026.</li>
+  <li>The preliminary estimate of the UK's net international investment liability position, on 31 March 2026, widened to £122.1 billion, from a revised £105.6 billion as of 31 December 2025.</li>
+  <li>Data for all quarters back to Quarter 1 2024 have been open to revisions, with revisions to "current account, excluding precious metals" data ranging from negative 1.3% to positive 0.1% of GDP.</li>
+</ul><p><div class="markdown-warning-box--container margin-bottom-sm--3 margin-bottom-md--4">
+    <span aria-label="Warning text" class="markdown-warning-box--icon">!</span>
+    <div class="markdown-warning-box--text padding-left--4">
+        <p>Current account and trade figures exclude non-monetary gold (NMG) and other precious metals unless otherwise stated. This is because movements in NMG can be large and highly volatile, distorting underlying trends in goods exports and imports. The headline UK BoP current account and capital account figures published are seasonally adjusted, while financial account and international investment position (IIP) figures are not seasonally adjusted. </p>
+    </div>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="current-account" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">2.</span> Current account</h2>
+                        </header>
+                        <p>The UK's current account balance is a measure of the country's balance of payments (BoP) with the rest of the world in trade, primary income, and secondary income.</p><p>The underlying UK current account deficit, excluding precious metals, narrowed to £15.1 billion, or 1.9% of gross domestic product (GDP), in Quarter 1 (Jan to Mar) 2026. This is a change of £3.2 billion compared with the deficit of £18.2 billion, or 2.4% of GDP, in the previous quarter.</p><p>Table 1 summarises the current account data for Quarter 1 2026. The narrowing of the current account deficit in the latest quarter was largely caused by an £8.0 billion narrowing of the primary income deficit. This was partially offset by a £5.1 billion widening of the total trade deficit.</p><p>
+<div class="markdown-table-container print--avoid-break">
+    <div class="scrollable-container" tabindex="0">
+        <div class="markdown-table-wrap">
+            <figure class="figure" id="table-acbc0b17">
+<table class="table">
+<caption class="table__caption">Table 1: The UK’s current account deficit narrowed in Quarter 1 (Jan to Mar) 2026 <br/><span class="table__subtitle">Main current account flows and change compared with Quarter 4 (Oct to Dec) 2025</span></caption>
+<colgroup><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/></colgroup>
+<tr class="table__header-row"><td class="align-left"></td><td class="align-left"></td><th scope="col" class="align-right">Credits</th><th scope="col" class="align-right">Debits</th><th scope="col" class="align-right">Balance </th></tr>
+<tr><th scope="row" class="align-left">Total current account</th><th scope="row" class="align-left">Value (£bn)</th><td class="align-right">351.6</td><td class="align-right">366.7</td><td class="align-right">-15.1</td></tr>
+<tr><td class="align-left"></td><th scope="row" class="align-left">Change (£bn)</th><td class="align-right">8.4</td><td class="align-right">5.3</td><td class="align-right">3.2</td></tr>
+<tr><th scope="row" class="align-left">Total trade in goods and services </th><th scope="row" class="align-left">Value (£bn)</th><td class="align-right">236.4</td><td class="align-right">244.1</td><td class="align-right">-7.7</td></tr>
+<tr><td class="align-left"></td><th scope="row" class="align-left">Change (£bn)</th><td class="align-right">1.9</td><td class="align-right">7.1</td><td class="align-right">-5.1</td></tr>
+<tr><th scope="row" class="align-left">Total trade in goods</th><th scope="row" class="align-left">Value (£bn)</th><td class="align-right">96.1</td><td class="align-right">155.6</td><td class="align-right">-59.5</td></tr>
+<tr><td class="align-left"></td><th scope="row" class="align-left">Change (£bn)</th><td class="align-right">2.2</td><td class="align-right">6.2</td><td class="align-right">-4.0</td></tr>
+<tr><th scope="row" class="align-left">Total trade in services </th><th scope="row" class="align-left">Value (£bn)</th><td class="align-right">140.3</td><td class="align-right">88.5</td><td class="align-right">51.8</td></tr>
+<tr><td class="align-left"></td><th scope="row" class="align-left">Change (£bn)</th><td class="align-right">-0.3</td><td class="align-right">0.9</td><td class="align-right">-1.2</td></tr>
+<tr><th scope="row" class="align-left">Total primary income </th><th scope="row" class="align-left">Value (£bn)</th><td class="align-right">107.1</td><td class="align-right">111.0</td><td class="align-right">-3.9</td></tr>
+<tr><td class="align-left"></td><th scope="row" class="align-left">Change (£bn)</th><td class="align-right">6.5</td><td class="align-right">-1.5</td><td class="align-right">8.0</td></tr>
+<tr><th scope="row" class="align-left">Total secondary income </th><th scope="row" class="align-left">Value (£bn)</th><td class="align-right">8.0</td><td class="align-right">11.6</td><td class="align-right">-3.5</td></tr>
+<tr><td class="align-left"></td><th scope="row" class="align-left">Change (£bn)</th><td class="align-right">0.0</td><td class="align-right">-0.3</td><td class="align-right">0.3</td></tr>
+</table><footer class="figure__footer">
+<p class="figure__source">Source: Balance of payments from the Office for National Statistics</p>
+<p class="figure__notes">Notes</p>
+<ol class="figure__footnotes">
+<li id="table-acbc0b17-note-1" class="figure__footnote-item">Sum of components may not sum to total because of rounding.</li>
+<li id="table-acbc0b17-note-2" class="figure__footnote-item">Current account and trade figures exclude trade in precious metals.</li>
+</ol>
+</footer>
+</figure>
+
+        </div>
+    </div>
+
+    <h4 class="print--hide font-size--h6 padding-top--0"><span role="text">Download this table <span class="visuallyhidden">Table 1: The UK’s current account deficit narrowed in Quarter 1 (Jan to Mar) 2026 </span></span></h4>
+    <a href="/download/table?format=xlsx&uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/acbc0b17.json" title="Download as xls" class="btn btn--primary print--hide" data-gtm-title="Table 1: The UK’s current account deficit narrowed in Quarter 1 (Jan to Mar) 2026 " data-gtm-type="download-table-xlsx" aria-label="Download Table 1: The UK’s current account deficit narrowed in Quarter 1 (Jan to Mar) 2026  as xls">.xls</a>
+    <a href="/download/table?format=csv&uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/acbc0b17.json" title="Download as csv" class="btn btn--primary print--hide" data-gtm-title="Table 1: The UK’s current account deficit narrowed in Quarter 1 (Jan to Mar) 2026 " data-gtm-type="download-table-csv" aria-label="Download Table 1: The UK’s current account deficit narrowed in Quarter 1 (Jan to Mar) 2026  as csv">.csv</a>
+</div></p><p>
+
+
+  
+
+    <div class="markdown-chart-container panel--bottom-mar print--avoid-break">
+
+      <h3 class="flush--third--vertical font-size--18 padding-top--0 margin-bottom--1">Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026</h3>
+        
+            <h4 class="flush--third--bottom font-size--16 padding-top--0 margin-top--0">The UK’s current account balance as a percentage of gross domestic product, Quarter 2 (Apr to June) 2023 to Quarter 1 (Jan to Mar) 2026 </h4>
+        
+
+      <div class="scrollable-container">
+        <div id="chart-e987b044" data-filename="e987b044" data-uri="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/e987b044" class="markdown-chart">
+            <!--[if gt IE 8]><!--><noscript><!--[endif]-->
+            <img src="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/e987b044&width=&hideSource=true" alt="" />
+            <!--[if gt IE 8]><!--></noscript><!--[endif]-->
+        </div>
+      </div>
+  
+  
+
+
+
+
+
+
+  <h4 class="flush--third--bottom font-size--h6 clear-left">Source: Balance of payments from the Office for National Statistics </h4>
+      <div id="notes-e987b044" class="notes-holder-js">
+  
+      <h5 class="flush--third--bottom js-notes-title font-size--16 padding-top--0">Notes:</h5>
+      <ol>
+  <li><p>Sum of components may not sum to total because of rounding.</p></li>
+  <li><p>Q1 refers to Quarter 1 (Jan to Mar), Q2 refers to Quarter 2 (Apr to June), Q3 refers to Quarter 3 (July to Sept) and Q4 refers to Quarter 4 (Oct to Dec).</p></li>
+</ol>
+  
+      </div>
+  
+    <h4 class="print--hide padding-top--0 margin-top--0 font-size--h6 clear-left"><span role="text">Download this chart <span class="visuallyhidden">Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026</span></span></h4>
+
+    <a class="btn btn--primary print--hide js-chart-image-src" data-filename="e987b044" href="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/e987b044" download="Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026" data-gtm-title="Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026" data-gtm-type="download-chart-image"  aria-label="Download Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026 as an image">Image</a>
+      
+    <a class="btn btn--primary print--hide" title="Download as csv"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/e987b044&format=csv" 
+    data-gtm-title="Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026" 
+    data-gtm-type="download-chart-csv"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="csv"
+    aria-label="Download Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026 as csv"
+>
+    .csv
+</a>
+    <a class="btn btn--primary print--hide" title="Download as xls"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/e987b044&format=xls" 
+    data-gtm-title="Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026" 
+    data-gtm-type="download-chart-xls"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="xls"
+    aria-label="Download Figure 1: The UK’s underlying current account deficit excluding precious metals narrowed in Quarter 1 2026 as xls"
+>
+    .xls
+</a>
+
+</div>
+</p><h3>Trade</h3><p>The total trade deficit for goods and services widened to £7.7 billion, or 1.0% of GDP, in Quarter 1 2026, from £2.5 billion in the previous quarter (revised from £2.2 billion).</p><p>The trade in goods deficit widened by £4.0 billion to £59.5 billion, or 7.6% of GDP, and the trade in services surplus decreased by £1.2 billion to £51.8 billion, or 6.6% of GDP.</p><p>
+
+
+  
+
+    <div class="markdown-chart-container panel--bottom-mar print--avoid-break">
+
+      <h3 class="flush--third--vertical font-size--18 padding-top--0 margin-bottom--1">Figure 2: The UK’s total trade deficit widened in Quarter 1 2026</h3>
+        
+            <h4 class="flush--third--bottom font-size--16 padding-top--0 margin-top--0">The UK’s trade balance, Quarter 2 (Apr to June) 2023 to Quarter 1 (Jan to Mar) 2026 </h4>
+        
+
+      <div class="scrollable-container">
+        <div id="chart-003da6d0" data-filename="003da6d0" data-uri="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/003da6d0" class="markdown-chart">
+            <!--[if gt IE 8]><!--><noscript><!--[endif]-->
+            <img src="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/003da6d0&width=&hideSource=true" alt="" />
+            <!--[if gt IE 8]><!--></noscript><!--[endif]-->
+        </div>
+      </div>
+  
+  
+
+
+
+
+
+
+  <h4 class="flush--third--bottom font-size--h6 clear-left">Source: Balance of payments from the Office for National Statistics </h4>
+      <div id="notes-003da6d0" class="notes-holder-js">
+  
+      <h5 class="flush--third--bottom js-notes-title font-size--16 padding-top--0">Notes:</h5>
+      <ol>
+  <li>Q1 refers to Quarter 1 (Jan to Mar), Q2 refers to Quarter 2 (Apr to June), Q3 refers to Quarter 3 (July to Sept) and Q4 refers to Quarter 4 (Oct to Dec).</li>
+</ol>
+  
+      </div>
+  
+    <h4 class="print--hide padding-top--0 margin-top--0 font-size--h6 clear-left"><span role="text">Download this chart <span class="visuallyhidden">Figure 2: The UK’s total trade deficit widened in Quarter 1 2026</span></span></h4>
+
+    <a class="btn btn--primary print--hide js-chart-image-src" data-filename="003da6d0" href="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/003da6d0" download="Figure 2: The UK’s total trade deficit widened in Quarter 1 2026" data-gtm-title="Figure 2: The UK’s total trade deficit widened in Quarter 1 2026" data-gtm-type="download-chart-image"  aria-label="Download Figure 2: The UK’s total trade deficit widened in Quarter 1 2026 as an image">Image</a>
+      
+    <a class="btn btn--primary print--hide" title="Download as csv"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/003da6d0&format=csv" 
+    data-gtm-title="Figure 2: The UK’s total trade deficit widened in Quarter 1 2026" 
+    data-gtm-type="download-chart-csv"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="csv"
+    aria-label="Download Figure 2: The UK’s total trade deficit widened in Quarter 1 2026 as csv"
+>
+    .csv
+</a>
+    <a class="btn btn--primary print--hide" title="Download as xls"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/003da6d0&format=xls" 
+    data-gtm-title="Figure 2: The UK’s total trade deficit widened in Quarter 1 2026" 
+    data-gtm-type="download-chart-xls"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="xls"
+    aria-label="Download Figure 2: The UK’s total trade deficit widened in Quarter 1 2026 as xls"
+>
+    .xls
+</a>
+
+</div>
+</p><h4>Figure 3: Both exports and imports of goods increased in Quarter 1 2026</h4><h6>Changes in exports and imports of goods, excluding unspecified and semi-manufactured goods, £ billion, Quarter 1 (Jan to Mar) 2026 compared with Quarter 4 (Oct to Dec) 2025</h6><p><div class="js--show">
+
+    <div class="pym-interactive" id="a45-43a2-a035-f8f80e015f91" data-url="/visualisations/dvc3580/fig3/index.html" data-title="3"></div>
+
+    <details class="details">
+        <summary class="details__summary" role="button" aria-label="3 embed code">Embed code</summary>
+        <div class="details__body">
+            <label class="embed-code__label" for="embed-a45-43a2-a035-f8f80e015f91">Embed this interactive</label>
+            <input class="embed-code__code width-md--31"
+        value='<iframe width="100%" src="https://www.ons.gov.uk/visualisations/dvc3580/fig3/index.html"></iframe>'
+                   id="embed-a45-43a2-a035-f8f80e015f91"
+                   name="embed-a45-43a2-a035-f8f80e015f91"
+                   readonly
+            />
+            <span class="embed-code__success-container">
+                <button id="" data-id="a45-43a2-a035-f8f80e015f91" type="button" class="btn btn--primary embed-code__button js-embed-code-copy">Copy</button>
+                <span role="status"></span>
+            </span>
+        </div>
+    </details>
+
+</div>
+</p><h6>Notes:</h6>
+<ol>
+  <li>Unspecified goods and semi-manufactured goods are not included in this chart or commentary because the commodities contain elements of precious metals.</li>
+</ol>
+<form action="https://www.ons.gov.uk/visualisations/dvc3580/fig3/datadownload.xlsx">
+   <input type="submit" value="Download Figure 3 data (xlsx, 19KB)" class="btn btn--primary" style="margin-bottom: 20px; text-decoration: underline; font-size: 18px; font-weight: 400; line-height: 32px;" data-ga-event="file-download" data-ga-file-extension="xlsx" data-ga-file-name="datadownload.xlsx" data-ga-link-text="Download Figure 3 data (xlsx, 19KB)" data-ga-link-url="/visualisations/dvc3580/fig3/datadownload.xlsx" data-ga-link-domain="www.ons.gov.uk" data-ga-chart-type="bar-chart" data-ga-file-size="19" />
+</form><p>The trade in goods deficit widened in Quarter 1 2026 as imports of goods increased more than exports. Total goods imports increased by £6.2 billion, from £149.4 billion in Quarter 4 (Oct to Dec) 2025 to £155.6 billion in Quarter 1 2026. The largest increases in imports of goods were recorded in:</p>
+<ul>
+  <li><p>finished manufactured goods, up by £3.6 billion</p></li>
+  <li><p>other fuels, up by £1.1 billion</p></li>
+</ul><p>Exports of goods increased by £2.2 billion, from £93.9 billion in Quarter 4 2025 to £96.1 billion in Quarter 1 2026. Finished manufactured goods increased by £1.6 billion.</p><p>The trade in services surplus decreased by £1.2 billion in Quarter 1 2026, as imports of services increased, while exports of services decreased.</p><p>Imports of services increased by £0.9 billion in Quarter 1 2026 to £88.5 billion. The largest increases in imports were recorded in:</p>
+<ul>
+  <li><p>telecommunications, computer and information services, up by £0.6 billion</p></li>
+  <li><p>financial services, up by £0.4 billion</p></li>
+  <li><p>other business services, up by £0.3 billion</p></li>
+</ul><p>Exports of services decreased by £0.3 billion in Quarter 1 2026 to £140.3 billion. The largest decreases in exports were recorded in:</p>
+<ul>
+  <li><p>other business services, which fell by £2.1 billion</p></li>
+  <li><p>travel, which fell by £0.6 billion</p></li>
+</ul><p>These decreases were offset to a large degree by an increase in exports of financial services of £1.0 billion, and smaller increases in telecommunications, computer and information services of £0.4 billion; insurance and pension services of £0.3 billion and personal, cultural and recreational services of £0.3 billion.</p><p><div class="markdown-box-container
+
+
+">
+    <p><p><strong>More about economy, business and jobs</strong></p> <ul> <li> Explore the latest trends in employment, prices and trade in our <a href="https://www.ons.gov.uk/economy/nationalaccounts/articles/dashboardunderstandingtheukeconomy/2017-02-22">economic dashboard</a>. <li> View <a href="https://www.ons.gov.uk/economy/datalist?filter=datasets">all economic data</a>. </ul> </p>
+</div>
+ </p><h3>Primary income</h3><p>The primary income account records income that the UK receives and pays on financial and other assets, along with the compensation of employees.</p><p>The primary income account deficit narrowed from £11.9 billion in Quarter 4 2025 to £3.9 billion, or 0.5% of GDP, in Quarter 1 2026, as credits increased and debits decreased.</p><p>UK receipts (credits) increased by £6.5 billion from the previous quarter, to £107.1 billion. Earnings on direct investment abroad increased by £5.0 billion, along with increased earnings on portfolio investment by £1.1 billion, and other investment by £0.4 billion.</p><p>UK payments to foreign investors (debits) decreased by £1.5 billion from the previous quarter, to £111.0 billion in Quarter 1 2026. This is because of decreased payments on direct investment, and other investment, which fell by £1.9 billion and £0.9 billion, respectively. These were partially offset by an increase in payments on portfolio investment, which rose by £1.3 billion.</p><p>
+
+
+  
+
+    <div class="markdown-chart-container panel--bottom-mar print--avoid-break">
+
+      <h3 class="flush--third--vertical font-size--18 padding-top--0 margin-bottom--1">Figure 4: The primary income deficit narrowed in Quarter 1 2026 </h3>
+        
+            <h4 class="flush--third--bottom font-size--16 padding-top--0 margin-top--0">The UK’s primary income balance, Quarter 2 (Apr to June) 2023 to Quarter 1 (Jan to Mar) 2026 </h4>
+        
+
+      <div class="scrollable-container">
+        <div id="chart-5f792ef5" data-filename="5f792ef5" data-uri="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/5f792ef5" class="markdown-chart">
+            <!--[if gt IE 8]><!--><noscript><!--[endif]-->
+            <img src="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/5f792ef5&width=&hideSource=true" alt="" />
+            <!--[if gt IE 8]><!--></noscript><!--[endif]-->
+        </div>
+      </div>
+  
+  
+
+
+
+
+
+
+  <h4 class="flush--third--bottom font-size--h6 clear-left">Source: Balance of payments from the Office for National Statistics </h4>
+      <div id="notes-5f792ef5" class="notes-holder-js">
+  
+      <h5 class="flush--third--bottom js-notes-title font-size--16 padding-top--0">Notes:</h5>
+      <ol>
+  <li><p>Q1 refers to Quarter 1 (Jan to Mar), Q2 refers to Quarter 2 (Apr to June), Q3 refers to Quarter 3 (July to Sept) and Q4 refers to Quarter 4 (Oct to Dec).</p></li>
+  <li><p>Total includes reserve assets and compensation of employees.</p></li>
+</ol>
+  
+      </div>
+  
+    <h4 class="print--hide padding-top--0 margin-top--0 font-size--h6 clear-left"><span role="text">Download this chart <span class="visuallyhidden">Figure 4: The primary income deficit narrowed in Quarter 1 2026 </span></span></h4>
+
+    <a class="btn btn--primary print--hide js-chart-image-src" data-filename="5f792ef5" href="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/5f792ef5" download="Figure 4: The primary income deficit narrowed in Quarter 1 2026 " data-gtm-title="Figure 4: The primary income deficit narrowed in Quarter 1 2026 " data-gtm-type="download-chart-image"  aria-label="Download Figure 4: The primary income deficit narrowed in Quarter 1 2026  as an image">Image</a>
+      
+    <a class="btn btn--primary print--hide" title="Download as csv"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/5f792ef5&format=csv" 
+    data-gtm-title="Figure 4: The primary income deficit narrowed in Quarter 1 2026 " 
+    data-gtm-type="download-chart-csv"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="csv"
+    aria-label="Download Figure 4: The primary income deficit narrowed in Quarter 1 2026  as csv"
+>
+    .csv
+</a>
+    <a class="btn btn--primary print--hide" title="Download as xls"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/5f792ef5&format=xls" 
+    data-gtm-title="Figure 4: The primary income deficit narrowed in Quarter 1 2026 " 
+    data-gtm-type="download-chart-xls"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="xls"
+    aria-label="Download Figure 4: The primary income deficit narrowed in Quarter 1 2026  as xls"
+>
+    .xls
+</a>
+
+</div>
+</p><h3>Secondary income</h3><p>The secondary income account shows current transfers between UK residents and non-residents.</p><p>The secondary income deficit narrowed slightly from £3.8 billion in Quarter 4 2025 to £3.5 billion in Quarter 1 2026, and remained unchanged as a percentage of GDP at 0.5%.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="financial-account" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">3.</span> Financial account</h2>
+                        </header>
+                        <p>A current account deficit, which the UK has experienced each year since 1984, places the UK as a net borrower with the rest of the world, indicating that overall expenditure in the UK exceeds national income. The UK must attract net financial inflows to finance its current (and capital) account deficit. This can be achieved through either disposing of overseas assets to overseas investors or accruing liabilities with the rest of the world.</p><p>The financial account recorded a net inflow (more money flowing into the UK) of £7.2 billion in Quarter 1 (Jan to Mar) 2026 after recording a net inflow of £18.9 billion in Quarter 4 (Oct to Dec) 2025.</p><p>
+
+
+  
+
+    <div class="markdown-chart-container panel--bottom-mar print--avoid-break">
+
+      <h3 class="flush--third--vertical font-size--18 padding-top--0 margin-bottom--1">Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026 </h3>
+        
+            <h4 class="flush--third--bottom font-size--16 padding-top--0 margin-top--0">UK financial account balances, Quarter 2 (Apr to June) 2023 to Quarter 1 (Jan to Mar) 2026 </h4>
+        
+
+      <div class="scrollable-container">
+        <div id="chart-94af2f0b" data-filename="94af2f0b" data-uri="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/94af2f0b" class="markdown-chart">
+            <!--[if gt IE 8]><!--><noscript><!--[endif]-->
+            <img src="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/94af2f0b&width=&hideSource=true" alt="" />
+            <!--[if gt IE 8]><!--></noscript><!--[endif]-->
+        </div>
+      </div>
+  
+  
+
+
+
+
+
+
+  <h4 class="flush--third--bottom font-size--h6 clear-left">Source: Balance of payments from the Office for National Statistics</h4>
+      <div id="notes-94af2f0b" class="notes-holder-js">
+  
+      <h5 class="flush--third--bottom js-notes-title font-size--16 padding-top--0">Notes:</h5>
+      <ol>
+  <li><p>Q1 refers to Quarter 1 (Jan to Mar), Q2 refers to Quarter 2 (Apr to June), Q3 refers to Quarter 3 (July to Sept) and Q4 refers to Quarter 4 (Oct to Dec).</p></li>
+  <li><p>Total includes reserve assets.</p></li>
+</ol>
+  
+      </div>
+  
+    <h4 class="print--hide padding-top--0 margin-top--0 font-size--h6 clear-left"><span role="text">Download this chart <span class="visuallyhidden">Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026 </span></span></h4>
+
+    <a class="btn btn--primary print--hide js-chart-image-src" data-filename="94af2f0b" href="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/94af2f0b" download="Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026 " data-gtm-title="Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026 " data-gtm-type="download-chart-image"  aria-label="Download Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026  as an image">Image</a>
+      
+    <a class="btn btn--primary print--hide" title="Download as csv"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/94af2f0b&format=csv" 
+    data-gtm-title="Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026 " 
+    data-gtm-type="download-chart-csv"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="csv"
+    aria-label="Download Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026  as csv"
+>
+    .csv
+</a>
+    <a class="btn btn--primary print--hide" title="Download as xls"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/94af2f0b&format=xls" 
+    data-gtm-title="Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026 " 
+    data-gtm-type="download-chart-xls"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="xls"
+    aria-label="Download Figure 5: The UK’s financial account recorded a net inflow from the rest of the world in Quarter 1 2026  as xls"
+>
+    .xls
+</a>
+
+</div>
+</p><p>Net acquisition of UK assets (investment abroad) represented a financial outflow of £338.7 billion in Quarter 1 2026. Direct investment recorded an outflow of £28.2 billion, as UK investors reinvested earnings to the value of £25.8 billion.</p><p>Portfolio investment abroad switched from an inflow of £26.0 billion in Quarter 4 2025 to an outflow of £54.9 billion in Quarter 1 2026. This is because UK investors invested in foreign debt securities to the value of £95.1 billion, while disinvesting in foreign equity and investment fund shares to the value of £40.1 billion. Other investment abroad recorded an outflow of £259.3 billion in Quarter 1 2026.</p><p>Net incurrence of UK liabilities (investment in the UK) generated an inflow of £345.9 billion in Quarter 1 2026. Direct investment recorded an inflow of £14.5 billion, as direct investors invested in equity capital to the value of £12.5 billion and reinvested earnings to the value of £11.4 billion.</p><p>Portfolio investment recorded a £53.7 billion inflow, as foreign investors invested in UK debt securities to the value of £56.3 billion while disinvesting in equity and investment fund shares to the value of £2.5 billion. Other investment in the UK switched from an outflow of £38.3 billion in Quarter 4 2025 to an inflow of £277.7 billion in Quarter 1 2026.</p><p>More details are available in our <a href="https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/quarterlyeconomiccommentary/latest">Quarterly economic commentary article</a>.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="international-investment-position" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">4.</span> International investment position</h2>
+                        </header>
+                        <p>The international investment position (IIP) represents the UK's balance sheet with the rest of the world. IIP measures the difference between the net stock of assets and liabilities at a point in time, which we report as the last day of each quarter.</p><p>The preliminary estimate of the UK's net international investment liability position was £122.1 billion at the end of Quarter 1 (31 March) 2026, compared with £105.6 billion at the end of Quarter 4 (31 December) 2025.</p><p>In addition to a net inflow, as recorded in <a href="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026#financial-account">Section 3: Financial account</a>, the IIP was affected by exchange rates, as sterling depreciation inflated the value of foreign currency loans and deposits stocks.</p><p>
+
+
+  
+
+    <div class="markdown-chart-container panel--bottom-mar print--avoid-break">
+
+      <h3 class="flush--third--vertical font-size--18 padding-top--0 margin-bottom--1">Figure 6: The UK’s international investment net liability position widened in the latest quarter </h3>
+        
+            <h4 class="flush--third--bottom font-size--16 padding-top--0 margin-top--0">UK net international investment position, end of Quarter 2 (30 June) 2023 to the end of Quarter 1 (31 March) 2026</h4>
+        
+
+      <div class="scrollable-container">
+        <div id="chart-ab73c719" data-filename="ab73c719" data-uri="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/ab73c719" class="markdown-chart">
+            <!--[if gt IE 8]><!--><noscript><!--[endif]-->
+            <img src="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/ab73c719&width=&hideSource=true" alt="" />
+            <!--[if gt IE 8]><!--></noscript><!--[endif]-->
+        </div>
+      </div>
+  
+  
+
+
+
+
+
+
+  <h4 class="flush--third--bottom font-size--h6 clear-left">Source: Balance of payments from the Office for National Statistics</h4>
+      <div id="notes-ab73c719" class="notes-holder-js">
+  
+      <h5 class="flush--third--bottom js-notes-title font-size--16 padding-top--0">Notes:</h5>
+      <ol>
+  <li>IIP is a point-in-time estimate, which we report as the final day of each calendar quarter. In the chart, Q1 refers to 31 March, Q2 to 30 June, Q3 to 30 September and Q4 to 31 December.</li>
+</ol>
+  
+      </div>
+  
+    <h4 class="print--hide padding-top--0 margin-top--0 font-size--h6 clear-left"><span role="text">Download this chart <span class="visuallyhidden">Figure 6: The UK’s international investment net liability position widened in the latest quarter </span></span></h4>
+
+    <a class="btn btn--primary print--hide js-chart-image-src" data-filename="ab73c719" href="/chartimage?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/ab73c719" download="Figure 6: The UK’s international investment net liability position widened in the latest quarter " data-gtm-title="Figure 6: The UK’s international investment net liability position widened in the latest quarter " data-gtm-type="download-chart-image"  aria-label="Download Figure 6: The UK’s international investment net liability position widened in the latest quarter  as an image">Image</a>
+      
+    <a class="btn btn--primary print--hide" title="Download as csv"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/ab73c719&format=csv" 
+    data-gtm-title="Figure 6: The UK’s international investment net liability position widened in the latest quarter " 
+    data-gtm-type="download-chart-csv"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="csv"
+    aria-label="Download Figure 6: The UK’s international investment net liability position widened in the latest quarter  as csv"
+>
+    .csv
+</a>
+    <a class="btn btn--primary print--hide" title="Download as xls"
+    href="/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/ab73c719&format=xls" 
+    data-gtm-title="Figure 6: The UK’s international investment net liability position widened in the latest quarter " 
+    data-gtm-type="download-chart-xls"
+    data-gtm-download-file="timeseries-generated-file"
+    data-gtm-download-type="xls"
+    aria-label="Download Figure 6: The UK’s international investment net liability position widened in the latest quarter  as xls"
+>
+    .xls
+</a>
+
+</div>
+</p><p>The UK asset position on 31 March 2026 was valued at £15,061.7 billion. The UK liability position with the rest of the world was valued at £15,183.8 billion.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="revisions-to-the-current-account" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">5.</span> Revisions to the current account</h2>
+                        </header>
+                        <p>In line with our <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/revisions/revisionspoliciesforeconomicstatistics/nationalaccountsrevisionspolicyupdateddecember2017">National Accounts Revisions Policy</a>, the data accompanying this bulletin are open to revision from 2024 onwards. Revisions to "current account, excluding precious metals" data range from negative 1.3% to positive 0.1% of gross domestic product (GDP).</p><p>Revisions resulted largely from:       </p>
+<ul>
+  <li>updated survey data for foreign direct investment</li>
+  <li>a correction to a processing error in international trade in services transactions data from Quarter 1 2025, as per the detail in our <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/balanceofpaymentsstatisticalbulletintables">Balance of payments dataset</a></li>
+  <li>a correction to a <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/uktrade/march2026#revisions">processing error</a> in trade in goods exports of oil data supplied by HM Revenue and Customs (HMRC)</li>
+</ul><p>
+<div class="markdown-table-container print--avoid-break">
+    <div class="scrollable-container" tabindex="0">
+        <div class="markdown-table-wrap">
+            <figure class="figure" id="table-d97a89c7">
+<table class="table">
+<caption class="table__caption">Table 2: Revisions to reported percentages for the current account, excluding precious metals, as a percentage of gross domestic product <br/><span class="table__subtitle">Revisions to the current account excluding precious metals as a percentage of gross domestic product (GDP), Quarter 1 (Jan to Mar) 2024 to Quarter 4 (Oct to Dec) 2025</span></caption>
+<colgroup><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/><col style="width: 3.57em"/></colgroup>
+<tr class="table__header-row"><th scope="col" class="align-left">Period</th><th scope="col" class="align-right">Trade in goods excluding precious metals</th><th scope="col" class="align-right">Trade in services</th><th scope="col" class="align-right">Total trade excluding precious metals</th><th scope="col" class="align-right">Total primary income</th><th scope="col" class="align-right">Total secondary income</th><th scope="col" class="align-right">Current account excluding precious metals</th></tr>
+<tr><td class="align-left">Q1 2024 </td><td class="align-right">0.1</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td></tr>
+<tr><td class="align-left">Q2 2024 </td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td></tr>
+<tr><td class="align-left">Q3 2024 </td><td class="align-right">0.0</td><td class="align-right">0.1</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td></tr>
+<tr><td class="align-left">Q4 2024 </td><td class="align-right">0.0</td><td class="align-right">0.1</td><td class="align-right">0.1</td><td class="align-right">0.1</td><td class="align-right">0.0</td><td class="align-right">0.1</td></tr>
+<tr><td class="align-left">Q1 2025</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">-0.2</td><td class="align-right">0.0</td><td class="align-right">-0.3</td></tr>
+<tr><td class="align-left">Q2 2025</td><td class="align-right">-0.1</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">-0.1</td><td class="align-right">0.0</td><td class="align-right">-0.2</td></tr>
+<tr><td class="align-left">Q3 2025</td><td class="align-right">-0.2</td><td class="align-right">-0.1</td><td class="align-right">-0.3</td><td class="align-right">-1.0</td><td class="align-right">0.0</td><td class="align-right">-1.2</td></tr>
+<tr><td class="align-left">Q4 2025</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">0.0</td><td class="align-right">-1.3</td><td class="align-right">0.0</td><td class="align-right">-1.3</td></tr>
+</table><footer class="figure__footer">
+<p class="figure__source">Source: Balance of payments from the Office for National Statistics</p>
+<p class="figure__notes">Notes</p>
+<ol class="figure__footnotes">
+<li id="table-d97a89c7-note-1" class="figure__footnote-item">Sum of components may not sum to total because of rounding.</li>
+<li id="table-d97a89c7-note-2" class="figure__footnote-item">Q1 refers to Quarter 1 (Jan to Mar), Q2 refers to Quarter 2 (Apr to June), Q3 refers to Quarter 3 (July to Sept) and Q4 refers to Quarter 4 (Oct to Dec).</li>
+</ol>
+</footer>
+</figure>
+
+        </div>
+    </div>
+
+    <h4 class="print--hide font-size--h6 padding-top--0"><span role="text">Download this table <span class="visuallyhidden">Table 2: Revisions to reported percentages for the current account, excluding precious metals, as a percentage of gross domestic product </span></span></h4>
+    <a href="/download/table?format=xlsx&uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/d97a89c7.json" title="Download as xls" class="btn btn--primary print--hide" data-gtm-title="Table 2: Revisions to reported percentages for the current account, excluding precious metals, as a percentage of gross domestic product " data-gtm-type="download-table-xlsx" aria-label="Download Table 2: Revisions to reported percentages for the current account, excluding precious metals, as a percentage of gross domestic product  as xls">.xls</a>
+    <a href="/download/table?format=csv&uri=/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/d97a89c7.json" title="Download as csv" class="btn btn--primary print--hide" data-gtm-title="Table 2: Revisions to reported percentages for the current account, excluding precious metals, as a percentage of gross domestic product " data-gtm-type="download-table-csv" aria-label="Download Table 2: Revisions to reported percentages for the current account, excluding precious metals, as a percentage of gross domestic product  as csv">.csv</a>
+</div></p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="data-on-balance-of-payments" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">6.</span> Data on balance of payments</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p><a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/balanceofpaymentsstatisticalbulletintables">Balance of payments<br> </a>Dataset | Released 30 June 2026<br> Quarterly summary of balance of payments accounts including the current account, capital transfers, transactions, and levels of UK external assets and liabilities.</p><p><a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/balanceofpayments">Balance of payments time series</a><br> Dataset | Released 30 June 2026<br> Quarterly summary of balance of payments accounts including the current account, capital transfers, transactions and levels of UK external assets and liabilities.</p><p><a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/balanceofpaymentsrevisiontriangles">Balance of payments – revision triangles</a><br> Dataset | Released 30 September 2025<br> Quarterly summary information on the size and direction of the revisions made to the data covering a five-year period, UK.</p><p><a href="https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/datasets/ukeconomicaccounts">UK Economic Accounts: all data</a><br> Dataset | Released 30 June 2026<br> Quarterly estimates of national product, income and expenditure, sector accounts and balance of payments. </p>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="glossary" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">7.</span> Glossary</h2>
+                        </header>
+                        <p><div class="js--show">
+
+    <div class="pym-interactive" id="435-42a2-bcd9-ac69ab48d505" data-url="https://www.ons.gov.uk/visualisations/pinkgloss/pinkbook_gloss/index.html" data-title="bol gloss"></div>
+
+    <details class="details">
+        <summary class="details__summary" role="button" aria-label="bol gloss embed code">Embed code</summary>
+        <div class="details__body">
+            <label class="embed-code__label" for="embed-435-42a2-bcd9-ac69ab48d505">Embed this interactive</label>
+            <input class="embed-code__code width-md--31"
+        value='<iframe width="100%" src="https://www.ons.gov.uk/visualisations/pinkgloss/pinkbook_gloss/index.html"></iframe>'
+                   id="embed-435-42a2-bcd9-ac69ab48d505"
+                   name="embed-435-42a2-bcd9-ac69ab48d505"
+                   readonly
+            />
+            <span class="embed-code__success-container">
+                <button id="" data-id="435-42a2-bcd9-ac69ab48d505" type="button" class="btn btn--primary embed-code__button js-embed-code-copy">Copy</button>
+                <span role="status"></span>
+            </span>
+        </div>
+    </details>
+
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="data-sources-and-quality" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">8.</span> Data sources and quality</h2>
+                        </header>
+                        <h3>Data sources</h3><p>Balance of payments statistics are compiled from a variety of sources and produced using the national accounts sector and financial accounts (SFA) framework. Some of the main sources used include:</p>
+<ul>
+  <li>overseas trade statistics (HM Revenue and Customs (HMRC))</li>
+  <li>International Trade in Services Survey (ITIS) from the Office for National Statistics (ONS)</li>
+  <li>International Passenger Survey (ONS); this was suspended between March 2020 and January 2021 because of the coronavirus (COVID-19) pandemic, and is currently undergoing transformation</li>
+  <li>Foreign Direct Investment Survey (ONS and Bank of England (BoE))</li>
+  <li>various financial inquiries (ONS and BoE)</li>
+  <li>Ownership of UK Quoted Shares Survey (ONS)</li>
+</ul><p>Trade is measured through both exports and imports of goods and services. Data are supplied by over 30 sources, including several administrative sources, with HMRC being the largest for trade in goods. The ITIS, conducted by the ONS, is the largest single data source for trade in services.</p><p>The main source of information for UK foreign direct investment (FDI) statistics is our FDI Survey. Separate surveys are used to collect data on inward and outward FDI. This is combined with data from the BoE on the banking sector.</p><p>The statistics in this bulletin are compiled using the asset and liability measurement principle, which uses residency as the main distinction between outward and inward investments.</p><h3>Changes affecting UK trade statistics</h3><h4>Exports of oil</h4><p>As previously communicated, we identified <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/uktrade/march2026#revisions">an error in trade in goods export data supplied by HM Revenue and Customs (HMRC)</a>. This error affected exports of oil and has now been resolved.</p><h3>Data collection changes</h3><p>Since the UK left the EU on 31 January 2020, the arrangements for how the UK trades with the EU have changed. HMRC implemented some data collection changes following Brexit, which affected statistics on UK trade in goods with the EU. We have made adjustments to our estimates of goods imports from the EU in 2021 and 2022 to account for these changes. However, a structural break remains in the full time series for goods imports from and exports to the EU from January 2021.</p><p>We therefore advise caution when interpreting and drawing conclusions from these statistics. Our <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/articles/impactoftradeingoodsdatacollectionchangesonuktradestatistics/summaryofadjustmentstouktradestatistics">Impact of trade in goods data collection changes on UK trade statistics: summary of adjustments and the structural break from 2021 article</a> provides more detail.</p><h3>International trade in services estimates</h3><p>From September 2025 until early 2027, International Trade in Services Survey (ITIS) data, which account for approximately 50% of total trade in services, are being processed once per quarter. During this period, the data are based on a survey response rate of approximately 60% to 70%. This enables more focus on improving processing systems and ensuring methods and quality in the future.</p><p>The ITIS data that currently inform trade in services estimates are based on benchmarked annual 2023 survey data and quarterly ITIS survey data for periods from Quarter 1 2024 onwards. We plan to incorporate benchmarked annual 2024 data in September 2026, in line with our <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/revisions/revisionspoliciesforeconomicstatistics/nationalaccountsrevisionspolicyupdateddecember2017">National Accounts Revisions Policy</a>.</p><p>In this publication we have corrected <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/balanceofpaymentsstatisticalbulletintables">an error in international trade in services transactions estimates that were previously published, from Quarter 1 2025</a>. </p><p>The International Passenger Survey (IPS), which is the source of travel services estimates, accounting for approximately 8% of total trade, is being transformed under our <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/leisureandtourism/articles/improvingourtravelandtourismstatistics/august2025">travel and tourism project</a>. The travel services estimates have been forecast since Quarter 3 2024 and will be forecast during travel and tourism transformation.</p><h3>Financial sector statistics</h3><p>Our <a href="https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/financialservicessurveyfsstransformation/2024-12-12">Financial Services Survey (FSS) transformation</a> will improve the quality of our financial sector statistics. During the period of transformation, starting from Quarter 1 2024, financial services statistics in this bulletin are based on forecasts.</p><h3>Quality and methodology</h3><p>More quality and methodology information on strengths, limitations, appropriate uses, and how the data were created is available in our <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/methodologies/balanceofpaymentsqmi">Balance of payments quality and methodology information (QMI)</a>.</p><p>We will continue to produce our UK balance of payments statistics in line with the UK Statistics Authority's <a href="https://code.statisticsauthority.gov.uk/">Code of Practice for Statistics</a>, and in accordance with internationally agreed statistical guidance and standards. This is based on the International Monetary Fund's <a href="https://www.imf.org/external/pubs/ft/bop/2007/pdf/bpm6.pdf">Balance of Payments and International Investment Position Manual: Sixth Edition (BPM6) (PDF, 3.0MB)</a>, until those standards are updated.</p><h3>Accredited official statistics</h3><p>These <a href="https://osr.statisticsauthority.gov.uk/accredited-official-statistics/">accredited official statistics</a> were independently reviewed by the Office for Statistics Regulation in December 2011. They comply with the standards of trustworthiness, quality and value in the Code of Practice for Statistics and should be labelled "accredited official statistics".</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="related-links" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">9.</span> Related links</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p><a href="https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/articles/developingforeigndirectinvestmentstatistics/2021">Developing foreign direct investment statistics: 2021</a><br> Article | Released 29 April 2021<br> An overview of our progress on the development of foreign direct investment (FDI) statistics since 2019, and our plans for the next phase of development.</p><p><a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/unitedkingdombalanceofpaymentsthepinkbook/2025">UK Balance of Payments, The Pink Book: 2025</a><br> Bulletin | Released 31 October 2025<br> Balances between inward and outward transactions, providing a net flow of transactions between UK residents and the rest of the world and reports on how that flow is funded.</p><p><a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/foreigndirectinvestmentinvolvingukcompanies/2024">Foreign direct investment involving UK companies: 2024</a><br> Bulletin | Released 27 January 2026<br> Investment of UK companies abroad (outward) and foreign companies into the UK (inward), including investment flows, positions, and earnings, by country, component and industry.</p><p><a href="https://www.ons.gov.uk/file?uri=/economy/nationalaccounts/balanceofpayments/methodologies/balanceofpayments/anintroductiontotheukbopbpm6tcm77279821.pdf">A brief introduction to the UK balance of payments (PDF, 92KB)</a><br> Article<br> Overview of the concepts and coverage of the UK balance of payments using the Balance of Payments Manual sixth edition (BPM6).</p><p><a href="https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/understandingtheuksnetinternationalinvestmentposition/2020-04-27">Understanding the UK's net international investment position</a><br> Article | Released 27 April 2020<br> The impact that price and exchange rates have on the valuation of the UK's net international investment position. This is an economic review article.</p><p><a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/julytosept2016#movements-in-foreign-exchange-rates">Balance of Payments, UK: Quarter 3 (July to Sept) 2016</a><br> Bulletin | Released 23 December 2016<br> A measure of cross-border transactions between the UK and rest of the world. Includes trade, income, capital transfers and foreign assets and liabilities. Section 4 is an overview of how movements in foreign exchange rates can affect the balance of payments and international investment position (IIP). </p>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="cite-this-statistical-bulletin" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">10.</span> Cite this statistical bulletin</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p>Office for National Statistics (ONS), released 30 June 2026, ONS website, statistical bulletin, <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026">Balance of payments, UK: January to March 2026</a> </p>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+            <!-- Accordion -->
+            
+             <!-- Margin at bottom of article if no Accordion present -->
+                <div class="margin-bottom--4">
+                </div>
+            
+        </article>
+        
+        <div class="col col--md-11 col--lg-20 margin-top-md--3">
+            
+    
+    
+
+
+
+	<div class=" margin-bottom-sm--2 margin-bottom-md--2 print--hide">
+		<a class="btn btn--primary btn--full-width" href="/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026/relateddata" data-gtm-title="" data-gtm-type="related-data">
+			
+			
+
+			
+			
+				View all data used in this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+			
+
+			
+			
+		</a>
+	</div>
+
+    
+    
+
+
+<div class="tiles__item tiles__item--nav-type flush-col">
+	<h3 class="tiles__title-h3 tiles__title-h3--nav">
+		Contact details for this <span class="lowercase">
+Statistical bulletin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+	</h3>
+	<div class="tiles__content--nav">
+		<address>
+			UK Balance of Payments team<br/>
+			<a href="mailto:bop@ons.gov.uk">bop@ons.gov.uk</a><br/>
+			Telephone: +44 1633 456106
+		</address>
+	</div>
+</div>
+    
+    
+
+    
+    
+    
+    
+
+        </div>
+    </div> 
+
+</div>
+
+</main>
+
+
+	<footer class="print--hide">
+	<h2 class="visuallyhidden">Footer links</h2>
+	<div class="footer">
+		<div class="wrapper">
+			<nav aria-label="Footer links">
+                <div class="footer-nav col-wrap">
+                    
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">Help</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/help/accessibility">Accessibility</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/cookies">Cookies</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/help/privacynotice">Privacy</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/help/termsandconditions">Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">About ONS</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/whatwedo">What we do</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://careers.ons.gov.uk">Careers</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/contactus">Contact us</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/news">News</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/transparencyandgovernance/freedomofinformationfoi">Freedom of Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">Connect with us</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="https://twitter.com/ONS" target="_blank">X</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.instagram.com/officefornationalstatistics" target="_blank">Instagram</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.facebook.com/ONS" target="_blank">Facebook</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.linkedin.com/company/office-for-national-statistics" target="_blank">LinkedIn</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://consultations.ons.gov.uk/" target="_blank">Consultations</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.statsusernetwork.ons.gov.uk/" target="_blank">Discussion forums</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://public.govdelivery.com/accounts/UKONS/subscribers/new" target="_blank">Email alerts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+			</nav>
+		</div>
+		<div class="wrapper">
+			<div class="footer-license">
+				<img class="footer-license__img" alt="OGL" width="60" src="https://cdn.ons.gov.uk/assets/images/logo-ogl-footer.svg">
+				<p class="footer-license__text margin-left-sm--0">
+					All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="//cdn.ons.gov.uk/sixteens/418c927/js/main.js"></script>
+        <script src="/js/app.js"></script>
+
+        
+        
+            <script src="/js/third-party/highcharts-annotations-5.0.7.js"></script>
+            <script src="/js/third-party/highcharts-broken-axis-5.0.7.js"></script>
+            <script src="/js/third-party/highcharts-heatmap-5.0.7.js"></script>
+            <script src="/js/third-party/highcharts-exporting-5.0.7.js"></script>
+        
+
+	<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a29e9a10ca97fc36',t:'MTc4NjUyODQ5OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

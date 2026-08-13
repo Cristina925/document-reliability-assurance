@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "DRA-VAL-001B-v1",
+  "documentId": "DRA-VAL-DOC-0002",
+  "slot": {
+    "documentId": "DRA-VAL-DOC-0002",
+    "status": "FROZEN",
+    "domain": "HEALTHCARE_AND_LIFE_SCIENCES",
+    "sourceType": "AI_GENERATED",
+    "difficultyStratum": "MEDIUM",
+    "lengthStratum": "MEDIUM",
+    "corpusPhase": "PILOT",
+    "syntheticFlag": true,
+    "lastUpdated": "2026-07-27T12:00:00",
+    "contentDescription": "Clinical Governance Annual Report 2024 for a fictional NHS trust. Covers patient safety, clinical effectiveness, patient experience, and workforce. Synthetic, purpose-generated."
+  },
+  "provenance": {
+    "sourceDescription": "Purpose-generated synthetic clinical governance document created for the DRA Scientific Validation Programme (DRA-VAL-001B) pilot corpus. Northgate Community Health Trust is a fictional entity.",
+    "sourceOwner": "DRA-VAL Programme",
+    "sourceClass": "PURPOSE_GENERATED",
+    "acquisitionDate": "2026-07-27",
+    "sourceVerifiable": true,
+    "acquiredIndependentlyOfEvaluatorOutput": true,
+    "notDerivedFromEngineeringFixtures": true,
+    "provenanceNotes": "AI-generated synthetic document. Explicitly marked as synthetic in header. The NHS trust, persons, and incidents are entirely fictitious."
+  },
+  "permittedUse": {
+    "permittedUseBasis": "PURPOSE_GENERATED_NO_RESTRICTION",
+    "storagePermitted": true,
+    "publicationPermitted": true,
+    "attributionRequired": false
+  },
+  "confidentiality": {
+    "confidentialityLevel": "PUBLIC",
+    "containsPersonalData": false,
+    "accessRestricted": false,
+    "confidentialityNotes": "Synthetic document — no real patient data, no real personal information."
+  },
+  "anonymisation": {
+    "anonymisationStatus": "NOT_REQUIRED",
+    "anonymisationVerified": true
+  },
+  "sourceEvidence": {
+    "sourceEvidenceAvailability": "AVAILABLE",
+    "sourceEvidenceEmbedded": true,
+    "sourceEvidenceNotes": "Source evidence is the generation record. No external source material exists."
+  },
+  "duplicateCheck": {
+    "canonicalContentDigest": "1fbcccfc29641818177b222a94cde60117e01cb3e81cb3e1baf8f20be4852716",
+    "normalisedTextDigest": "1fbcccfc29641818177b222a94cde60117e01cb3e81cb3e1baf8f20be4852716",
+    "exactDuplicateFound": false,
+    "nearDuplicateSimilarityMethod": "MinHash Jaccard similarity on 3-gram tokens with 128 hash functions; threshold 0.80",
+    "nearDuplicateSimilarityScore": 0,
+    "nearDuplicateSimilarityThreshold": 0.8,
+    "flaggedAsNearDuplicate": false,
+    "duplicateDisposition": "DISTINCT",
+    "checkDate": "2026-07-27"
+  },
+  "contaminationCheck": {
+    "matchesEvaluatorFixture": false,
+    "appearedInEvaluatorDevelopment": false,
+    "usedInEngineeringValidation": false,
+    "reviewedWithEvaluatorOutputVisible": false,
+    "selectionBiasEvidencePresent": false,
+    "constructedToTargetEvaluatorRules": false,
+    "generatedUsingEvaluatorFindings": false,
+    "contaminationSignals": [
+      "CLEAR"
+    ],
+    "contaminationResolution": "ADMITTED_NO_SIGNAL",
+    "checkDate": "2026-07-27"
+  },
+  "admissionDecision": {
+    "outcome": "ADMITTED",
+    "decisionTimestamp": "2026-07-27T12:00:00",
+    "reviewedBy": "DRA-VAL-001B Corpus Admission Procedure",
+    "inclusionCriteriaSatisfied": [
+      "IC-1",
+      "IC-2",
+      "IC-3",
+      "IC-4",
+      "IC-5",
+      "IC-6",
+      "IC-7",
+      "IC-8"
+    ],
+    "exclusionCriteriaChecked": [
+      "EC-1",
+      "EC-2",
+      "EC-3",
+      "EC-4",
+      "EC-5",
+      "EC-6",
+      "EC-7",
+      "EC-8"
+    ],
+    "quotaClassificationVerified": true,
+    "admissionNotes": "Purpose-generated AI synthetic document. Domain: HEALTHCARE_AND_LIFE_SCIENCES. Pilot slot 2 of 7."
+  },
+  "integrityDigest": "2341c05d104aae0edda5ee5404cd67247581c361c8dfa88a1dd68b347e02615b",
+  "frozenAt": "2026-07-27T12:00:00"
+}

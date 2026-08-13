@@ -1,0 +1,57 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This licence applies to the original DRA (Document Reliability Assurance)
+research manuscript, research reports, protocol documents, freeze/governance
+records, diagrams, and other original authored documentation in this
+repository (principally the contents of `docs/dra/`), unless a specific file
+or passage indicates otherwise.
+
+It does NOT apply to:
+- the DRA software/source code (evaluator, pipeline, tooling, tests), which
+  is licensed separately under the MIT License — see `LICENSE`;
+- third-party documents, source materials, extracts, datasets, quotations,
+  figures, or other content originating outside this research programme,
+  which remain subject to their own original copyright and licence terms and
+  are not relicensed by this notice. See `docs/dra/DRA-LICENSING.md` and
+  `docs/dra/DRA-ATTRIBUTION.md` for the complete boundary and per-source
+  licence determinations.
+
+Canonical licence identifier: CC-BY-4.0
+Canonical licence name: Creative Commons Attribution 4.0 International
+Canonical licence URL: https://creativecommons.org/licenses/by/4.0/
+Canonical legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+---
+
+Creative Commons Attribution 4.0 International Public License
+
+By exercising the Licensed Rights (defined below), You accept and agree to
+be bound by the terms and conditions of this Creative Commons Attribution
+4.0 International Public License ("Public License"). This is a concise,
+unambiguous identification of the licence terms governing the material
+described above; it is not a substitute for the full legal code, which is
+incorporated by reference and controls in the event of any conflict or
+ambiguity. The full legal code is available at:
+
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+In summary (this summary is not a substitute for the licence itself), under
+CC BY 4.0 you are free to:
+
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+for any purpose, even commercially, under the following terms:
+
+- Attribution — You must give appropriate credit, provide a link to the
+  licence, and indicate if changes were made. You may do so in any
+  reasonable manner, but not in any way that suggests the licensor endorses
+  you or your use.
+- No additional restrictions — You may not apply legal terms or
+  technological measures that legally restrict others from doing anything
+  the licence permits.
+
+See `docs/dra/DRA-CITATION.cff` for the machine-readable citation record and
+attribution details, and `docs/dra/DRA-LICENSING.md` for the complete
+licensing boundary covering software, original documentation, and
+third-party material.

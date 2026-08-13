@@ -1,0 +1,121 @@
+INFORMATION SECURITY POLICY FRAMEWORK
+Version 2.0 | Effective Date: 1 January 2024 | Classification: PUBLIC
+Source Type: PURPOSE-GENERATED (AI-GENERATED SYNTHETIC)
+
+SYNTHETIC DOCUMENT NOTICE
+This document was purpose-generated as a synthetic benchmark specimen for the
+DRA Scientific Validation Programme (DRA-VAL-001B). It does not represent
+the security policies of any real organisation. It must not be used as an
+authoritative security reference.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. PURPOSE, SCOPE, AND AUTHORITY
+
+1.1 This framework establishes the organisation's information security policy
+    hierarchy and defines the mandatory requirements applicable to all
+    information assets, systems, personnel, contractors, and third-party
+    partners who handle, process, or store information on behalf of the
+    organisation.
+
+1.2 This framework is issued under the authority of the Chief Information
+    Security Officer (CISO) and has been approved by the Executive Committee.
+    It supersedes the Information Security Policy v1.2 dated March 2022.
+
+1.3 Compliance with this framework is mandatory for all in-scope parties.
+    Failure to comply may result in disciplinary action, contract termination,
+    or regulatory referral as appropriate.
+
+2. POLICY HIERARCHY
+
+2.1 This framework establishes four tiers of policy documentation:
+    Tier 1 — Framework (this document): mandatory principles and obligations
+    Tier 2 — Domain Policies: detailed requirements per domain (see §6)
+    Tier 3 — Standards: technical and procedural specifications
+    Tier 4 — Guidelines: advisory best practice and operational guidance
+
+2.2 Where a conflict exists between tiers, the higher tier takes precedence.
+
+3. MANDATORY SECURITY PRINCIPLES
+
+3.1 Confidentiality: Information must be accessible only to those with a
+    legitimate need and appropriate authorisation.
+
+3.2 Integrity: Information must be accurate, complete, and protected from
+    unauthorised modification.
+
+3.3 Availability: Information and systems must be available to authorised
+    users when needed, subject to agreed service levels.
+
+3.4 Accountability: All access to information assets must be attributable to
+    identified individuals and must be logged where technically feasible.
+
+3.5 Proportionality: Controls must be proportionate to the sensitivity of the
+    information and the risk of its compromise.
+
+4. ACCESS CONTROL REQUIREMENTS
+
+4.1 Role-based access control (RBAC) is mandatory for all systems handling
+    RESTRICTED or above classified information.
+
+4.2 Privileged accounts (administrator, root, service accounts) must not be
+    used for routine work. Privileged access must be time-limited and logged.
+
+4.3 Multi-factor authentication (MFA) is mandatory for:
+    (a) all remote access to organisation systems;
+    (b) access to systems classified CONFIDENTIAL or above;
+    (c) all administrative and privileged accounts;
+    (d) access to financial and HR data systems.
+
+4.4 Access reviews for critical systems must be conducted at least quarterly.
+    All other systems require annual access reviews.
+
+5. INCIDENT MANAGEMENT
+
+5.1 All security incidents — including suspected incidents — must be reported
+    to the Security Operations Centre within one hour of discovery.
+
+5.2 Personal data breaches must be assessed within 72 hours for notification
+    obligations under UK GDPR Article 33. The Data Protection Officer must be
+    notified immediately upon identification of a potential personal data breach.
+
+5.3 A post-incident review must be completed within 10 working days of
+    incident closure for all incidents rated P1 or P2.
+
+5.4 The organisation maintains a cyber incident response plan (CIRP-001) which
+    is tested annually through tabletop exercises.
+
+6. DOMAIN POLICY REGISTER
+
+6.1 The following Tier 2 domain policies are in force under this framework:
+    ISP-02  Asset Management Policy
+    ISP-03  Cryptography Policy
+    ISP-04  Physical and Environmental Security Policy
+    ISP-05  Operations Security Policy
+    ISP-06  Communications Security Policy
+    ISP-07  Supplier Relationship Security Policy
+    ISP-08  Business Continuity and Resilience Policy
+    ISP-09  Compliance and Audit Policy
+
+6.2 Domain policies must be reviewed at least every two years or following
+    a material change to the threat landscape or regulatory environment.
+
+7. EXCEPTIONS
+
+7.1 Exceptions to this framework may be granted by the CISO for a defined
+    period with documented risk acceptance from the relevant business owner.
+
+7.2 Exceptions must be reviewed at least annually. Expired exceptions that
+    have not been renewed are void and the relevant control is immediately
+    reinstated.
+
+8. REVIEW SCHEDULE
+
+This framework will be reviewed annually. The next scheduled review is
+January 2025.
+
+Approved: Chief Information Security Officer
+Date: [Document date withheld — synthetic]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF DOCUMENT

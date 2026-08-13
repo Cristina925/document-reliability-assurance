@@ -1,0 +1,1012 @@
+PLOS ONE
+
+                                                        RESEARCH ARTICLE
+
+                                                        An analysis of the effects of sharing research
+                                                        data, code, and preprints on citations
+                                                        Giovanni Colavizza ID1,2*, Lauren Cadwallader ID3, Marcel LaFlamme ID3, Grégory Dozot4,
+                                                        Stéphane Lecorney ID4, Daniel Rappo4, Iain Hrynaszkiewicz ID3*
+                                                        1 University of Bologna, Bologna, Italy, 2 University of Copenhagen, Copenhagen, Denmark, 3 PLOS, United
+                                                        States of America, 4 HEIG-VD, Yverdon-les-Bains, Switzerland
+
+                                                        * giovanni.colavizza@unibo.it (GC); ihrynaszkiewicz@plos.org (IH)
+
+
+a1111111111
+a1111111111                                             Abstract
+a1111111111
+a1111111111                                             Calls to make scientific research more open have gained traction with a range of societal
+a1111111111                                             stakeholders. Open Science practices include but are not limited to the early sharing of
+                                                        results via preprints and openly sharing outputs such as data and code to make research
+                                                        more reproducible and extensible. Existing evidence shows that adopting Open Science
+                                                        practices has effects in several domains. In this study, we investigate whether adopting one
+    OPEN ACCESS                                         or more Open Science practices leads to significantly higher citations for an associated pub-
+Citation: Colavizza G, Cadwallader L, LaFlamme M,
+                                                        lication, which is one form of academic impact. We use a novel dataset known as Open Sci-
+Dozot G, Lecorney S, Rappo D, et al. (2024) An          ence Indicators, produced by PLOS and DataSeer, which includes all PLOS publications
+analysis of the effects of sharing research data,       from 2018 to 2023 as well as a comparison group sampled from the PMC Open Access Sub-
+code, and preprints on citations. PLoS ONE 19(10):
+                                                        set. In total, we analyze circa 122’000 publications. We calculate publication and author-
+e0311493. https://doi.org/10.1371/journal.
+pone.0311493                                            level citation indicators and use a broad set of control variables to isolate the effect of Open
+                                                        Science Indicators on received citations. We show that Open Science practices are adopted
+Editor: Yongli Tang, Jinan University, CHINA
+                                                        to different degrees across scientific disciplines. We find that the early release of a publica-
+Received: April 25, 2024
+                                                        tion as a preprint correlates with a significant positive citation advantage of about 20.2%
+Accepted: September 19, 2024                            (±.7) on average. We also find that sharing data in an online repository correlates with a
+Published: October 30, 2024                             smaller yet still positive citation advantage of 4.3% (±.8) on average. However, we do not
+Copyright: © 2024 Colavizza et al. This is an open
+                                                        find a significant citation advantage for sharing code. Further research is needed on addi-
+access article distributed under the terms of the       tional or alternative measures of impact beyond citations. Our results are likely to be of inter-
+Creative Commons Attribution License, which             est to researchers, as well as publishers, research funders, and policymakers.
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original
+author and source are credited.
+
+Data Availability Statement: All data are available
+at the following links: OSI dataset: https://doi.org/
+10.6084/m9.figshare.21687686.v5 • Code                  1 Introduction
+(GitHub): https://github.com/MediaComem/das-
+                                                        Arising from a diverse set of cultural and technological projects at the turn of the twenty-first
+public • Data (Zenodo): https://zenodo.org/doi/10.
+5281/zenodo.10134811.
+                                                        century [1–3], contemporary calls to make scientific research more open point toward a no
+                                                        less diverse range of outcomes. One influential definition characterizes Open Science as “trans-
+Funding: PLOS provided funding for data
+                                                        parent and accessible knowledge that is shared and developed through collaborative networks”
+acquisition, modeling, and analysis, and had a role
+in the study design, analysis, and preparation of the
+                                                        [4], encompassing knowledge objects or outputs as well as processes [5]. Another developed
+manuscript. PLOS also provided support in the           by UNESCO defines Open Science as “an inclusive construct that combines various move-
+form of salaries for authors LC, ML, and IH.            ments and practices aiming to make multilingual scientific knowledge openly available,
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                   1 / 19
+PLOS ONE                                                                             The effects of sharing research data, code, and preprints on citations
+
+
+
+Competing interests: Three of the authors (LC,   accessible and reusable for everyone, to increase scientific collaborations and sharing of infor-
+ML, and IH) were at the time of publication      mation for the benefits of science and society, and to open the processes of scientific knowl-
+employed by PLOS, the publisher of PLOS ONE.
+                                                 edge creation, evaluation and communication to societal actors beyond the traditional
+This does not alter our adherence to PLOS ONE
+policies on sharing data and materials.          scientific community” [6].
+                                                     While acknowledging this diversity of ambitions, in what follows we focus on practices
+                                                 resulting in what UNESCO terms “open scientific knowledge” [6]: that is, the making of scien-
+                                                 tific publications and the materials that underpin them available to all, free of charge. These
+                                                 Open Science practices include but are not limited to Open Access publication; the early shar-
+                                                 ing of results, for example via the use of preprints; openly sharing outputs such as data, code,
+                                                 and protocols to make research more reproducible and extensible; and fostering rigor and
+                                                 transparency in study design, for example via study registration. While the uptake of these
+                                                 practices by researchers varies by field, career stage, and region, their prevalence is growing
+                                                 overall [7, 8]. Drivers of this growth include publisher and funder policies, training and infra-
+                                                 structure support, and cultural change [9, 10]. The proliferation of policies for Open Science
+                                                 has led to a greater need to monitor the effects of these policies on Open Science [11], although
+                                                 comprehensive solutions for measuring Open Science are lacking. Still, researchers, technol-
+                                                 ogy providers, research funders, institutions and publishers have begun to monitor the preva-
+                                                 lence of Open Science practices (https://open-science-monitoring.org/monitors/). These
+                                                 efforts provide new evidence and data sources from which to understand if and how Open Sci-
+                                                 ence practices are being adopted, and to explore the extent to which these practices confer
+                                                 effects, impacts or benefits as a result of their adoption.
+                                                     Despite their limitations [12], citation counts and other bibliometric indicators are fre-
+                                                 quently used as quantitative measures of research impact and quality, and play a role in
+                                                 research assessment activities that support researchers’ career progression, and awarding of
+                                                 research funding [13]. As such, actions that can increase the potential for citations of research-
+                                                 ers’ articles may be seen as desirable and may motivate changes in research and publishing
+                                                 practices. As monitoring of Open Science increases, there is also growing recognition that
+                                                 those who are subject to monitoring by indicators should be involved in the development of
+                                                 indicators [14]. Biomedical researchers have, for example, developed community consensus
+                                                 on the relative importance, for monitoring, of 19 different Open Science practices [15].
+                                                     In this article, we contribute to an emerging strand of research assessing the impact of
+                                                 Open Science practices. We focus on a set of measurable Open Science practices that include
+                                                 data sharing, code sharing, and preprint posting. More specifically, we ask whether adopting
+                                                 any combination of these practices leads to a significantly higher citation impact for an associ-
+                                                 ated publication when compared to similar publications for which authors have not adopted
+                                                 Open Science practices. We answer this question by leveraging a novel dataset known as Open
+                                                 Science Indicators, which is produced by the nonprofit Open Access publisher PLOS in part-
+                                                 nership with DataSeer (https://dataseer.ai) [16], and by adapting a previously released work-
+                                                 flow to mine citation data from the PMC Open Access Subset [17]. An important aspect of our
+                                                 contribution is the assessment of Open Science practices in combination, rather than individu-
+                                                 ally as is usually the case in previous work.
+
+
+                                                 2 State of the art
+                                                 There is evidence that adopting Open Science practices has effects or impacts in several
+                                                 domains: academic, societal, and economic [18]. In terms of academic or research impacts,
+                                                 Open Science practices are associated with increased visibility and reuse, as measured for
+                                                 example by the diversity of citations and media attention received by Open Access articles [19,
+                                                 20]. Open Science has been instrumental in accelerating progress on certain scientific
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                             2 / 19
+PLOS ONE                                                                        The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           problems [21], in making results more transparent [22], and in addressing what has been
+                                           termed the replication crisis in certain fields of research [23]. Societal benefits identified in a
+                                           systematic scoping review include enabling broader participation in research, by supporting
+                                           citizen science and educational initiatives. However, evidence of societal benefits to policy,
+                                           health, or trust in research is to date more limited [24]. Economic benefits, identified from
+                                           economic modeling studies and case studies, include cost and labor savings from Open Access
+                                           and open (or FAIR) data, as well as increased innovation [25, 26]. However, there is a lack of
+                                           causal evidence for and prospective studies of these benefits. Open Science practices have also
+                                           been linked to negative impacts including imposing additional costs [27], reinforcing existing
+                                           inequalities [28], and homogenizing diverse research traditions [29].
+
+
+
+                                           2.1 Data and code sharing
+                                           Researchers who adopt Open Science practices may see increased use and impact of their
+                                           work, which can support career progression. Several studies examine the importance of data
+                                           (and code) sharing for scientific advancement but diverge to some extent in their findings. Evi-
+                                           dence shows that the novel combination of datasets leads to higher impact and visibility [30].
+                                           Several studies in specific research disciplines have found correlations between sharing
+                                           research and increased citations of articles that share data [31–33]. Implementation of journal
+                                           policies requiring data sharing has also been correlated with increased citations [34]. Research-
+                                           ers can share data in several different ways but sharing data privately, upon request, and via
+                                           supporting information files with publications are the most common approaches—despite
+                                           being considered suboptimal [35, 36]. Sharing research data in a public repository is consid-
+                                           ered best practice for data sharing but may require additional effort compared to other
+                                           approaches [37]. However, in previous work, we found that, relative to sharing data upon
+                                           request or as supporting information files, data sharing in repositories was correlated with a
+                                           25.36% citation advantage on average [17].
+                                               While we can hypothesize that, similar to data sharing, code sharing would promote the
+                                           reuse of published research that shares code, there is less evidence about whether code sharing
+                                           is correlated with any effect on citations. Studies of a single journal [38] or a small number of
+                                           journals in a single field [39] have found mixed effects. A larger-scale study showed a correla-
+                                           tion between links to methods including (but not limited to) code and increased citation, espe-
+                                           cially when links were still active [40]. Another found that monthly citations of articles
+                                           increased after their associated code repositories were made public [41].
+
+
+
+                                           2.2 Preprints
+                                           There is evidence for advantages in terms of visibility for peer-reviewed publications that were
+                                           previously posted as preprints, as measured by increased citations and altmetrics [42–45]. This
+                                           effect was examined in detail during the COVID-19 pandemic [46], when media coverage of
+                                           health-related preprints also saw a significant uptick [47]. Other forms of impact associated
+                                           with preprint posting include receiving additional feedback, which research has shown to be
+                                           constructive if variable in frequency [48, 49]. Studies examining the adoption of preprints by
+                                           career stage have suggested that they have particular advantages for early-career researchers in
+                                           terms of career development [50, 51]. At the same time, concerns over how preprints may
+                                           introduce unvetted findings into the scientific record have pointed to the need for nuanced
+                                           approaches to evidence synthesis [52, 53] and the communication of retractions [54].
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                        3 / 19
+PLOS ONE                                                                        The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           3 Methods and data
+                                           To make this study entirely reproducible, we focus only on Open Access publications and
+                                           release all of the accompanying code. We strictly follow and expand upon a published method-
+                                           ology [17]. This methodology entails selecting a set of publications of interest, calculating pub-
+                                           lication and author-level citation counts using a larger Open Access collection, and modeling
+                                           the effect of interest as independent variables. We use PLOS’ Open Science Indicators version
+                                           5 as a starting point [16, 55]. The OSI publication count totals N = 124’274. We also use the
+                                           PMC Open Access Subset, with all publications up to October 2023 included [56]. The PMC
+                                           Open Access Subset is used to calculate citation counts for publications and authors. Citation
+                                           counts calculated using the PMC Open Access Subset have been shown to track global citation
+                                           counts, and thus to be appropriate when the relative rather than absolute counts are of interest
+                                           [17]. Publications missing a known identifier (DOI, PubMed reference number, PMCID, or a
+                                           publisher-specific ID), a publication date, and at least one reference are discarded. These often
+                                           are editorials, letters, or similar article types. The final PMC Open Access Subset publication
+                                           count totals M = 5’020’948. After an initial analysis, a limited amount of OSI publications are
+                                           also discarded for being absent in the PMC Open Access Subset or identified as editorials or
+                                           reviews (i.e., not research articles). Of the 124’376 publications in OSI, 121’999 (98.1%) are
+                                           processed, matched, and used for the modeling analysis that follows.
+                                               We use a linear model for quantifying the relative effect of Open Science Indicators on cita-
+                                           tion counts, as follows:
+
+                                           Dependent variable
+                                           Citation counts for each publication are calculated using the full PMC Open Access Subset dataset
+                                           (M publications above). Citations are based on identifiers, hence only references that include a
+                                           valid ID are considered. Citations accumulated by the preprint of a publication are therefore not
+                                           counted, as the preprint will have a different identifier than the published paper as included in
+                                           OSI. Citations from a preprint to a published paper that is part of OSI are, however, counted.
+                                           Under these constraints, we calculate total citation counts and use this as our main dependent
+                                           variable. We also calculate citations given within a certain time window from publication (1, 2,
+                                           and 3 years, also considering the month of publication). This is done in order to conduct a robust-
+                                           ness check using citation counts over the same citation accrual time as the dependent variable
+                                           (e.g., the three-year window for a publication published in June 2015 runs to June 2018 excluded).
+
+                                           Independent variables
+                                           We use a set of control variables for modeling. Firstly, publication-level variables are com-
+                                           monly considered in similar studies [57–59]. We include the year of publication, to account
+                                           for citation inflation over time; the month of publication (missing values are set to a default
+                                           value of 6, that is June), to account for the advantage of publications published early in the year
+                                           that have more time to accrue citations; the number of authors and the total number of refer-
+                                           ences (including those without a known identifier), both usually correlated with citation
+                                           impact. We also use the Australian and New Zealand Standard Research Classification
+                                           (ANZSRC) Fields of Research classification system at the publication level, to account for dis-
+                                           ciplinary variation in the adoption of Open Science practices. We use the broadest level pro-
+                                           vided, that of the Division, to avoid data sparsity. In the dataset, 22 divisions are found. We
+                                           group the least frequent five categories into a single category, since they all belong to the Arts
+                                           and Humanities. We therefore end up with 18 distinct categories that are encoded as dummy
+                                           variables to account for the fact that a publication can belong to multiple categories. See
+                                           Table 1 for a list of the categories used from the division-level ANZSRC Fields of Research.
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                        4 / 19
+PLOS ONE                                                                                The effects of sharing research data, code, and preprints on citations
+
+
+                                           Table 1. ANZSRC fields of research divisions to model categories. Note that the total publication count is higher
+                                           than the number of publications in OSI, since a publication can belong to more than one division.
+                                           ANZSRC FoR Division                                    Publication counts in OSI     Category (regression model)
+                                           32 Biomedical and Clinical Sciences                                         59’377                       division_1
+                                           31 Biological Sciences                                                      35’081                       division_2
+                                           42 Health Sciences                                                          29’778                       division_3
+                                           30 Agricultural, Veterinary and Food Sciences                                 8549                       division_4
+                                           46 Information and Computing Sciences                                         7704                       division_5
+                                           52 Psychology                                                                 6910                       division_6
+                                           44 Human Society                                                              5645                       division_7
+                                           40 Engineering                                                                5294                       division_8
+                                           41 Environmental Sciences                                                     5208                       division_9
+                                           34 Chemical Sciences                                                          3468                      division_10
+                                           35 Commerce, Management, Tourism and Services                                 2811                      division_11
+                                           37 Earth Sciences                                                             2716                      division_12
+                                           38 Economics                                                                  1960                      division_13
+                                           51 Physical Sciences                                                          1313                      division_14
+                                           39 Education                                                                  1153                      division_15
+                                           47 Language, Communication and Culture                                         988                      division_16
+                                           49 Mathematical Sciences                                                       901                      division_17
+                                           43 History, Heritage and Archaeology                                           838                      division_18
+                                           48 Law and Legal Studies                                                       792                      division_18
+                                           33 Built Environment and Design                                                662                      division_18
+                                           36 Creative Arts and Writing                                                   459                      division_18
+                                           50 Philosophy and Religious Studies                                            399                      division_18
+                                           https://doi.org/10.1371/journal.pone.0311493.t001
+
+
+                                               The reputation of authors before publication has also been linked to the citation success of
+                                           a paper [60]. To control for this, we have to identify individual authors, a challenging task in
+                                           itself [61–65]. We focus on a publication-level aggregated indicator of author productivity and
+                                           popularity: the mean H-index of a publication’s authors at the time of publication, calculated
+                                           from the PMC Open Access Subset. While we acknowledge that the H-index has its limitations
+                                           and may, for instance, generate inconsistent rankings [66], in our work we do not use the H-
+                                           index to this end but, instead, use it as a proxy for the productivity and popularity of the
+                                           authors of a publication. By using the mean H-index of the authors of a publication, we further
+                                           minimize the impact of errors arising from disambiguating author names [67, 68], which
+                                           would have been higher if we had used measures based on individual observations such as the
+                                           maximum H-index. We therefore use a simple disambiguation technique when compared to
+                                           the current state of the art, and consider two author mentions to refer to the same individual if
+                                           both full name and surname are found to be identical within all of the PMC Open Access Sub-
+                                           set. We acknowledge the limitations of this method in possibly merging different authors with
+                                           the same name and surname. We identify 8’481’129 seemingly distinct authors in this way.
+                                               We finally consider the following journal-level variables: if a publication is published by
+                                           PLOS (any journal), and if a publication is published in PLOS ONE specifically. Given the pre-
+                                           ponderance of PLOS publications (101’366, or nearly 85% of publications overall), and specifi-
+                                           cally PLOS ONE publications (83’843, or nearly 70% of publications overall) in the dataset, we
+                                           do not use any other journal-level variable.
+                                               A set of descriptive statistics for the numerical variables in use is reported in Tables 2 and 3,
+                                           while their correlations are illustrated in Fig 1. The models we test, besides OLS linear regres-
+                                           sion and robust linear regression, include ANOVA, Tobit, and GLM with negative binomial,
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                  5 / 19
+PLOS ONE                                                                                            The effects of sharing research data, code, and preprints on citations
+
+
+
+Table 2. Descriptive statistics for the dependent variable and a set of publication and author level controls.
+                            n_cit_tot               n_cit_2          n_authors             n_references_tot             p_year          p_month             h_index_mean
+Min.                                0                    0                     1                              0          2018                     1                         0
+1st Qu.                             0                    0                     4                             34          2019                     3                         2
+Median                              2                   1.0                    6                             46          2020                     6                        3.9
+Mean                              5.1                   2.3                  7.1                           51.1          2020                    5.4                        5
+3rd Qu.                             6                    3                     9                             63          2022                     7                        6.6
+Max.                            3683                   788                 2621                             986          2023                    12                        57
+NA’s                                                                                                                                                                      425
+https://doi.org/10.1371/journal.pone.0311493.t002
+
+
+
+Table 3. Descriptive statistics for the OSI controls. C: Code; D: Data; Repo: Repository; P: Preprint.
+D_Shared             D_Location                        Repo_Data              C_Generated              C_Shared             C_Location                   P_Match
+N: 39’124             N/A: 39’657                      F: 94’715              N: 76’452                    N: 107’390       N/A: 107’443                 F: 97’235
+Y: 82’875             Online: 39’700                   T: 27’284              Y: 45’547                    Y: 14’609        Online: 11’221               T: 24’764
+                      Suppl. Info: 42’642                                                                                   Suppl. Info: 3’335
+https://doi.org/10.1371/journal.pone.0311493.t003
+
+
+
+
+                                                       Fig 1. Correlation plot among most variables. We see that no two variables are too highly correlated, except as
+                                                       expected for two alternatives for dependent variables (n_cit_2 and n_cit_tot).
+                                                       https://doi.org/10.1371/journal.pone.0311493.g001
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                                 6 / 19
+PLOS ONE                                                                                The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           zero-inflated negative binomial, lognormal, and Pareto 2 family distributions. These largely
+                                           support the findings using linear regression and robust linear regression, which are easier to
+                                           interpret. Therefore, results from other models are omitted here and can be reproduced using
+                                           the accompanying codebase. Robust linear regression results differ little from simple linear
+                                           regression, as is expected given the log transformations we systematically apply on skewed
+                                           numerical variables, but they are provided for comparison.
+
+                                           4 Results
+                                           We start by providing a brief descriptive overview of the Open Science Indicators in the target
+                                           corpus and then proceed to the modeling section.
+
+                                           4.1 Overview of the Open Science Indicators dataset
+                                           As mentioned previously, the OSI dataset we use for analysis comprises 121’999 articles. The
+                                           majority of the articles are published in PLOS journals, with the largest proportion originating
+                                           from PLOS ONE. The remaining articles have been taken from 1232 different journals pub-
+                                           lished by a range of publishers. Rates of adoption for each Open Science practice can be calcu-
+                                           lated from the dataset to give an overall impression of the degree to which Open Science is
+                                           practiced. Table 4 outlines the overall rates of adoption for the main Open Science practices in
+                                           the dataset and shows that data (in a repository) and code sharing have a relatively low adop-
+                                           tion rate across the dataset.
+                                               In OSI, the average rates of adoption for Open Science practices observed in the dataset
+                                           have been increasing over time with changes between 5% and 15% from 2018 to 2023. Data
+                                           sharing in any form has seen a 5% increase from 2018 to 2023, with data sharing in repositories
+                                           and online increasing by 9% and 10% respectively. Code sharing (out of all publications) has
+                                           increased by 6% over the same time period and preprint posting by 15%. Whilst data and code
+                                           sharing show positive trends over time, the trend for preprint posting shows a large increase
+                                           between 2018 and 2019 and again from 2019 to 2020, followed by a plateauing since 2021.
+                                           These trends are also seen when the PLOS cohort and the PMC Open Access Subset cohort are
+                                           considered separately, although the PMC Open Access Subset cohort shows an increase in pre-
+                                           prints in 2023 compared to 2022 which is not present in the PLOS data. We show the general
+                                           adoption trends in Fig 2.
+                                               The prevalence of different Open Science practices varies by field of research (following the
+                                           divisions presented in Table 1). For example, both Division 3 (Health Sciences) and Division 8
+                                           (Engineering) have the lowest data sharing rate at 60%, whilst Division 16 (Language, Com-
+                                           munication and Culture) has the highest data sharing rate at 82%. Similar degrees in variation
+                                           are seen for the other indicators with data sharing in a repository ranging from 14% to 43%,
+                                           code sharing from 7% to 36%, and preprint posting from 10% to 33%. Such wide variation in
+                                           OSI adoption across divisions suggests that research fields face different challenges in adopting
+
+                                           Table 4. Descriptive statistics for the Open Science practices as measured in the OSI dataset.
+                                                                                                                Number                      % of publications
+                                           Publications                                                         121’999                                100%
+                                           Sharing data (anywhere)                                               82’875                                  68%
+                                           Sharing data (in a repository)                                        27’284                                  22%
+                                           Sharing data (online)                                                 33’786                                  28%
+                                           Sharing code                                                          14’609                                  12%
+                                           Has a preprint                                                        24’764                                  20%
+                                           https://doi.org/10.1371/journal.pone.0311493.t004
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                7 / 19
+PLOS ONE                                                                                  The effects of sharing research data, code, and preprints on citations
+
+
+
+
+               Fig 2. Adoption of OSI over time. Each OSI remains adopted by a fraction of publications, but adoption grows over time.
+               https://doi.org/10.1371/journal.pone.0311493.g002
+
+
+
+                                                Open Science practices, and some practices may not be equally useful or relevant across fields.
+                                                In Fig 3, we show trends for the main OSIs across all Divisions, as described in Table 1.
+                                                   Please refer to the PLOS’ Open Science Indicators version 5 documentation for further
+                                                details [16, 55].
+
+
+                                                4.2 Modeling
+                                                The base model results we discuss are provided in Table 5. It contains the basic author, publi-
+                                                cation, and journal-level variables we discussed above. It does not contain publication-level
+                                                division classification. The most complete model we discuss is instead provided in Table 6.
+                                                Here, we use all the previous variables from the base model and add the publication-level divi-
+                                                sion classification as dummy variables (division 1 to 18, see Table 1). Several more models
+                                                were tested, primarily as robustness checks, and are discussed in the S1 Appendix.
+                                                   The base model is described in Eq 1, and the full model is described in Eq 2. Variable trans-
+                                                formations are shown, numerical variables are given in Italics, and categorical variables are in
+                                                regular text. Variables are grouped along lines. An illustration of the assumed causal depen-
+                                                dency graph among variable groups is given in Fig 4. In the same figure, the variables for
+                                                which we used log scaling to limit the effects of outliers are flagged as such. These include the
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                  8 / 19
+PLOS ONE                                                                                    The effects of sharing research data, code, and preprints on citations
+
+
+
+
+               Fig 3. Adoption of OSI by division, as described in Table 1. Each OSI remains adopted by a fraction of publications, but there is a wide variation
+               across Divisions.
+               https://doi.org/10.1371/journal.pone.0311493.g003
+
+
+                                                dependent variable (n_cit_tot), which is always used on a log scale.
+
+                                                logðn cit tot þ 1Þ ¼         logðn authors þ 1Þ þ logðn references þ 1Þ þ p year þ p monthþ
+                                                                             logðh index mean þ 1Þþ
+                                                                             is plos þ is plos oneþ
+                                                                                                                                                                    ð1Þ
+                                                                             data shared þ data location þ repositories dataþ
+                                                                             code shared þ code locationþ
+                                                                             preprint match
+
+                                                logðn cit tot þ 1Þ ¼         logðn authors þ 1Þ þ logðn references þ 1Þ þ p year þ p monthþ
+                                                                             logðh index mean þ 1Þþ
+                                                                             is plos þ is plos oneþ
+                                                                             data shared þ data location þ repositories dataþ
+                                                                                                                                                                    ð2Þ
+                                                                             code shared þ code locationþ
+                                                                             preprint matchþ
+                                                                             X18
+                                                                                 Iðdivision ¼ iÞ
+                                                                              i¼1
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                        9 / 19
+PLOS ONE                                                                            The effects of sharing research data, code, and preprints on citations
+
+
+
+Table 5. Results for the base model.
+                                                                                                   Dependent variable:
+                                                                                                       n_cit_tot_log
+                                                                                       OLS                                      robust linear
+                                                                                        (1)                                          (2)
+n_authors_log                                                                        0.265 ***                                    0.254 ***
+                                                                                      (0.005)                                      (0.004)
+n_references_tot_log                                                                 0.192 ***                                    0.198 ***
+                                                                                      (0.005)                                      (0.005)
+p_year                                                                              -0.357 ***                                    -0.370 ***
+                                                                                      (0.001)                                      (0.001)
+p_month                                                                             -0.037 ***                                    -0.039 ***
+                                                                                      (0.001)                                      (0.001)
+h_index_mean_log                                                                     0.141 ***                                    0.141 ***
+                                                                                      (0.003)                                      (0.003)
+C(is_plos)True                                                                       0.095 ***                                    0.107 ***
+                                                                                      (0.009)                                      (0.008)
+C(is_plos_one)True                                                                  -0.347 ***                                    -0.351 ***
+                                                                                      (0.007)                                      (0.007)
+C(Data_Shared)True                                                                    -0.011                                        -0.012
+                                                                                      (0.034)                                      (0.033)
+C(Data_Location)Online                                                                -0.0002                                       -0.001
+                                                                                      (0.034)                                      (0.034)
+C(Data_Location)Supplementary Information                                              0.024                                        0.027
+                                                                                      (0.034)                                      (0.033)
+C(Repositories_data_bool)True                                                        0.038 ***                                    0.038 ***
+                                                                                      (0.008)                                      (0.008)
+C(Code_Shared)True                                                                     0.057                                        0.064
+                                                                                      (0.107)                                      (0.104)
+C(Code_Location)Online                                                                -0.105                                        -0.127
+                                                                                      (0.107)                                      (0.105)
+C(Code_Location)Supplementary Information                                             -0.130                                        -0.132
+                                                                                      (0.108)                                      (0.105)
+C(Preprint_Match)True                                                                0.186 ***                                    0.159 ***
+                                                                                      (0.006)                                      (0.006)
+Constant                                                                            720.843 ***                                  746.799 ***
+                                                                                      (2.705)                                      (2.638)
+Observations                                                                          121,999                                      121,999
+R2                                                                                     0.408
+Adjusted R2                                                                            0.408
+Residual Std. Error (df = 121983)                                                      0.775                                        0.723
+F Statistic                                                                5,615.550*** (df = 15; 121983)
+
+Note:
+*p<0.1;
+**p<0.05;
+***p<0.01
+
+https://doi.org/10.1371/journal.pone.0311493.t005
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                           10 / 19
+PLOS ONE                                                                   The effects of sharing research data, code, and preprints on citations
+
+
+
+Table 6. Results for the full model.
+                                                                                         Dependent variable:
+                                                                                            n_cit_tot_log
+                                                                              OLS                                      robust linear
+                                                                              (1)                                           (2)
+n_authors_log                                                              0.207 ***                                     0.194 ***
+                                                                            (0.005)                                       (0.005)
+n_references_tot_log                                                       0.246 ***                                     0.252 ***
+                                                                            (0.005)                                       (0.005)
+p_year                                                                     -0.357 ***                                    -0.368 ***
+                                                                            (0.001)                                       (0.001)
+p_month                                                                    -0.037 ***                                    -0.038 ***
+                                                                            (0.001)                                       (0.001)
+h_index_mean_log                                                           0.119 ***                                     0.120 ***
+                                                                            (0.003)                                       (0.003)
+C(is_plos)True                                                             0.058 ***                                     0.070 ***
+                                                                            (0.009)                                       (0.008)
+C(is_plos_one)True                                                         -0.304 ***                                    -0.306 ***
+                                                                            (0.007)                                       (0.007)
+C(Data_Shared)True                                                           0.002                                         -0.005
+                                                                            (0.033)                                       (0.033)
+C(Data_Location)Online                                                       0.010                                         0.015
+                                                                            (0.034)                                       (0.033)
+C(Data_Location)Supplementary Information                                    0.020                                         0.027
+                                                                            (0.033)                                       (0.033)
+C(Repositories_data_bool)True                                              0.042 ***                                     0.041 ***
+                                                                            (0.008)                                       (0.008)
+C(Code_Shared)True                                                           0.099                                         0.107
+                                                                            (0.105)                                       (0.103)
+C(Code_Location)Online                                                       -0.110                                        -0.134
+                                                                            (0.106)                                       (0.103)
+C(Code_Location)Supplementary Information                                    -0.147                                        -0.154
+                                                                            (0.106)                                       (0.104)
+C(Preprint_Match)True                                                      0.184 ***                                     0.155 ***
+                                                                            (0.006)                                       (0.006)
+C(division_1)True                                                          0.126 ***                                     0.128 ***
+                                                                            (0.006)                                       (0.006)
+C(division_2)True                                                          0.023 ***                                     0.031 ***
+                                                                            (0.006)                                       (0.006)
+C(division_3)True                                                          0.099 ***                                     0.089 ***
+                                                                            (0.006)                                       (0.006)
+C(division_4)True                                                           0.018 *                                      0.030 ***
+                                                                            (0.009)                                       (0.009)
+C(division_5)True                                                          -0.086 ***                                    -0.084 ***
+                                                                            (0.010)                                       (0.010)
+C(division_6)True                                                          -0.075 ***                                    -0.087 ***
+                                                                            (0.010)                                       (0.010)
+C(division_7)True                                                          0.031 ***                                      0.020 *
+                                                                            (0.011)                                       (0.011)
+                                                                                                                                       (Continued )
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                    11 / 19
+PLOS ONE                                                                                 The effects of sharing research data, code, and preprints on citations
+
+
+
+Table 6. (Continued)
+
+                                                                                                        Dependent variable:
+                                                                                                            n_cit_tot_log
+                                                                                            OLS                                      robust linear
+                                                                                             (1)                                          (2)
+C(division_8)True                                                                        -0.186 ***                                    -0.172 ***
+                                                                                           (0.011)                                      (0.011)
+C(division_9)True                                                                        -0.301 ***                                    -0.294 ***
+                                                                                           (0.012)                                      (0.011)
+C(division_10)True                                                                        0.035 **                                     0.045 ***
+                                                                                           (0.014)                                      (0.013)
+C(division_11)True                                                                       -0.059 ***                                    -0.046 ***
+                                                                                           (0.015)                                      (0.015)
+C(division_12)True                                                                       -0.235 ***                                    -0.238 ***
+                                                                                           (0.015)                                      (0.015)
+C(division_13)True                                                                       -0.137 ***                                    -0.133 ***
+                                                                                           (0.018)                                      (0.018)
+C(division_14)True                                                                       -0.147 ***                                    -0.138 ***
+                                                                                           (0.021)                                      (0.021)
+C(division_15)True                                                                         -0.037                                        -0.017
+                                                                                           (0.023)                                      (0.023)
+C(division_16)True                                                                        -0.057 **                                    -0.064 ***
+                                                                                           (0.025)                                      (0.024)
+C(division_17)True                                                                       -0.173 ***                                    -0.164 ***
+                                                                                           (0.026)                                      (0.025)
+C(division_18)True                                                                       -0.111 ***                                    -0.112 ***
+                                                                                           (0.015)                                      (0.014)
+Constant                                                                                 721.097 ***                                  744.009 ***
+                                                                                           (2.698)                                      (2.635)
+                              Observations                                                 121,999                                      121,999
+                                    R2                                                      0.426
+                              Adjusted R2                                                   0.426
+                    Residual Std. Error (df = 121965)                                       0.764                                        0.714
+                                F Statistic                                     2,739.270*** (df = 33; 121965)
+
+Note:
+*p<0.1;
+**p<0.05;
+***p<0.01
+
+https://doi.org/10.1371/journal.pone.0311493.t006
+
+                                                       Starting with the base model in Table 5, we provide results for an OLS model and a robust
+                                                    linear model as a comparison. The results are aligned and show a relatively high explained var-
+                                                    iance with the base model having R2 = .408. The model shows expected trends, as previously
+                                                    discussed. For example, the higher the year the lower the total citation count on average (about
+                                                    −30% per year increase), or the higher the average H-index of the authors, the higher the cita-
+                                                    tion counts of the paper (this can be interpreted as an elasticity in a log-log model, therefore a
+                                                    1% increase in the average H-index leads to a.141% increase in the number of citations, on
+                                                    average). More of interest to us are the OSIs. These show that there is a significant and positive
+                                                    effect of preprints (20.4%) and of sharing data via an online repository (3.9%). These percent-
+                                                    age changes for log-linear relationships are calculated as follows: (exp(.186)−1) × 100 � 20.4%.
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                12 / 19
+PLOS ONE                                                                                     The effects of sharing research data, code, and preprints on citations
+
+
+
+
+               Fig 4. An illustration of the assumed causal dependency graph among dependent and independent variables. We distinguish among the dependent
+               variable and its variations (red), independent control variables (blue), and OSI control variables (green). We are interested in the total effect of OSI
+               variables on the dependent variable (n_cit_tot), shown by the thick black line, and in controlling for the effect of other independent variables,
+               shown by the dotted black lines.
+               https://doi.org/10.1371/journal.pone.0311493.g004
+
+
+                                                 These effects are cumulative, so a publication with both a preprint and data shared in a reposi-
+                                                 tory would be associated with an average citation increase of 24.3%. On the other hand, the
+                                                 OSI for code sharing did not yield a statistically significant positive citation effect. Our next
+                                                 question is whether these results hold when we account for the large disciplinary variations in
+                                                 the adoption of Open Science practices, which we assess next.
+                                                    The full model in Table 6 adds the ANZSRC divisions as 18 dummy variables. The model
+                                                 shows an even higher explained variance with R2 = 0.426. The full model shows trends that
+                                                 largely confirm the results from the base model. We consolidate our estimate for the citation
+                                                 impact of OSI indicators as follows. We find that the early release of a publication as a preprint
+                                                 correlates with a significant positive citation advantage of about 20.2% (±.7) on average. We
+                                                 also find that sharing data in an online repository is associated with a smaller yet still positive
+                                                 citation advantage of 4.3% (±.8) on average. These effects are cumulative, so a publication with
+                                                 both a preprint and data shared in a repository would be associated with an average citation
+                                                 increase of 24.5%. We do not find a significant effect for sharing code, and we detect signifi-
+                                                 cant variations across disciplines in average citation impact. All the remaining coefficients are
+                                                 confirmed in sign and, with minor variation, in magnitude.
+                                                    We further zoom in on individual divisions by running the base model using data points
+                                                 from each division only and do not find significant effects for code sharing. The effect of shar-
+                                                 ing data in an online repository varies, but is larger in two divisions (division 2, Biological Sci-
+                                                 ences, and division 8, Engineering). The effect of preprints remains consistent across
+                                                 divisions, with varying degrees of significance and magnitude.
+
+
+                                                 5 Discussion
+                                                 This study offers a comprehensive analysis of the citation impact of Open Science practices,
+                                                 drawing on a dataset of about 122’000 research articles and using both descriptive and
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                                        13 / 19
+PLOS ONE                                                                        The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           regression analysis. Our findings reveal a consistent citation advantage for articles whose
+                                           authors adopted Open Science practices, including data sharing in online repositories and pre-
+                                           print posting. This correlation suggests that Open Science practices may significantly enhance
+                                           the visibility and academic impact of research findings. However, the Open Science practice of
+                                           sharing code does not seem to lead to a citation advantage in our sample.
+
+                                           5.1 Limitations
+                                           Several limitations of our study should be acknowledged. First, while our dataset is extensive,
+                                           it is heavily weighted toward publications by the Open Access publisher PLOS, and as such it
+                                           may not fully capture the diversity of research across all fields, potentially limiting the gener-
+                                           alizability of our findings. Furthermore, PLOS champions Open Science practices, and the
+                                           stance that a publisher takes in this regard may have an influence on the observed effects. In
+                                           particular, PLOS requires all authors, with limited exceptions, to share the research data sup-
+                                           porting their articles as a condition of publication, with the use of data repositories as the pre-
+                                           ferred approach. This is reflected in the higher overall rates of data sharing, and higher rates of
+                                           data repository use in PLOS articles compared to comparators in the OSI dataset. As data shar-
+                                           ing is the norm in PLOS articles and as the use of repositories is not uncommon, a citation
+                                           advantage for the use of data repositories may be smaller in PLOS articles compared to non-
+                                           PLOS articles. Posting preprints, however, is an optional practice for researchers publishing
+                                           with PLOS and most other journals. Code sharing, similarly, is optional in most of the journals
+                                           in our sample, with rare exceptions such as PLOS Computational Biology, where this practice
+                                           is mandatory [69].
+                                               Additionally, the observational nature of our study precludes definitive conclusions about
+                                           causality. The observed citation advantage might be influenced by other factors not accounted
+                                           for in our analysis, such as the intrinsic quality of the research or access to research funding.
+
+                                           5.2 Extension of previous research
+                                           The model-explained variance in our results is globally high with respect to similar studies.
+                                           For instance, there is previous work showing a positive correlation between citation and alt-
+                                           metric impact of publications, and the posting of preprints [42–45]. The extent of the citation
+                                           advantage, previously found to be as much as fivefold, is known to vary according to the tim-
+                                           ing of preprint posting, the discipline, and the preprint server used, among other factors. The
+                                           smaller magnitude of the effect we find relative to previous studies may relate to the broader
+                                           range of preprint servers that our sample considers.
+                                              Using similar methods to ours, previous work also found a correlation between articles that
+                                           include statements linking to data in a repository and a citation advantage of up to 25% [17].
+                                           We confirm this finding in our study, finding a positive correlation between sharing data in a
+                                           repository and citation impact. Yet the effect we find is considerably smaller in magnitude.
+                                           This might be caused by the smaller and more uniform dataset that we use here, which
+                                           includes all PLOS publications and a smaller comparator set, while this previous work used all
+                                           PLOS and BMC articles and a dataset of over half a million publications. Other studies have
+                                           also found a positive citation impact of the use of discipline-specific repositories [31–33].
+                                              While previous work [38, 40, 41] has found as much as a threefold citation advantage for
+                                           code sharing, we did not confirm this finding in our sample. Following [70], it is possible that
+                                           outside of fields like computer science authors are more likely to cite or link to shared code
+                                           directly rather than citing the research paper with which it was associated. Another possible
+                                           reason could be that the quality of the description of the code, rather than its availability,
+                                           impacts whether or not a research paper is cited, as was suggested in previous work on model
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                       14 / 19
+PLOS ONE                                                                        The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           papers [71]. Without further research into code sharing and citation practices it is difficult to
+                                           explain why there is a lack of significant findings for code.
+
+                                           5.3 Implications for future research
+                                           Our data and code are shared openly to enable independent replication of our results and
+                                           extension of our findings as larger or different, comparable sources of data on the adoption of
+                                           Open Science practices become available. This includes future versions of the PLOS OSI data-
+                                           set, as well as outputs from other Open Science monitoring initiatives, such as the French
+                                           Open Science Monitor or OpenAIRE.
+                                               As Open Science practices and policies continue to develop, future research could explore
+                                           longitudinal changes in citation patterns. Further studies could also investigate the relationship
+                                           between additional Open Science practices and citation impact, extending our understanding
+                                           of how different aspects of openness contribute to research visibility. Moreover, it would be
+                                           valuable to examine the impact of Open Science practices on other domains of research dis-
+                                           semination and engagement, such as open commons (e.g., Wikipedia), public policy influence,
+                                           collaboration networks, and public engagement. We might hypothesize, for example, that
+                                           non-citation measures of impact—such as forks and downloads—may be more relevant for
+                                           the sharing of code and software. Contemporary calls for the reform of research assessment
+                                           (such as https://coara.eu) emphasize valuing more diverse research outputs and contributions,
+                                           as well as more diverse measures of impact. These developments underscore the importance of
+                                           future research exploring the association of Open Science practices with effects other than
+                                           citations.
+
+                                           6 Conclusion
+                                           In summary, our study contributes to the growing body of literature on the effects or impacts
+                                           of Open Science by quantifying the citation impact of data sharing, code sharing, and preprint
+                                           posting. Our results could be readily extended with additional data on Open Science practices
+                                           detected in a larger sample of non-PLOS Open Access publications. We advocate for further
+                                           empirical research to build on these findings, particularly work that focuses on causal mecha-
+                                           nisms, discipline-specific effects, and broader impacts beyond citation metrics.
+
+                                           Supporting information
+                                           S1 Appendix. Results for more models in the appendix.
+                                           (PDF)
+
+
+                                           Acknowledgments
+                                           We thank Tim Vines, Scott Kerr, Souad McIntosh, and the team at DataSeer for their collabo-
+                                           ration in enabling the OSI dataset to be used for this analysis. We also thank Ross Gray at
+                                           PLOS for reviewing the data and code from our study.
+
+                                           Author Contributions
+                                           Conceptualization: Giovanni Colavizza, Iain Hrynaszkiewicz.
+                                           Data curation: Giovanni Colavizza, Grégory Dozot.
+                                           Formal analysis: Giovanni Colavizza, Lauren Cadwallader.
+                                           Funding acquisition: Iain Hrynaszkiewicz.
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                       15 / 19
+PLOS ONE                                                                            The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           Investigation: Giovanni Colavizza.
+                                           Methodology: Giovanni Colavizza, Iain Hrynaszkiewicz.
+                                           Project administration: Iain Hrynaszkiewicz.
+                                           Resources: Iain Hrynaszkiewicz.
+                                           Software: Giovanni Colavizza, Grégory Dozot.
+                                           Supervision: Giovanni Colavizza, Stéphane Lecorney, Daniel Rappo, Iain Hrynaszkiewicz.
+                                           Visualization: Lauren Cadwallader.
+                                           Writing – original draft: Giovanni Colavizza, Lauren Cadwallader, Marcel LaFlamme, Iain
+                                             Hrynaszkiewicz.
+                                           Writing – review & editing: Giovanni Colavizza, Marcel LaFlamme, Grégory Dozot, Stéphane
+                                             Lecorney, Daniel Rappo, Iain Hrynaszkiewicz.
+
+
+
+                                           References
+                                             1.   Willinsky J. The Unacknowledged Convergence of Open Source, Open Access, and Open Science.
+                                                  First Monday. 2005. https://doi.org/10.5210/fm.v10i8.1265
+                                             2.   Tkacz N. Wikipedia and the Politics of Openness. Chicago: University of Chicago Press; 2014.
+                                             3.   Moore SA. A Genealogy of Open Access: Negotiations between Openness and Access to Research.
+                                                  Revue française des sciences de l’information et de la communication. 2017;(11). https://doi.org/10.
+                                                  4000/rfsic.3220
+                                             4.   Vicente-Saez R, Martinez-Fuentes C. Open Science Now: A Systematic Literature Review for an Inte-
+                                                  grated Definition. Journal of Business Research. 2018; 88:428–436. https://doi.org/10.1016/j.jbusres.
+                                                  2017.12.043
+                                             5.   Leonelli S. Philosophy of Open Science. Cambridge University Press; 2023.
+                                             6.   UNESCO. UNESCO Recommendation on Open Science. Paris: UNESCO; 2021.
+                                             7.   Serghiou S, Contopoulos-Ioannidis DG, Boyack KW, Riedel N, Wallach JD, Ioannidis JPA. Assessment
+                                                  of Transparency Indicators across the Biomedical Literature: How Open Is Open? PLOS Biology. 2021;
+                                                  19(3):e3001107. https://doi.org/10.1371/journal.pbio.3001107 PMID: 33647013
+                                             8.   Menke J, Eckmann P, Ozyurt IB, Roelandse M, Anderson N, Grethe J, et al. Establishing Institutional
+                                                  Scores with the Rigor and Transparency Index: Large-scale Analysis of Scientific Reporting Quality.
+                                                  Journal of Medical Internet Research. 2022; 24(6):e37324. https://doi.org/10.2196/37324 PMID:
+                                                  35759334
+                                             9.   Robson SG, Baum MA, Beaudry Jennifer L, Beitner J, Brohmer H, Chin JM, et al. Promoting Open Sci-
+                                                  ence: A Holistic Approach to Changing Behaviour. Collabra: Psychology. 2021; 7(1):30137. https://doi.
+                                                  org/10.1525/collabra.30137
+                                           10.    Armeni K, Brinkman L, Carlsson R, Eerland A, Fijten R, Fondberg R, et al. Towards Wide-Scale Adop-
+                                                  tion of Open Science Practices: The Role of Open Science Communities. Science and Public Policy.
+                                                  2021; 48(5):605–611. https://doi.org/10.1093/scipol/scab039
+                                           11.    Hrynaszkiewicz I, Cadwallader L. A Survey of Funders’ and Institutions’ Needs for Understanding
+                                                  Researchers’ Open Research Practices. Open Science Framework; 2021.
+                                           12.    Dougherty MR, Horne Z. Citation Counts and Journal Impact Factors Do not Capture some Indicators
+                                                  of Research Quality in the Behavioural and Brain Sciences. Royal Society Open Science. 2022; 9
+                                                  (8):220334. https://doi.org/10.1098/rsos.220334 PMID: 35991336
+                                           13.    Aksnes DW, Langfeldt L, Wouters P. Citations, Citation Indicators, and Research Quality: An Overview
+                                                  of Basic Concepts and Theories. SAGE Open. 2019; 9(1):215824401982957. https://doi.org/10.1177/
+                                                  2158244019829575
+                                           14.    Himanen L, Conte E, Gauffriau M, Strøm T, Wolf B, Gadd E. The SCOPE Framework—Implementing
+                                                  Ideals of Responsible Research Assessment. F1000Research. 2024; 12:1241. https://doi.org/10.
+                                                  12688/f1000research.140810.1 PMID: 38813348
+                                           15.    Cobey KD, Haustein S, Brehaut J, Dirnagl U, Franzen DL, Hemkens LG, et al. Community Consensus
+                                                  on Core Open Science Practices to Monitor in Biomedicine. PLOS Biology. 2023; 21(1):e3001949.
+                                                  https://doi.org/10.1371/journal.pbio.3001949 PMID: 36693044
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                           16 / 19
+PLOS ONE                                                                             The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           16.   Hrynaszkiewicz I, Kiermer V. PLOS Open Science Indicators Principles and Definitions; 2022.
+                                           17.   Colavizza G, Hrynaszkiewicz I, Staden I, Whitaker K, McGillivray B. The Citation Advantage of Linking
+                                                 Publications to Research Data. PLOS ONE. 2020; 15(4):e0230416. https://doi.org/10.1371/journal.
+                                                 pone.0230416 PMID: 32320428
+                                           18.   Klebel T, Nicki Lisa Cole, Tsipouri L, Kormann E, Karasz I, Liarti S, et al. PathOS Deliverable 1.2: Scop-
+                                                 ing Review of Open Science Impact; 2024.
+                                           19.   Huang CK, Neylon C, Montgomery L, Hosking R, Diprose JP, Handcock RN, et al. Open Access
+                                                 Research Outputs Receive More Diverse Citations. Scientometrics. 2024. https://doi.org/10.1007/
+                                                 s11192-023-04894-0
+                                           20.   Schultz T. All the Research That’s Fit to Print: Open Access and the News Media. Quantitative Science
+                                                 Studies. 2021; 2(3):828–844. https://doi.org/10.1162/qss_a_00139
+                                           21.   Woelfle M, Olliaro P, Todd MH. Open Science Is a Research Accelerator. Nature Chemistry. 2011; 3
+                                                 (10):745–748. https://doi.org/10.1038/nchem.1149 PMID: 21941234
+                                           22.   Besançon L, Peiffer-Smadja N, Segalas C, Jiang H, Masuzzo P, Smout C, et al. Open Science Saves
+                                                 Lives: Lessons from the COVID-19 Pandemic. BMC Medical Research Methodology. 2021; 21(1):117.
+                                                 https://doi.org/10.1186/s12874-021-01304-y PMID: 34090351
+                                           23.   Open Science Collaboration. Estimating the Reproducibility of Psychological Science. Science. 2015;
+                                                 349(6251):aac4716. https://doi.org/10.1126/science.aac4716
+                                           24.   Cole NL, Kormann E, Klebel T, Apartis S, Ross-Hellauer T. The Societal Impact of Open Science–a
+                                                 Scoping Review. SocArXiv; 2024. https://doi.org/10.1098/rsos.240286 PMID: 39100167
+                                           25.   Fell MJ. The Economic Impacts of Open Science: A Rapid Evidence Assessment. Publications. 2019; 7
+                                                 (3):46. https://doi.org/10.3390/publications7030046
+                                           26.   Directorate-General for Research and Innovation (European Commission), PwC EU Services. Cost-
+                                                 Benefit Analysis for FAIR Research Data: Cost of Not Having FAIR Research Data. Luxembourg: Pub-
+                                                 lications Office of the European Union; 2018.
+                                           27.   Hostler TJ. The Invisible Workload of Open Research. Journal of Trial and Error. 2023. https://doi.org/
+                                                 10.36850/mr5
+                                           28.   Ross-Hellauer T, Reichmann S, Cole NL, Fessl A, Klebel T, Pontika N. Dynamics of Cumulative Advan-
+                                                 tage and Threats to Equity in Open Science: A Scoping Review. Royal Society Open Science. 2022; 9
+                                                 (1):211032. https://doi.org/10.1098/rsos.211032 PMID: 35116143
+                                           29.   Leonelli S. Open Science and Epistemic Diversity: Friends or Foes? Philosophy of Science. 2022; 89
+                                                 (5):991–1001. https://doi.org/10.1017/psa.2022.45
+                                           30.   Yu Y, Romero DM. Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific
+                                                 Impact?; 2024.
+                                           31.   Piwowar HA, Day RS, Fridsma DB. Sharing Detailed Research Data Is Associated with Increased Cita-
+                                                 tion Rate. PLOS ONE. 2007; 2(3):e308. https://doi.org/10.1371/journal.pone.0000308 PMID:
+                                                 17375194
+                                           32.   Piwowar HA, Vision TJ. Data Reuse and the Open Data Citation Advantage. PeerJ. 2013; 1:e175.
+                                                 https://doi.org/10.7717/peerj.175 PMID: 24109559
+                                           33.   Henneken EA, Accomazzi A. Linking to Data: Effect on Citation Rates in Astronomy; 2011.
+                                           34.   Christensen G, Dafoe A, Miguel E, Moore DA, Rose AK. A Study of the Impact of Data Sharing on Arti-
+                                                 cle Citations Using Journal Policies as a Natural Experiment. PLOS ONE. 2019; 14(12):e0225883.
+                                                 https://doi.org/10.1371/journal.pone.0225883 PMID: 31851689
+                                           35.   Federer LM. Long-Term Availability of Data Associated with Articles in PLOS ONE. PLOS ONE. 2022;
+                                                 17(8):e0272845. https://doi.org/10.1371/journal.pone.0272845 PMID: 36001577
+                                           36.   Tedersoo L, Küngas R, Oras E, Köster K, Eenmaa H, Leijen Ä, et al. Data Sharing Practices and Data
+                                                 Availability upon Request Differ across Scientific Disciplines. Scientific Data. 2021; 8(1):192. https://doi.
+                                                 org/10.1038/s41597-021-00981-0 PMID: 34315906
+                                           37.   Stuart D, Baynes G, Hrynaszkiewicz I, Allin K, Penny D, Lucraft Mithu, et al. Practical Challenges for
+                                                 Researchers in Data Sharing. Springer Nature; 2018.
+                                           38.   Vandewalle P. Code Sharing Is Associated with Research Impact in Image Processing. Computing in
+                                                 Science & Engineering. 2012; 14(4):42–47. https://doi.org/10.1109/MCSE.2012.63
+                                           39.   Kucharský Š, Houtkoop BL, Visser I. Code Sharing in Psychological Methods and Statistics: An Over-
+                                                 view and Associations with Conventional and Alternative Research Metrics; 2020.
+                                           40.   Cao H, Dodge J, Lo K, McFarland DA, Wang LL. The Rise of Open Science: Tracking the Evolution and
+                                                 Perceived Value of Data and Methods Link-Sharing Practices; 2023.
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                               17 / 19
+PLOS ONE                                                                             The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           41.   Kang D, Kang T, Jang J. Papers with Code or without Code? Impact of GitHub Repository Usability on
+                                                 the Diffusion of Machine Learning Research. Information Processing & Management. 2023; 60
+                                                 (6):103477. https://doi.org/10.1016/j.ipm.2023.103477
+                                           42.   McKiernan EC, Bourne PE, Brown CT, Buck S, Kenall A, Lin J, et al. How Open Science Helps
+                                                 Researchers Succeed. eLife. 2016; 5:e16800. https://doi.org/10.7554/eLife.16800 PMID: 27387362
+                                           43.   Fu DY, Hughey JJ. Releasing a Preprint Is Associated with More Attention and Citations for the Peer-
+                                                 Reviewed Article. eLife. 2019; 8:e52646. https://doi.org/10.7554/eLife.52646 PMID: 31808742
+                                           44.   Fraser N, Momeni F, Mayr P, Peters I. The Relationship between bioRxiv Preprints, Citations and Alt-
+                                                 metrics. Quantitative Science Studies. 2020; p. 1–21. https://doi.org/10.1162/qss_a_00043
+                                           45.   Xie B, Shen Z, Wang K. Is Preprint the Future of Science? A Thirty Year Journey of Online Preprint Ser-
+                                                 vices; 2021.
+                                           46.   Fraser N, Brierley L, Dey G, Polka JK, Pálfy M, Nanni F, et al. The Evolving Role of Preprints in the Dis-
+                                                 semination of COVID-19 Research and Their Impact on the Science Communication Landscape. PLOS
+                                                 Biology. 2021; 19(4):e3000959. https://doi.org/10.1371/journal.pbio.3000959 PMID: 33798194
+                                           47.   Fleerackers A, Shores K, Chtena N, Alperin JP. Unreviewed Science in the News: The Evolution of Pre-
+                                                 print Media Coverage from 2014–2021. Quantitative Science Studies. 2024; p. 1–20. https://doi.org/10.
+                                                 1162/qss_a_00282
+                                           48.   Rzayeva N, Henriques SO, Pinfield S, Waltman L. The Experiences of COVID-19 Preprint Authors: A
+                                                 Survey of Researchers about Publishing and Receiving Feedback on Their Work during the Pandemic.
+                                                 PeerJ. 2023; 11:e15864. https://doi.org/10.7717/peerj.15864 PMID: 37637174
+                                           49.   Carneiro CFD, Da Costa GG, Neves K, Abreu MB, Tan PB, Rayêe D, et al. Characterization of Com-
+                                                 ments about bioRxiv and medRxiv Preprints. JAMA Network Open. 2023; 6(8):e2331410. https://doi.
+                                                 org/10.1001/jamanetworkopen.2023.31410 PMID: 37647065
+                                           50.   Sarabipour S, Debat HJ, Emmott E, Burgess SJ, Schwessinger B, Hensel Z. On the Value of Preprints:
+                                                 An Early Career Researcher Perspective. PLOS Biology. 2019; 17(2):e3000151. https://doi.org/10.
+                                                 1371/journal.pbio.3000151 PMID: 30789895
+                                           51.   Wolf JF, MacKay L, Haworth SE, Cossette ML, Dedato MN, Young KB, et al. Preprinting Is Positively
+                                                 Associated with Early Career Researcher Status in Ecology and Evolution. Ecology and Evolution.
+                                                 2021; 11(20):13624–13632. https://doi.org/10.1002/ece3.8106 PMID: 34707804
+                                           52.   Davidson M, Evrenoglou T, Graña C, Chaimani A, Boutron I. No Evidence of Important Difference in
+                                                 Summary Treatment Effects between COVID-19 Preprints and Peer-Reviewed Publications: A Meta-
+                                                 Epidemiological Study. Journal of Clinical Epidemiology. 2023; 162:90–97. https://doi.org/10.1016/j.
+                                                 jclinepi.2023.08.011 PMID: 37634703
+                                           53.   Zeraatkar D, Pitre T, Leung G, Cusano E, Agarwal A, Khalid F, et al. Consistency of Covid-19 Trial Pre-
+                                                 prints with Published Reports and Impact for Decision Making: Retrospective Review. BMJ Medicine.
+                                                 2022; 1(1):e000309. https://doi.org/10.1136/bmjmed-2022-000309 PMID: 36936583
+                                           54.   Avissar-Whiting M. Downstream Retraction of Preprinted Research in the Life and Medical Sciences.
+                                                 PLOS ONE. 2022; 17(5):e0267971. https://doi.org/10.1371/journal.pone.0267971 PMID: 35500021
+                                           55.   Public Library of Science. PLOS Open Science Indicators (Version 5); 2023.
+                                           56.   National Library of Medicine BM. PMC Open Access Subset; 2023.
+                                           57.   Gargouri Y, Hajjem C, Larivière V, Gingras Y, Carr L, Brody T, et al. Self-Selected or Mandated, Open
+                                                 Access Increases Citation Impact for Higher Quality Research. PLOS ONE. 2010; 5(10):e13636.
+                                                 https://doi.org/10.1371/journal.pone.0013636 PMID: 20976155
+                                           58.   Yegros-Yegros A, Rafols I, D’Este P. Does Interdisciplinary Research Lead to Higher Citation Impact?
+                                                 The Different Effect of Proximal and Distal Interdisciplinarity. PLOS ONE. 2015; 10(8):e0135095.
+                                                 https://doi.org/10.1371/journal.pone.0135095 PMID: 26266805
+                                           59.   Wang J, Veugelers R, Stephan P. Bias against Novelty in Science: A Cautionary Tale for Users of Bib-
+                                                 liometric Indicators. Research Policy. 2017; 46(8):1416–1436. https://doi.org/10.1016/j.respol.2017.06.
+                                                 006
+                                           60.   Sekara V, Deville P, Ahnert SE, Barabási AL, Sinatra R, Lehmann S. The Chaperone Effect in Scientific
+                                                 Publishing. Proceedings of the National Academy of Sciences. 2018; 115(50):12603–12607. https://
+                                                 doi.org/10.1073/pnas.1800471115 PMID: 30530676
+                                           61.   Torvik VI, Smalheiser NR. Author Name Disambiguation in MEDLINE. ACM Transactions on Knowl-
+                                                 edge Discovery from Data. 2009; 3(3):1–29. https://doi.org/10.1145/1552303.1552304
+                                           62.   Lu Z. PubMed and beyond: A Survey of Web Tools for Searching Biomedical Literature. Database.
+                                                 2011; 2011(0):baq036–baq036. https://doi.org/10.1093/database/baq036 PMID: 21245076
+                                           63.   Ferreira AA, Gonçalves MA, Laender AHF. A Brief Survey of Automatic Methods for Author Name Dis-
+                                                 ambiguation. ACM SIGMOD Record. 2012; 41(2):15–26. https://doi.org/10.1145/2350036.2350040
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                             18 / 19
+PLOS ONE                                                                           The effects of sharing research data, code, and preprints on citations
+
+
+
+                                           64.   Liu W, Islamaj Doğan R, Kim S, Comeau DC, Kim W, Yeganova L, et al. Author Name Disambiguation
+                                                 for PubMed. Journal of the Association for Information Science and Technology. 2014; 65(4):765–781.
+                                                 https://doi.org/10.1002/asi.23063 PMID: 28758138
+                                           65.   Zheng JG, Howsmon D, Zhang B, Hahn J, McGuinness D, Hendler J, et al. Entity Linking for Biomedical
+                                                 Literature. BMC Medical Informatics and Decision Making. 2015; 15(S1):S4. https://doi.org/10.1186/
+                                                 1472-6947-15-S1-S4 PMID: 26045232
+                                           66.   Waltman L, Van Eck NJ. The Inconsistency of the H-index. Journal of the American Society for Informa-
+                                                 tion Science and Technology. 2012; 63(2):406–415. https://doi.org/10.1002/asi.21678
+                                           67.   Strotmann A, Zhao D. Author Name Disambiguation: What Difference Does It Make in Author-based
+                                                 Citation Analysis? Journal of the American Society for Information Science and Technology. 2012; 63
+                                                 (9):1820–1833. https://doi.org/10.1002/asi.22695
+                                           68.   Kim J, Diesner J. Distortive Effects of Initial-based Name Disambiguation on Measurements of Large-
+                                                 scale Coauthorship Networks. Journal of the Association for Information Science and Technology.
+                                                 2016; 67(6):1446–1461. https://doi.org/10.1002/asi.23489
+                                           69.   Cadwallader L, Mac Gabhann F, Papin J, Pitzer VE. Advancing Code Sharing in the Computational
+                                                 Biology Community. PLOS Computational Biology. 2022; 18(6):e1010193. https://doi.org/10.1371/
+                                                 journal.pcbi.1010193 PMID: 35653366
+                                           70.   Escamilla E, Klein M, Cooper T, Rampin V, Weigle MC, Nelson ML. The Rise of GitHub in Scholarly
+                                                 Publications; 2022.
+                                           71.   Janssen MA, Pritchard C, Lee A. On Code Sharing and Model Documentation of Published Individual
+                                                 and Agent-based Models. Environmental Modelling & Software. 2020; 134:104873. https://doi.org/10.
+                                                 1016/j.envsoft.2020.104873 PMID: 32958993
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0311493 October 30, 2024                                                                          19 / 19
+

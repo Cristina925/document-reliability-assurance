@@ -1,0 +1,668 @@
+{
+  "sourceDigest": "b2b56e2123010d6a51d2dd40dabf56f7f46567df3272463b831b979181621ccb",
+  "sourceBytes": 182409,
+  "granuleUrl": "https://www.govinfo.gov/content/pkg/FR-2024-01-05/pdf/2024-00001.pdf",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "blockCount": 48
+    },
+    {
+      "pageNumber": 2,
+      "blockCount": 57
+    }
+  ],
+  "reconstruction": [
+    {
+      "pageNumber": 1,
+      "method": "SINGLE_COLUMN_PASSTHROUGH",
+      "confidence": "HIGH",
+      "columnsDetected": 1,
+      "rationale": "No structurally confident multi-column split found; treated as single-column."
+    },
+    {
+      "pageNumber": 2,
+      "method": "COLUMN_RECONSTRUCTED",
+      "confidence": "HIGH",
+      "columnsDetected": 5,
+      "rationale": "5 columns detected with confidently separated boundaries (gap >= 1.8x within-cluster spread, >= 8pt absolute); 9 column-spanning block(s) treated as band boundaries."
+    }
+  ],
+  "diagnostics": [
+    {
+      "pageNumber": 1,
+      "contentWidth": 548.5980000000001,
+      "rowCount": 29,
+      "spanningCount": 9,
+      "contentCount": 39,
+      "numericFraction": 0.02564102564102564,
+      "clusteringConfident": false,
+      "clusters": [
+        {
+          "xMin": 18.41,
+          "xMax": 548.66,
+          "memberCount": 39
+        }
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "contentWidth": 544.9606,
+      "rowCount": 32,
+      "spanningCount": 9,
+      "contentCount": 48,
+      "numericFraction": 0.020833333333333332,
+      "clusteringConfident": true,
+      "clusters": [
+        {
+          "xMin": 18.41,
+          "xMax": 54,
+          "memberCount": 19
+        },
+        {
+          "xMin": 150.36,
+          "xMax": 169.64,
+          "memberCount": 2
+        },
+        {
+          "xMin": 222,
+          "xMax": 222,
+          "memberCount": 7
+        },
+        {
+          "xMin": 397.6968,
+          "xMax": 404.4,
+          "memberCount": 18
+        },
+        {
+          "xMin": 466.4976,
+          "xMax": 485.2,
+          "memberCount": 2
+        }
+      ]
+    }
+  ],
+  "totalPairs": 41,
+  "preservedAdjacent": 23,
+  "fractionPreserved": 0.5609756097560976,
+  "failures": [
+    {
+      "oracleIndex": 10,
+      "lineA": "[FR Doc. 2024–00014 Filed 1–4–24; 8:45 am]",
+      "lineB": "BILLING CODE P",
+      "candidateIndexA": 5,
+      "candidateIndexB": 12,
+      "candidateGap": 7,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 6,
+        "xMin": 45,
+        "yMin": 160.7849,
+        "xMax": 188.8332,
+        "yMax": 167.7639
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 13,
+        "xMin": 45,
+        "yMin": 456.9916,
+        "xMax": 95.6316,
+        "yMax": 462.5416
+      }
+    },
+    {
+      "oracleIndex": 11,
+      "lineA": "BILLING CODE P",
+      "lineB": "SMALL BUSINESS ADMINISTRATION",
+      "candidateIndexA": 12,
+      "candidateIndexB": 6,
+      "candidateGap": -6,
+      "inversion": true,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 13,
+        "xMin": 45,
+        "yMin": 456.9916,
+        "xMax": 95.6316,
+        "yMax": 462.5416
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 7,
+        "xMin": 45,
+        "yMin": 200.4378,
+        "xMax": 204.9228,
+        "yMax": 208.7628
+      }
+    },
+    {
+      "oracleIndex": 32,
+      "lineA": "[FR Doc. 2024–00048 Filed 1–4–24; 8:45 am]",
+      "lineB": "BILLING CODE P",
+      "candidateIndexA": 19,
+      "candidateIndexB": 12,
+      "candidateGap": -7,
+      "inversion": true,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 20,
+        "xMin": 45,
+        "yMin": 444.2846,
+        "xMax": 188.8332,
+        "yMax": 451.2636
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 13,
+        "xMin": 45,
+        "yMin": 456.9916,
+        "xMax": 95.6316,
+        "yMax": 462.5416
+      }
+    },
+    {
+      "oracleIndex": 33,
+      "lineA": "BILLING CODE P",
+      "lineB": "System number and name",
+      "candidateIndexA": 12,
+      "candidateIndexB": 24,
+      "candidateGap": 12,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 13,
+        "xMin": 45,
+        "yMin": 456.9916,
+        "xMax": 95.6316,
+        "yMax": 462.5416
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 25,
+        "xMin": 169.6399,
+        "yMin": 528.3557,
+        "xMax": 264.7759,
+        "yMax": 535.7557
+      }
+    },
+    {
+      "oracleIndex": 34,
+      "lineA": "System number and name",
+      "lineB": "60–0044—National Disability Determination Services File .............................................................",
+      "candidateIndexA": 24,
+      "candidateIndexB": 26,
+      "candidateGap": 2,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 25,
+        "xMin": 169.6399,
+        "yMin": 528.3557,
+        "xMax": 264.7759,
+        "yMax": 535.7557
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 27,
+        "xMin": 45.3,
+        "yMin": 553.656,
+        "xMax": 389.392,
+        "yMax": 561.056
+      }
+    },
+    {
+      "oracleIndex": 35,
+      "lineA": "60–0044—National Disability Determination Services File .............................................................",
+      "lineB": "60–0050—Completed Determination Record—Continuing Disability Determinations ....................",
+      "candidateIndexA": 26,
+      "candidateIndexB": 28,
+      "candidateGap": 2,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 27,
+        "xMin": 45.3,
+        "yMin": 553.656,
+        "xMax": 389.392,
+        "yMax": 561.056
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 29,
+        "xMin": 45.3,
+        "yMin": 580.3559,
+        "xMax": 389.4,
+        "yMax": 587.7559
+      }
+    },
+    {
+      "oracleIndex": 36,
+      "lineA": "60–0050—Completed Determination Record—Continuing Disability Determinations ....................",
+      "lineB": "60–0059—Earnings Recording and Self-Employment Income System ..........................................",
+      "candidateIndexA": 28,
+      "candidateIndexB": 30,
+      "candidateGap": 2,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 29,
+        "xMin": 45.3,
+        "yMin": 580.3559,
+        "xMax": 389.4,
+        "yMax": 587.7559
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 31,
+        "xMin": 45.3,
+        "yMin": 616.0559,
+        "xMax": 389.38,
+        "yMax": 623.4559
+      }
+    },
+    {
+      "oracleIndex": 37,
+      "lineA": "60–0059—Earnings Recording and Self-Employment Income System ..........................................",
+      "lineB": "60–0090—Master Beneficiary Record .............................................................................................",
+      "candidateIndexA": 30,
+      "candidateIndexB": 32,
+      "candidateGap": 2,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 31,
+        "xMin": 45.3,
+        "yMin": 616.0559,
+        "xMax": 389.38,
+        "yMax": 623.4559
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 33,
+        "xMin": 45.3,
+        "yMin": 642.956,
+        "xMax": 389.376,
+        "yMax": 650.356
+      }
+    },
+    {
+      "oracleIndex": 38,
+      "lineA": "60–0090—Master Beneficiary Record .............................................................................................",
+      "lineB": "lotter on DSK11XQN23PROD with NOTICES1",
+      "candidateIndexA": 32,
+      "candidateIndexB": 11,
+      "candidateGap": -21,
+      "inversion": true,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 33,
+        "xMin": 45.3,
+        "yMin": 642.956,
+        "xMax": 389.376,
+        "yMax": 650.356
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 12,
+        "xMin": 18.41,
+        "yMin": 671.19,
+        "xMax": 23.035,
+        "yMax": 774
+      }
+    },
+    {
+      "oracleIndex": 39,
+      "lineA": "lotter on DSK11XQN23PROD with NOTICES1",
+      "lineB": "60–0103—Supplemental Security Income Record and Special Veterans Benefits .......................",
+      "candidateIndexA": 11,
+      "candidateIndexB": 34,
+      "candidateGap": 23,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 12,
+        "xMin": 18.41,
+        "yMin": 671.19,
+        "xMax": 23.035,
+        "yMax": 774
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 35,
+        "xMin": 45.3,
+        "yMin": 696.856,
+        "xMax": 389.396,
+        "yMax": 704.256
+      }
+    },
+    {
+      "oracleIndex": 44,
+      "lineA": "PO 00000",
+      "lineB": "SOCIAL SECURITY ADMINISTRATION",
+      "candidateIndexA": 39,
+      "candidateIndexB": 2,
+      "candidateGap": -37,
+      "inversion": true,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": -1,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 40,
+        "xMin": 201.74605,
+        "yMin": 767.333,
+        "xMax": 231.01555,
+        "yMax": 773.3455
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 3,
+        "xMin": 222,
+        "yMin": 61.538,
+        "xMax": 384.4248,
+        "yMax": 69.863
+      }
+    },
+    {
+      "oracleIndex": 45,
+      "lineA": "SOCIAL SECURITY ADMINISTRATION",
+      "lineB": "[Docket No. SSA–2023–0041]",
+      "candidateIndexA": 2,
+      "candidateIndexB": 20,
+      "candidateGap": 18,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 3,
+        "xMin": 222,
+        "yMin": 61.538,
+        "xMax": 384.4248,
+        "yMax": 69.863
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 21,
+        "xMin": 222,
+        "yMin": 76.656,
+        "xMax": 332.224,
+        "yMax": 84.056
+      }
+    },
+    {
+      "oracleIndex": 49,
+      "lineA": "AGENCY : Social Security Administration",
+      "lineB": "(SSA).",
+      "candidateIndexA": 4,
+      "candidateIndexB": 14,
+      "candidateGap": 10,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 5,
+        "xMin": 222,
+        "yMin": 118.8949,
+        "xMax": 386.6701,
+        "yMax": 127.8679
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 15,
+        "xMin": 222.0043,
+        "yMin": 128.8939,
+        "xMax": 248.5003,
+        "yMax": 137.8669
+      }
+    },
+    {
+      "oracleIndex": 167,
+      "lineA": "Federal Register / Vol. 89, No. 4 / Friday, January 5, 2024 / Notices",
+      "lineB": "System number and name",
+      "candidateIndexA": 0,
+      "candidateIndexB": 24,
+      "candidateGap": 24,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 1,
+      "crossPage": false,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 1,
+        "idx": 1,
+        "xMin": 150.36,
+        "yMin": 34.55,
+        "xMax": 461.4953,
+        "yMax": 44.52
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 25,
+        "xMin": 169.6399,
+        "yMin": 528.3557,
+        "xMax": 264.7759,
+        "yMax": 535.7557
+      }
+    },
+    {
+      "oracleIndex": 168,
+      "lineA": "System number and name",
+      "lineB": "60–0159—Continuous Work History Sample (Statistics) ................................................................",
+      "candidateIndexA": 24,
+      "candidateIndexB": 47,
+      "candidateGap": 23,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 2,
+      "crossPage": true,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "COLUMN_RECONSTRUCTED",
+      "blockA": {
+        "page": 1,
+        "idx": 25,
+        "xMin": 169.6399,
+        "yMin": 528.3557,
+        "xMax": 264.7759,
+        "yMax": 535.7557
+      },
+      "blockB": {
+        "page": 2,
+        "idx": 4,
+        "xMin": 45.3,
+        "yMin": 96.456,
+        "xMax": 389.38,
+        "yMax": 103.856
+      }
+    },
+    {
+      "oracleIndex": 196,
+      "lineA": "Unclassified.",
+      "lineB": "lotter on DSK11XQN23PROD with NOTICES1",
+      "candidateIndexA": 61,
+      "candidateIndexB": 11,
+      "candidateGap": -50,
+      "inversion": true,
+      "pageA": 2,
+      "pageB": 1,
+      "crossPage": true,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "COLUMN_RECONSTRUCTED",
+      "reconMethodB": "SINGLE_COLUMN_PASSTHROUGH",
+      "blockA": {
+        "page": 2,
+        "idx": 31,
+        "xMin": 54,
+        "yMin": 664.2949,
+        "xMax": 107.982,
+        "yMax": 673.2679
+      },
+      "blockB": {
+        "page": 1,
+        "idx": 12,
+        "xMin": 18.41,
+        "yMin": 671.19,
+        "xMax": 23.035,
+        "yMax": 774
+      }
+    },
+    {
+      "oracleIndex": 197,
+      "lineA": "lotter on DSK11XQN23PROD with NOTICES1",
+      "lineB": "SYSTEM LOCATION :",
+      "candidateIndexA": 11,
+      "candidateIndexB": 63,
+      "candidateGap": 52,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 2,
+      "crossPage": true,
+      "columnA": 0,
+      "columnB": 0,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "COLUMN_RECONSTRUCTED",
+      "blockA": {
+        "page": 1,
+        "idx": 12,
+        "xMin": 18.41,
+        "yMin": 671.19,
+        "xMax": 23.035,
+        "yMax": 774
+      },
+      "blockB": {
+        "page": 2,
+        "idx": 32,
+        "xMin": 45,
+        "yMin": 684.4559,
+        "xMax": 109.6015,
+        "yMax": 691.8559
+      }
+    },
+    {
+      "oracleIndex": 206,
+      "lineA": "PO 00000",
+      "lineB": "SYSTEM MANAGER ( S ):",
+      "candidateIndexA": 39,
+      "candidateIndexB": 67,
+      "candidateGap": 28,
+      "inversion": false,
+      "pageA": 1,
+      "pageB": 2,
+      "crossPage": true,
+      "columnA": -1,
+      "columnB": 2,
+      "reconMethodA": "SINGLE_COLUMN_PASSTHROUGH",
+      "reconMethodB": "COLUMN_RECONSTRUCTED",
+      "blockA": {
+        "page": 1,
+        "idx": 40,
+        "xMin": 201.74605,
+        "yMin": 767.333,
+        "xMax": 231.01555,
+        "yMax": 773.3455
+      },
+      "blockB": {
+        "page": 2,
+        "idx": 37,
+        "xMin": 222,
+        "yMin": 515.456,
+        "xMax": 295.8399,
+        "yMax": 522.856
+      }
+    }
+  ],
+  "notFoundPairsCount": 272,
+  "notFoundPairsNote": "Oracle-adjacent pairs where at least one line could not be located verbatim in the candidate (post-fix) text at all. Excluded from the 41-pair adjacency denominator by the pre-existing pairAdjacencyPreservation() convention (unchanged from ENG-024); not additional silent reconstruction failures, but a limitation of exact-line-matching against the corrected-order oracle fixture."
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "DRA-VAL-001B-v1",
+  "documentId": "DRA-VAL-DOC-0007",
+  "slot": {
+    "documentId": "DRA-VAL-DOC-0007",
+    "status": "FROZEN",
+    "domain": "HR_AND_WORKPLACE_POLICY",
+    "sourceType": "AI_GENERATED",
+    "difficultyStratum": "MEDIUM",
+    "lengthStratum": "SHORT",
+    "corpusPhase": "PILOT",
+    "syntheticFlag": true,
+    "lastUpdated": "2026-07-27T12:00:00",
+    "contentDescription": "Flexible Working Policy 2024 for a fictional organisation. Covers statutory rights, application procedure, grounds for refusal, trial periods, and home working requirements. Synthetic, purpose-generated."
+  },
+  "provenance": {
+    "sourceDescription": "Purpose-generated synthetic flexible working policy document for DRA-VAL-001B pilot corpus.",
+    "sourceOwner": "DRA-VAL Programme",
+    "sourceClass": "PURPOSE_GENERATED",
+    "acquisitionDate": "2026-07-27",
+    "sourceVerifiable": true,
+    "acquiredIndependentlyOfEvaluatorOutput": true,
+    "notDerivedFromEngineeringFixtures": true
+  },
+  "permittedUse": {
+    "permittedUseBasis": "PURPOSE_GENERATED_NO_RESTRICTION",
+    "storagePermitted": true,
+    "publicationPermitted": true,
+    "attributionRequired": false
+  },
+  "confidentiality": {
+    "confidentialityLevel": "PUBLIC",
+    "containsPersonalData": false,
+    "accessRestricted": false
+  },
+  "anonymisation": {
+    "anonymisationStatus": "NOT_REQUIRED",
+    "anonymisationVerified": true
+  },
+  "sourceEvidence": {
+    "sourceEvidenceAvailability": "AVAILABLE",
+    "sourceEvidenceEmbedded": true
+  },
+  "duplicateCheck": {
+    "canonicalContentDigest": "49c197549b68707c0a03dce4fa788e9aaf8b7a10d958c3fda17ab8d8629b2881",
+    "normalisedTextDigest": "49c197549b68707c0a03dce4fa788e9aaf8b7a10d958c3fda17ab8d8629b2881",
+    "exactDuplicateFound": false,
+    "nearDuplicateSimilarityMethod": "MinHash Jaccard similarity on 3-gram tokens with 128 hash functions; threshold 0.80",
+    "nearDuplicateSimilarityScore": 0,
+    "nearDuplicateSimilarityThreshold": 0.8,
+    "flaggedAsNearDuplicate": false,
+    "duplicateDisposition": "DISTINCT",
+    "checkDate": "2026-07-27"
+  },
+  "contaminationCheck": {
+    "matchesEvaluatorFixture": false,
+    "appearedInEvaluatorDevelopment": false,
+    "usedInEngineeringValidation": false,
+    "reviewedWithEvaluatorOutputVisible": false,
+    "selectionBiasEvidencePresent": false,
+    "constructedToTargetEvaluatorRules": false,
+    "generatedUsingEvaluatorFindings": false,
+    "contaminationSignals": [
+      "CLEAR"
+    ],
+    "contaminationResolution": "ADMITTED_NO_SIGNAL",
+    "checkDate": "2026-07-27"
+  },
+  "admissionDecision": {
+    "outcome": "ADMITTED",
+    "decisionTimestamp": "2026-07-27T12:00:00",
+    "reviewedBy": "DRA-VAL-001B Corpus Admission Procedure",
+    "inclusionCriteriaSatisfied": [
+      "IC-1",
+      "IC-2",
+      "IC-3",
+      "IC-4",
+      "IC-5",
+      "IC-6",
+      "IC-7",
+      "IC-8"
+    ],
+    "exclusionCriteriaChecked": [
+      "EC-1",
+      "EC-2",
+      "EC-3",
+      "EC-4",
+      "EC-5",
+      "EC-6",
+      "EC-7",
+      "EC-8"
+    ],
+    "quotaClassificationVerified": true,
+    "admissionNotes": "Domain: HR_AND_WORKPLACE_POLICY. Pilot slot 7 of 7."
+  },
+  "integrityDigest": "3a176cfe661d8cdc10785617f3f3030c6c35bcf5eba056a2a8c1fc64518bd740",
+  "frozenAt": "2026-07-27T12:00:00"
+}

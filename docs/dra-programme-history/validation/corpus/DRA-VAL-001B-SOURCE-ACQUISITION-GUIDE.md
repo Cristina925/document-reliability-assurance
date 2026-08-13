@@ -1,0 +1,304 @@
+# DRA-VAL-001B — Source Acquisition Guide
+
+**Status: OPERATIVE** | Effective from protocol registration (2026-07-27)
+
+---
+
+## 1. Purpose
+
+This guide operationalises the source acquisition policy frozen in `DRA-VAL-001A-BENCHMARK-CORPUS-PROTOCOL.md`. It is binding on all persons involved in corpus acquisition and must be read before any document is acquired.
+
+---
+
+## 2. Permissible Source Categories
+
+The following source categories are explicitly permitted. Every acquired document must be assigned to exactly one category in its `SourceProvenance` record (`sourceClass` field).
+
+### 2.1 Public Regulatory and Policy Documents (`PUBLIC_REGULATORY`)
+
+Documents issued by government agencies, regulatory bodies, standards organisations, or public authorities in the exercise of their statutory or regulatory functions. Includes legislation, statutory instruments, regulatory guidance, consultation papers, and compliance frameworks.
+
+**Examples:** ICO guidance publications, FCA policy statements, NHS England frameworks, Cabinet Office security standards, ISO/IEC published standards (where openly licensed), regulatory codes of practice.
+
+**Acquisition requirements:**
+- Obtain from the official publisher or an authorised repository.
+- Record the stable URI to the source publication.
+- Record the publication date and version.
+- Confirm the document is publicly available without login or subscription.
+
+### 2.2 Public Technical Reports (`PUBLIC_TECHNICAL_REPORT`)
+
+Technical reports, research publications, and white papers published by academic institutions, professional bodies, or research organisations and made freely available.
+
+**Examples:** NCSC guidance documents, ENISA reports, academic journal preprints, NIST publications, open-access industry reports.
+
+**Acquisition requirements:**
+- Record DOI, ISSN, or stable URI.
+- Confirm open access or applicable licence.
+- Record author affiliation and publication date.
+
+### 2.3 Public Corporate Reports (`PUBLIC_CORPORATE_REPORT`)
+
+Publicly filed corporate documents including annual reports, governance statements, sustainability reports, risk disclosures, and regulatory filings made available under statutory disclosure obligations.
+
+**Examples:** UK Companies House filings, SEC EDGAR filings, listed-company annual reports, gender pay gap reports, modern slavery statements.
+
+**Acquisition requirements:**
+- Record the filing reference or stable URI.
+- Record the filing entity and reporting period.
+- Confirm the filing was publicly available at the time of acquisition.
+
+### 2.4 Open-Licensed Templates (`OPEN_LICENSED_TEMPLATE`)
+
+Policy templates, procedural documents, and frameworks released under open licences (Creative Commons, MIT, Apache, OGL, etc.) that permit use for research purposes.
+
+**Acquisition requirements:**
+- Record the licence identifier and version.
+- Record the original publisher.
+- Record any attribution requirements.
+- Store the licence text or a stable reference to it.
+
+### 2.5 Appropriately Licensed Benchmark Material (`LICENSED_BENCHMARK_MATERIAL`)
+
+Documents from benchmark datasets or research corpora that have been released under a licence permitting use in document-analysis research.
+
+**Acquisition requirements:**
+- Record the benchmark dataset name, version, and licence.
+- Confirm the licence permits this use.
+- Record the document identifier within the source dataset.
+- Apply any required anonymisation before admission.
+
+### 2.6 Contributed Documents with Explicit Permission (`CONTRIBUTED_WITH_PERMISSION`)
+
+Documents contributed by organisations or individuals under a documented permission or release agreement that explicitly authorises inclusion in the benchmark corpus.
+
+**Acquisition requirements:**
+- Obtain a written permission record signed by an authorised representative.
+- Record the permission reference and date.
+- Store the permission record in the document package.
+- Apply any confidentiality or anonymisation conditions specified by the contributor.
+
+### 2.7 Anonymised Organisational Documents (`ANONYMISED_ORGANISATIONAL`)
+
+Documents from organisations that contain confidential or sensitive content, where the content has been anonymised under documented authority to remove identifying information before inclusion.
+
+**Acquisition requirements:**
+- Record the organisational authority under which anonymisation was authorised.
+- Document exactly what information was anonymised.
+- Complete the `AnonymisationRecord` schema with verification confirmation.
+- Confirm that the anonymised version cannot be reverse-engineered to identify the source organisation or individuals.
+
+### 2.8 Purpose-Generated Documents (`PURPOSE_GENERATED`)
+
+Documents created specifically for inclusion in the benchmark corpus, where their synthetic origin is explicitly declared throughout the document and in all associated records.
+
+**Subcategories:**
+- **AI-generated (fully synthetic):** Generated by a language model with no human editing.
+- **Hybrid (AI-assisted):** AI-generated content with documented human editing or review.
+
+**Requirements for purpose-generated documents:**
+- The synthetic nature of the document must be declared in the document itself (in a visible header or notice).
+- The `syntheticFlag` field in the corpus slot must be `true`.
+- The generation method must be recorded in the provenance notes.
+- The document must not be misrepresented as human-authored or naturally occurring.
+- Human-authored source classification (`HUMAN_AUTHORED`) requires evidence of human authorship — AI-generated documents may not be classified as human-authored.
+- The document must not be constructed specifically to trigger or avoid known evaluator rules.
+- The selection of content, structure, and topic must be independent of evaluator output.
+
+---
+
+## 3. Prohibited Sources
+
+The following sources and practices are explicitly prohibited. Documents acquired through a prohibited source or practice cannot be admitted regardless of other properties.
+
+| # | Prohibition | Rationale |
+|---|-------------|-----------|
+| P-1 | Copyrighted documents used without a valid legal basis | Copyright infringement |
+| P-2 | Confidential material used without documented authority | Unauthorised disclosure |
+| P-3 | Personal data without lawful handling basis and anonymisation | Privacy law violation |
+| P-4 | Documents selected after viewing evaluator results | Selection bias — ATT-1 violation |
+| P-5 | Documents copied from evaluator fixtures without declaration | DRA-001-07 contamination |
+| P-6 | Near-duplicate variants used to inflate corpus size | Corpus integrity violation |
+| P-7 | Documents constructed to trigger known evaluator rules | ATT-2 / evaluator over-fit risk |
+| P-8 | Unverifiable source material where verification is required | Provenance integrity |
+| P-9 | Inaccessible source evidence where source comparison is required | Reviewer protocol violation |
+| P-10 | AI-generated documents misclassified as human-authored | Misrepresentation |
+| P-11 | Documents generated using evaluator findings as input | Contamination |
+| P-12 | Documents selected because of an expected evaluator result | Selection bias |
+
+Any document that is identified as falling within a prohibited category after admission must be withdrawn immediately and the withdrawal recorded.
+
+---
+
+## 4. Source-Type Classification Rules
+
+Source type must be classified based on documented evidence of how the document was produced. It may **not** be inferred from the acquisition method alone.
+
+| Source Type | Classification Basis |
+|------------|---------------------|
+| `AI_GENERATED` | The document was produced by a language model or automated system without material human editing. `syntheticFlag` must be `true`. |
+| `HUMAN_AUTHORED` | The document was written by a human author. Evidence of human authorship must be recorded. AI-generated documents may not be classified as human-authored. |
+| `HYBRID` | The document was produced through a combination of AI generation and human editing, with both contributions documented. |
+
+If the generation method cannot be confirmed, the document must be reclassified to the most conservative category or excluded.
+
+---
+
+## 5. Acquisition Sequence
+
+All acquisitions must follow this sequence. No step may be skipped.
+
+```
+Step 1 — Identify candidate document
+    Record: title, source URI, domain, estimated difficulty
+    Update slot status: PLANNED → IDENTIFIED
+
+Step 2 — Obtain document
+    Download or copy document content
+    Record acquisition date and method
+    Update slot status: IDENTIFIED → ACQUIRED
+
+Step 3 — Assess provenance and permitted use
+    Complete SourceProvenance record
+    Complete PermittedUseRecord
+    Confirm no prohibited source applies
+
+Step 4 — Assess confidentiality and anonymisation
+    Complete ConfidentialityRecord
+    If personal data or confidentiality concern: apply and verify anonymisation
+    Complete AnonymisationRecord
+
+Step 5 — Record source evidence
+    Confirm source evidence availability
+    Embed or reference source evidence
+    Complete SourceEvidenceRecord
+
+Step 6 — Run duplicate checks
+    Compute canonicalContentDigest and normalisedTextDigest
+    Run near-duplicate check against existing corpus entries
+    Record DuplicateCheckRecord with human disposition
+
+Step 7 — Run contamination check
+    Screen against DRA-001-07 engineering fixtures
+    Screen for evaluator-output exposure
+    Record ContaminationCheckRecord
+    Update slot status: ACQUIRED → UNDER_REVIEW
+
+Step 8 — Admission review
+    Verify all inclusion criteria
+    Confirm all exclusion criteria are not triggered
+    Verify quota classification
+    Record CorpusAdmissionDecision
+    Update slot status: UNDER_REVIEW → ADMITTED or UNDER_REVIEW → EXCLUDED
+
+Step 9 — Freeze (pilot or corpus freeze)
+    Compute integrityDigest
+    Record frozenAt timestamp
+    Update slot status: ADMITTED → FROZEN
+    Add to manifest
+```
+
+---
+
+## 6. Source-Evidence Requirements
+
+For every admitted document, the following must be recorded:
+
+- **Available and embedded:** Source evidence is embedded in the corpus package (`sourceEvidenceEmbedded: true`).
+- **Available but not embedded:** A stable authorised reference URI is recorded. The reason content is not embedded is documented. A SHA-256 digest of the source is stored where legally permissible.
+- **Inaccessible:** The reason for inaccessibility is documented. Documents where source comparison is required for the reviewer protocol cannot be admitted if source evidence is inaccessible.
+- **Not applicable:** Appropriate only for purpose-generated documents where the document itself is its own source.
+
+---
+
+## 7. Duplicate Control Procedure
+
+### 7.1 Exact Duplicate Detection
+
+Before admission, every document must be checked against all existing corpus entries using:
+
+1. **`canonicalContentDigest`** — SHA-256 of the canonical document content (UTF-8, normalised line endings).
+2. **`normalisedTextDigest`** — SHA-256 of the whitespace-normalised plain text (all runs of whitespace collapsed to a single space, leading/trailing whitespace stripped).
+
+Any exact match is a disqualifying duplicate.
+
+### 7.2 Near-Duplicate Detection
+
+The approved near-duplicate detection method is:
+
+**MinHash Jaccard Similarity on 3-gram tokens with 128 hash functions.**
+
+- Threshold: 0.80 (flag for review if score ≥ 0.80)
+- A score at or above the threshold flags the document for near-duplicate review.
+- The score alone is not sufficient to exclude a document.
+- A human or rule-based disposition must be recorded for every flagged document.
+
+Permitted dispositions:
+
+| Disposition | Meaning |
+|------------|---------|
+| `DISTINCT` | Not a duplicate — content is substantively different |
+| `RELATED_BUT_ADMISSIBLE` | Related content (e.g. same template) but substantively different; admissible with justification |
+| `NEAR_DUPLICATE_EXCLUDED` | Near-duplicate confirmed; document excluded |
+| `EXACT_DUPLICATE_EXCLUDED` | Exact duplicate confirmed; document excluded |
+| `INDETERMINATE` | Cannot determine; additional review required before admission |
+
+`NEAR_DUPLICATE_EXCLUDED`, `EXACT_DUPLICATE_EXCLUDED`, and `INDETERMINATE` block admission.
+
+Near-duplicate variants created solely to inflate corpus size are prohibited (P-6).
+
+---
+
+## 8. Contamination Control Procedure
+
+Every document must be screened against all seven contamination categories before admission:
+
+| Category | Check |
+|----------|-------|
+| C-1 | Document originated from DRA evaluator fixtures |
+| C-2 | Document appeared in evaluator development tests |
+| C-3 | Document was used to design evaluator rules |
+| C-4 | Document was used in DRA-001-07 engineering validation |
+| C-5 | Document was reviewed with evaluator output visible |
+| C-6 | Document was generated using evaluator findings |
+| C-7 | Document was selected because of an expected evaluator result |
+
+Any positive signal must be assessed before admission. Possible resolutions:
+
+| Resolution | Meaning |
+|-----------|---------|
+| `ADMITTED_NO_SIGNAL` | All checks clear; no contamination signal |
+| `ADMITTED_SIGNAL_MITIGATED` | Signal detected and mitigated with documented justification |
+| `EXCLUDED_CONTAMINATION_CONFIRMED` | Contamination confirmed; document excluded |
+| `PENDING_REVIEW` | Awaiting assessment — blocks admission |
+
+---
+
+## 9. Quota Compliance
+
+Acquired documents must be classified into the quota dimensions before admission:
+
+- **Domain** (9 domains) — must match the target domain quota
+- **Source type** (`AI_GENERATED`, `HUMAN_AUTHORED`, `HYBRID`)
+- **Difficulty stratum** (`LOW`, `MEDIUM`, `HIGH`)
+- **Document length stratum** (`SHORT`, `MEDIUM`, `LONG`)
+
+Quota classifications must be based on documented evidence, not estimated. If a document's correct classification is unclear, defer admission until classification can be confirmed.
+
+If a quota is full and a candidate document is available, the document should be recorded as `EXCLUDED` with `exclusionReason: QUOTA_FULL` and the slot noted for replacement if a withdrawal occurs.
+
+---
+
+## 10. Acquisition Blockers
+
+If a candidate document cannot proceed past any step, record an `acquisitionBlocker` in the slot record explaining the specific barrier. Common blockers:
+
+- Copyright or licensing barrier (P-1, P-2)
+- Source evidence inaccessible (P-9)
+- Anonymisation cannot be completed to a sufficient standard
+- Contamination signal cannot be resolved
+- Near-duplicate review inconclusive
+- Quota full for the required classification
+- Source cannot be independently verified
+
+Blocked slots remain `PLANNED` or `IDENTIFIED` and are not counted as acquired.

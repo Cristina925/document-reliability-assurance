@@ -1,0 +1,75 @@
+QUARTERLY FINANCIAL CONTROLS REVIEW
+Q3 2024 | Internal Audit — Finance Division | Classification: INTERNAL RESTRICTED
+Source Type: PURPOSE-GENERATED (AI-GENERATED SYNTHETIC)
+
+SYNTHETIC DOCUMENT NOTICE
+This document was purpose-generated as a synthetic benchmark specimen for the
+DRA Scientific Validation Programme (DRA-VAL-001B). All financial figures,
+entity names, and personnel references are fictitious. This document must not
+be used for financial, audit, or regulatory purposes.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. SCOPE AND OBJECTIVES
+
+This quarterly review was conducted by the Internal Audit function for the
+period 1 July to 30 September 2024. The review assessed the adequacy of
+financial controls across the Accounts Payable, Treasury Management, and
+Expense Reimbursement functions.
+
+2. KEY FINDINGS
+
+2.1 Accounts Payable
+Finding: 4.7% of invoices processed in the quarter were approved by a single
+signatory for amounts exceeding the GBP 25,000 dual-authorisation threshold.
+This represents 23 invoices with a total value of GBP 812,400.
+Risk rating: HIGH
+Recommendation: Enforce dual-authorisation controls in the ERP system for
+all transactions above the defined threshold. Controls should prevent single-
+signatory approval rather than relying on procedural compliance alone.
+Management response: The Finance Director has agreed to implement a system
+control by 31 October 2024.
+
+2.2 Treasury Management
+Finding: The organisation's cash forecasting model was not updated following
+a change in the payment terms for its three largest suppliers in August 2024.
+This resulted in a short-term liquidity shortfall of GBP 340,000 for 6 days
+in September 2024, which was covered by the revolving credit facility.
+Risk rating: MEDIUM
+Recommendation: Establish a formal process for updating the cash forecasting
+model when material changes to payment terms occur.
+Management response: A formal change-notification procedure will be documented
+by Finance Operations by 15 November 2024.
+
+2.3 Expense Reimbursement
+Finding: 12 expense claims submitted during the quarter were processed without
+receipts, in breach of the Expenses Policy (Finance Policy FP-003). The
+aggregate value of unsupported claims was GBP 4,210.
+Risk rating: LOW
+Recommendation: Finance Operations to remind claimants of the policy
+requirement and to implement a validation step in the claim submission process.
+Management response: Agreed. To be implemented before Q4 expense cycle.
+
+3. PRIOR PERIOD ACTIONS
+
+3.1 Three actions from the Q2 2024 review are confirmed as closed:
+    (a) Bank reconciliation frequency increased to weekly (completed August 2024)
+    (b) Access controls for treasury management system reviewed and updated
+    (c) Supplier master data cleanse completed
+
+3.2 One action from Q2 remains open:
+    The review of delegated financial authorities has been delayed due to the
+    ongoing Finance Director recruitment. Target completion: December 2024.
+
+4. OVERALL ASSURANCE RATING
+
+The overall assurance rating for financial controls in Q3 2024 is MODERATE.
+The dual-authorisation finding (Section 2.1) is assessed as the most
+significant risk and requires prompt remediation.
+
+Prepared by: [Internal Audit — Finance Specialist]
+Reviewed by: [Head of Internal Audit]
+Distribution: Finance Director, Audit Committee, Chief Financial Officer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF DOCUMENT

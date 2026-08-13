@@ -1,0 +1,12 @@
+{
+  "repoCommit": "6505d106a96aa6acd1236e4b73b02bb998b246dc",
+  "nodeVersion": "v24.13.0",
+  "typescriptToolchain": "tsx v4.23.0 / tsc (project tsconfig.json)",
+  "evaluatorVersion": "0.1.2",
+  "pipelineVersion": "1.0",
+  "modelVersion": "0.1.0",
+  "executionTimestamp": "2026-08-12T00:00:00.000Z",
+  "boundGc1Digest": "77544648dcb37caf96468123de4d19123becceff48f2023f6c885899350b857b",
+  "boundProtocolDigest": "08739050c3c7f7fbb9b08c2afdbbb9a665df69709ae3760a5a8ac9d6f8daea0e",
+  "boundSampleDigest": "37a12cb678541949739ecb7dcd3229572fc48edb9d01c091ad25c83fb1e77536"
+}

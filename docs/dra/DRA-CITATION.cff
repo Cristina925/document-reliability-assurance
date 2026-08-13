@@ -1,0 +1,104 @@
+cff-version: 1.2.0
+message: >-
+  If you use or reference DRA (Document Reliability Assurance) or DRA-GC-1
+  in your work, please cite this repository as below. This is a
+  research-stage artefact; see docs/dra/DRA-PUBLIC-CLAIMS.md for the
+  publication-safe description of what has and has not been demonstrated.
+  This citation covers both the software (MIT-licensed) and the manuscript/
+  documentation (CC-BY-4.0-licensed); see docs/dra/DRA-LICENSING.md for the
+  complete licensing boundary, including the third-party material this
+  licence does not cover.
+type: software
+title: >-
+  DRA (Document Reliability Assurance): A Deterministic, Evidence-Auditable
+  Approach to Assessing Claim Support in Machine- and Human-Consumed
+  Documents
+abstract: >-
+  DRA is a research-stage reference evaluator that assesses documents
+  against a defined set of reliability issue classes (evidence absence,
+  evidence inadequacy, and internal claim inconsistency, out of nine
+  formally defined) using a deterministic, eight-stage evaluation pipeline
+  bound to cryptographically verifiable proof receipts. This citation
+  covers DRA-GC-1, the first frozen, publication-candidate evaluator state
+  (version 0.1.2), and its accumulated internal evidence base: a
+  33-document development corpus, a documented robustness programme, and
+  two internal, pre-registered, contamination-blind generalisation studies
+  (DRA-GEN-001, DRA-VAL-002) totalling 100 blindly-evaluated documents.
+  No external, third-party validation has yet been performed; see the
+  manuscript's Limitations section for the complete disclosed scope.
+version: DRA-GC-1 (evaluator 0.1.2, pipeline 1.0, model/schema 0.1.0, corpus DRA-CORPUS-1.0.0)
+date-released: "2026-08-12"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - document-reliability
+  - evidence-auditing
+  - authority-resolution
+  - claim-verification
+  - reproducibility
+  - proof-receipts
+  - deterministic-evaluation
+  - machine-consumed-documents
+identifiers:
+  - type: other
+    value: DRA-GC-1
+    description: >-
+      Frozen candidate identifier. Canonical aggregate digest:
+      77544648dcb37caf96468123de4d19123becceff48f2023f6c885899350b857b
+      (see docs/dra/DRA-GC-1-FREEZE-RECEIPT.md for full verification
+      instructions). No DOI has been minted for this release.
+references:
+  - type: report
+    title: DRA-001 — Version 1 Programme Specification
+    notes: docs/dra/DRA-001-VERSION-1-PROGRAMME-SPECIFICATION.md
+  - type: report
+    title: DRA-GC-1 Freeze Specification and Receipt
+    notes: docs/dra/DRA-GC-1-FREEZE-SPECIFICATION.md, docs/dra/DRA-GC-1-FREEZE-RECEIPT.md
+  - type: report
+    title: DRA-GEN-001 — Blind Generalisation Study
+    notes: docs/dra/DRA-GEN-001-BLIND-GENERALISATION-PROTOCOL.md, docs/dra/DRA-GEN-001-POST-BLIND-EVIDENCE-REVIEW.md
+  - type: report
+    title: DRA-VAL-002 — English-HTML Blind Validation Study
+    notes: docs/dra/DRA-VAL-002-ENGLISH-HTML-VALIDATION-PROTOCOL.md, docs/dra/DRA-VAL-002-ENGLISH-HTML-BLIND-VALIDATION-REPORT.md
+  - type: report
+    title: DRA-PUB-003 Manuscript
+    notes: >-
+      docs/dra/DRA-PUB-003-MANUSCRIPT.md — canonical frozen scientific source,
+      identifier DRA-PUB-MANUSCRIPT-1, SHA-256
+      5aa6cf64b3e985dca5178db6aeb1487a8103782105d968ed62625457eb8e4f8e (see
+      docs/dra/DRA-PUB-MANUSCRIPT-1-FREEZE-RECEIPT.md). Corrected for one
+      statistical citation error post-freeze without modifying the frozen
+      text; see docs/dra/DRA-GEN-001-STATISTICAL-ERRATUM.md.
+  - type: report
+    title: DRA-PUB-004 Publication Edition (PDF/HTML rendering and archival release)
+    notes: >-
+      docs/dra/DRA-PUB-004-EDITION.md, docs/dra/DRA-PUB-004-REPORT.md,
+      docs/dra/release/DRA-PUB-004-MANUSCRIPT.pdf,
+      docs/dra/release/DRA-PUB-004-MANUSCRIPT.html — a rendering/packaging of
+      DRA-PUB-MANUSCRIPT-1, not a scientifically modified successor. No DOI,
+      journal, conference, or external validation is claimed for this
+      edition.
+  - type: report
+    title: DRA-PUB-005 Publication Identity and Governance Closure
+    notes: >-
+      docs/dra/DRA-PUB-005-PUBLICATION-IDENTITY-GOVERNANCE.md,
+      docs/dra/DRA-PUB-005-REPORT.md — a governance-only correction record
+      resolving DRA-001's supersession status and confirming canonical
+      public identity. Makes no scientific, evaluator, or evidence change.
+  - type: report
+    title: DRA-PUB-006 Public Repository Exposure and Release Safety Gate
+    notes: >-
+      docs/dra/DRA-PUB-006-PUBLIC-REPOSITORY-EXPOSURE-AUDIT.md,
+      docs/dra/DRA-PUB-006-REPORT.md — a repository-safety and hygiene audit
+      (secrets, privacy, large files, licensing gaps, public metadata).
+      Makes no scientific, evaluator, or evidence change.
+  - type: report
+    title: DRA-PUB-007 Documentation and Publication Licence Closure
+    notes: >-
+      docs/dra/DRA-PUB-007-DOCUMENTATION-LICENCE-GOVERNANCE.md,
+      docs/dra/DRA-PUB-007-REPORT.md, docs/dra/DRA-LICENSING.md — closes the
+      documentation-licensing residual identified by DRA-PUB-006: MIT for
+      software, CC-BY-4.0 for original DRA-authored documentation,
+      third-party material unaffected. Makes no scientific, evaluator, or
+      evidence change.

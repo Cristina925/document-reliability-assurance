@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "DRA-VAL-001B-v1",
+  "documentId": "DRA-VAL-DOC-0006",
+  "slot": {
+    "documentId": "DRA-VAL-DOC-0006",
+    "status": "FROZEN",
+    "domain": "PROCUREMENT_AND_THIRD_PARTY_RISK",
+    "sourceType": "AI_GENERATED",
+    "difficultyStratum": "LOW",
+    "lengthStratum": "MEDIUM",
+    "corpusPhase": "PILOT",
+    "syntheticFlag": true,
+    "lastUpdated": "2026-07-27T12:00:00",
+    "contentDescription": "Supplier Due Diligence Policy for a fictional organisation. Three-tier due diligence framework covering sanctions screening, data protection, and ongoing monitoring. Synthetic, purpose-generated."
+  },
+  "provenance": {
+    "sourceDescription": "Purpose-generated synthetic supplier due diligence policy document for DRA-VAL-001B pilot corpus.",
+    "sourceOwner": "DRA-VAL Programme",
+    "sourceClass": "PURPOSE_GENERATED",
+    "acquisitionDate": "2026-07-27",
+    "sourceVerifiable": true,
+    "acquiredIndependentlyOfEvaluatorOutput": true,
+    "notDerivedFromEngineeringFixtures": true
+  },
+  "permittedUse": {
+    "permittedUseBasis": "PURPOSE_GENERATED_NO_RESTRICTION",
+    "storagePermitted": true,
+    "publicationPermitted": true,
+    "attributionRequired": false
+  },
+  "confidentiality": {
+    "confidentialityLevel": "PUBLIC",
+    "containsPersonalData": false,
+    "accessRestricted": false
+  },
+  "anonymisation": {
+    "anonymisationStatus": "NOT_REQUIRED",
+    "anonymisationVerified": true
+  },
+  "sourceEvidence": {
+    "sourceEvidenceAvailability": "AVAILABLE",
+    "sourceEvidenceEmbedded": true
+  },
+  "duplicateCheck": {
+    "canonicalContentDigest": "6d7faf7a445f6af045588ac8cb0dfda3e3b90ee88b0aeaf93cdfdd0f8cdf145e",
+    "normalisedTextDigest": "6d7faf7a445f6af045588ac8cb0dfda3e3b90ee88b0aeaf93cdfdd0f8cdf145e",
+    "exactDuplicateFound": false,
+    "nearDuplicateSimilarityMethod": "MinHash Jaccard similarity on 3-gram tokens with 128 hash functions; threshold 0.80",
+    "nearDuplicateSimilarityScore": 0,
+    "nearDuplicateSimilarityThreshold": 0.8,
+    "flaggedAsNearDuplicate": false,
+    "duplicateDisposition": "DISTINCT",
+    "checkDate": "2026-07-27"
+  },
+  "contaminationCheck": {
+    "matchesEvaluatorFixture": false,
+    "appearedInEvaluatorDevelopment": false,
+    "usedInEngineeringValidation": false,
+    "reviewedWithEvaluatorOutputVisible": false,
+    "selectionBiasEvidencePresent": false,
+    "constructedToTargetEvaluatorRules": false,
+    "generatedUsingEvaluatorFindings": false,
+    "contaminationSignals": [
+      "CLEAR"
+    ],
+    "contaminationResolution": "ADMITTED_NO_SIGNAL",
+    "checkDate": "2026-07-27"
+  },
+  "admissionDecision": {
+    "outcome": "ADMITTED",
+    "decisionTimestamp": "2026-07-27T12:00:00",
+    "reviewedBy": "DRA-VAL-001B Corpus Admission Procedure",
+    "inclusionCriteriaSatisfied": [
+      "IC-1",
+      "IC-2",
+      "IC-3",
+      "IC-4",
+      "IC-5",
+      "IC-6",
+      "IC-7",
+      "IC-8"
+    ],
+    "exclusionCriteriaChecked": [
+      "EC-1",
+      "EC-2",
+      "EC-3",
+      "EC-4",
+      "EC-5",
+      "EC-6",
+      "EC-7",
+      "EC-8"
+    ],
+    "quotaClassificationVerified": true,
+    "admissionNotes": "Domain: PROCUREMENT_AND_THIRD_PARTY_RISK. Pilot slot 6 of 7."
+  },
+  "integrityDigest": "70395b593cbb98b6e9ed36dda4dc79b3fe3449ca25224f7314a78e1b72fcf7db",
+  "frozenAt": "2026-07-27T12:00:00"
+}

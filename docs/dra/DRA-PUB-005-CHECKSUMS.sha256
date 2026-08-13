@@ -1,0 +1,23 @@
+# DRA-PUB-005 Publication-Governance Checksum Ledger
+# Format: <sha256>  <path relative to repository root>
+# Algorithm: SHA-256. Verify with: sha256sum -c DRA-PUB-005-CHECKSUMS.sha256 (run from repository root).
+#
+# Scope: this ledger records the SHA-256 of every file modified or newly created by
+# DRA-PUB-005 (publication identity and governance closure), AS OF DRA-PUB-005.
+#
+# This ledger does NOT replace, edit, or invalidate docs/dra/DRA-PUB-004-CHECKSUMS.sha256.
+# That file remains the correct historical record of what those files contained at the
+# time DRA-PUB-004 was produced (2026-08-12). Two files below (DRA-CITATION.cff,
+# DRA-PUBLIC-RELEASE-MANIFEST.md) also appear in the DRA-PUB-004 ledger with different
+# (now-superseded-by-later-edit) digests -- that is expected and correct: it reflects the
+# file's content at PUB-004 time, not a "wrong" checksum. Use THIS ledger for the current
+# (post-PUB-005) content of those two files.
+#
+# The frozen scientific manuscript is unaffected by DRA-PUB-005 and is not repeated here;
+# see docs/dra/DRA-PUB-004-CHECKSUMS.sha256 and docs/dra/DRA-PUB-005-REPORT.md Section 6
+# for its independently-reverified digest.
+
+6fb1173acbacd090e0cb44dd365cad8081df489f9debd2652a04123988d8db45  docs/dra/DRA-001-VERSION-1-PROGRAMME-SPECIFICATION.md
+e683020a6484655964fd8f160e57e9782f58475d305f5fcc76319426d5a4c214  docs/dra/DRA-CITATION.cff
+2a299459877923b24a9e5e2c2389890521e671930f5779b98ca9651252b87d5b  docs/dra/DRA-PUBLIC-RELEASE-MANIFEST.md
+a79d9c9dc55dca07f0d4d1afe95a1dbdbdc5e01e98baa13844d371127d13f57a  docs/dra/DRA-PUB-005-PUBLICATION-IDENTITY-GOVERNANCE.md

@@ -1,0 +1,86 @@
+[
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26232-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "GOVERNANCE_INELIGIBLE:E5_WORD_COUNT_396",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26232-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "GEN001-BOE-BOE-A-2026-17380-PDF"
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-25756-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "GOVERNANCE_INELIGIBLE:E5_WORD_COUNT_355",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-25756-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "GEN001-BOE-BOE-B-2026-25796-PDF"
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-A-2026-17069-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "GOVERNANCE_INELIGIBLE:E5_WORD_COUNT_320",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-A-2026-17069-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "GEN001-BOE-BOE-A-2026-17512-PDF"
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26177-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "GOVERNANCE_INELIGIBLE:E5_WORD_COUNT_436",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26177-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "GEN001-BOE-BOE-B-2026-26662-PDF"
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26346-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "GOVERNANCE_INELIGIBLE:E5_WORD_COUNT_354",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26346-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "GEN001-BOE-BOE-A-2026-16911-PDF"
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26113-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "GOVERNANCE_INELIGIBLE:E5_WORD_COUNT_476",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26113-PDF",
+    "stratumId": "PDF_NON_ENGLISH",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "GEN001-BOE-BOE-A-2026-16716-PDF"
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26122-HTML",
+    "stratumId": "HTML_NON_ENGLISH",
+    "reason": "GOVERNANCE_INELIGIBLE:E5_WORD_COUNT_487",
+    "replacedByFrameId": null
+  },
+  {
+    "originalFrameId": "GEN001-BOE-BOE-B-2026-26122-HTML",
+    "stratumId": "HTML_NON_ENGLISH",
+    "reason": "REPLACED_FROM_RESERVE",
+    "replacedByFrameId": "GEN001-BOE-BOE-B-2026-26367-HTML"
+  }
+]
